@@ -13,14 +13,38 @@
       btn.type = 'button';
       btn.className = 'question-toggle';
       btn.setAttribute('aria-label', 'Show or hide answer');
-      btn.textContent = '▶';
+      btn.textContent = '▼';
       btn.addEventListener('click', () => {
         q.classList.toggle('is-collapsed');
         btn.textContent = q.classList.contains('is-collapsed') ? '▶' : '▼';
       });
       q.insertBefore(btn, h3);
-      btn.textContent = '▼';
     });
+  }
+
+  function words(text) {
+    const stop = new Set(['a','an','and','or','the','this','that','you','your','me','my','i','to','of','for','in','on','with','what','why','how','about','tell','role']);
+    return (text || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9& ]/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w.length > 2 && !stop.has(w));
+  }
+
+  function bestQuestion(article, label) {
+    const target = words(label);
+    if (!target.length) return null;
+    let best = null;
+    let bestScore = 0;
+    article.querySelectorAll('.question').forEach((q) => {
+      const heading = words(q.querySelector('h3')?.textContent || '');
+      const score = target.reduce((n, w) => n + (heading.some((h) => h === w || h.includes(w) || w.includes(h)) ? 1 : 0), 0);
+      if (score > bestScore) {
+        bestScore = score;
+        best = q;
+      }
+    });
+    return bestScore >= 1 ? best : null;
   }
 
   async function openSection(url, opener) {
@@ -31,17 +55,32 @@
     document.body.style.overflow = 'hidden';
     try {
       const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const html = await res.text();
       const doc = new DOMParser().parseFromString(html, 'text/html');
       const hero = doc.querySelector('.hero');
       const article = doc.querySelector('.article-body');
-      modalContent.innerHTML = `${hero ? hero.outerHTML : ''}${article ? article.outerHTML : html}`;
-      const h1 = modalContent.querySelector('h1');
-      if (h1) h1.id = 'modal-title';
+
+      if (!article) throw new Error('Section content not found');
+
+      const isDropdownQuestion = opener?.closest('.dropmenu');
+      const selected = isDropdownQuestion ? bestQuestion(article, opener.textContent) : null;
+
+      if (selected) {
+        const title = selected.querySelector('h3')?.textContent || opener.textContent.trim();
+        modalContent.innerHTML = `<header class="hero"><p class="eyebrow">INTERVIEW QUESTION</p><h1 id="modal-title">${title}</h1></header><div class="article-body"></div>`;
+        modalContent.querySelector('.article-body').appendChild(selected.cloneNode(true));
+      } else {
+        modalContent.innerHTML = `${hero ? hero.outerHTML : ''}${article.outerHTML}`;
+        const h1 = modalContent.querySelector('h1');
+        if (h1) h1.id = 'modal-title';
+      }
+
       enhanceQuestions(modalContent);
+      modalContent.scrollTop = 0;
       closeBtn?.focus();
     } catch (e) {
-      modalContent.innerHTML = '<h2>Unable to load this section</h2><p>Open the section directly and try again.</p>';
+      modalContent.innerHTML = '<h2>Unable to load this section</h2><p>Please close this window and try again after the latest GitHub Pages build has completed.</p>';
     }
   }
 
