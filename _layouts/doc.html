@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="{{ page.intro | escape }}">
+  <title>{{ page.title }} | UL Co-op Interview</title>
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}?v={{ site.github.build_revision }}">
+  <script src="{{ '/assets/site.js' | relative_url }}?v={{ site.github.build_revision }}" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="{{ '/' | relative_url }}">UL Co-op Interview</a>
+    <nav class="topnav" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}">Interview</a>
+      <a href="{{ '/word-wall.html' | relative_url }}">Word Wall</a>
+      <a href="https://app.pagescms.org/ronandownes/coop/main" target="_blank" rel="noopener">Edit</a>
+    </nav>
+  </header>
+  <main class="page-shell">
+    <header class="hero">
+      {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.intro %}<p class="intro">{{ page.intro }}</p>{% endif %}
+    </header>
+    <article class="article-body">
+      {{ content }}
+    </article>
+  </main>
+  <div class="modal-backdrop" data-modal-backdrop hidden>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" data-modal-close aria-label="Close section">×</button>
+      <div data-modal-content></div>
+    </section>
+  </div>
+</body>
+</html>
