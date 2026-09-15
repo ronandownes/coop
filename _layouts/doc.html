@@ -11,23 +11,44 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="{{ '/' | relative_url }}">UL Co-op Interview</a>
-    <nav class="topnav" aria-label="Main navigation">
-      <a href="{{ '/' | relative_url }}">Interview</a>
-      <a href="{{ '/word-wall.html' | relative_url }}">Word Wall</a>
-      <a href="https://app.pagescms.org/ronandownes/coop/main" target="_blank" rel="noopener">Edit</a>
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="UL Co-op Interview — Home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-copy"><strong>Erik Downes</strong><small>UL Co-op Interview</small></span>
+    </a>
+
+    <nav class="topnav" id="mainNav" aria-label="Main navigation">
+      <div class="navitem"><a class="navlabel" href="{{ '/about-you.html' | relative_url }}" data-modal-url="{{ '/about-you.html' | relative_url }}">About You</a><button class="navtoggle" type="button" aria-label="Open About You menu">▾</button><div class="dropmenu"><a href="{{ '/about-you.html' | relative_url }}" data-modal-url="{{ '/about-you.html' | relative_url }}">Tell me about yourself</a><a href="{{ '/about-you.html' | relative_url }}" data-modal-url="{{ '/about-you.html' | relative_url }}">Why Financial Mathematics?</a><a href="{{ '/about-you.html' | relative_url }}" data-modal-url="{{ '/about-you.html' | relative_url }}">Academic strengths</a><a href="{{ '/about-you.html' | relative_url }}" data-modal-url="{{ '/about-you.html' | relative_url }}">What do you want from co-op?</a></div></div>
+      <div class="navitem"><a class="navlabel" href="{{ '/company-role.html' | relative_url }}" data-modal-url="{{ '/company-role.html' | relative_url }}">Company &amp;<br>Role</a><button class="navtoggle" type="button" aria-label="Open Company and Role menu">▾</button><div class="dropmenu"><a href="{{ '/company-role.html' | relative_url }}" data-modal-url="{{ '/company-role.html' | relative_url }}">Why this company?</a><a href="{{ '/company-role.html' | relative_url }}" data-modal-url="{{ '/company-role.html' | relative_url }}">Why this role?</a><a href="{{ '/company-role.html' | relative_url }}" data-modal-url="{{ '/company-role.html' | relative_url }}">What can you bring?</a></div></div>
+      <div class="navitem"><a class="navlabel" href="{{ '/teamwork.html' | relative_url }}" data-modal-url="{{ '/teamwork.html' | relative_url }}">Teamwork &amp;<br>Communication</a><button class="navtoggle" type="button" aria-label="Open Teamwork menu">▾</button><div class="dropmenu"><a href="{{ '/teamwork.html' | relative_url }}" data-modal-url="{{ '/teamwork.html' | relative_url }}">Successful team</a><a href="{{ '/teamwork.html' | relative_url }}" data-modal-url="{{ '/teamwork.html' | relative_url }}">Disagreement</a><a href="{{ '/teamwork.html' | relative_url }}" data-modal-url="{{ '/teamwork.html' | relative_url }}">Explain something difficult</a></div></div>
+      <div class="navitem"><a class="navlabel" href="{{ '/problem-solving.html' | relative_url }}" data-modal-url="{{ '/problem-solving.html' | relative_url }}">Problem Solving<br>&amp; Initiative</a><button class="navtoggle" type="button" aria-label="Open Problem Solving menu">▾</button><div class="dropmenu"><a href="{{ '/problem-solving.html' | relative_url }}" data-modal-url="{{ '/problem-solving.html' | relative_url }}">Difficult problem</a><a href="{{ '/problem-solving.html' | relative_url }}" data-modal-url="{{ '/problem-solving.html' | relative_url }}">Setback or mistake</a><a href="{{ '/problem-solving.html' | relative_url }}" data-modal-url="{{ '/problem-solving.html' | relative_url }}">Showed initiative</a></div></div>
+      <div class="navitem"><a class="navlabel" href="{{ '/financial-maths.html' | relative_url }}" data-modal-url="{{ '/financial-maths.html' | relative_url }}">Financial Maths<br>&amp; Analytics</a><button class="navtoggle" type="button" aria-label="Open Financial Mathematics menu">▾</button><div class="dropmenu"><a href="{{ '/financial-maths.html' | relative_url }}" data-modal-url="{{ '/financial-maths.html' | relative_url }}">Probability &amp; statistics</a><a href="{{ '/financial-maths.html' | relative_url }}" data-modal-url="{{ '/financial-maths.html' | relative_url }}">Risk &amp; expected value</a><a href="{{ '/financial-maths.html' | relative_url }}" data-modal-url="{{ '/financial-maths.html' | relative_url }}">Data &amp; modelling</a><a href="{{ '/financial-maths.html' | relative_url }}" data-modal-url="{{ '/financial-maths.html' | relative_url }}">Numerical methods</a></div></div>
+      <div class="navitem"><a class="navlabel" href="{{ '/work-readiness.html' | relative_url }}" data-modal-url="{{ '/work-readiness.html' | relative_url }}">Work<br>Readiness</a><button class="navtoggle" type="button" aria-label="Open Work Readiness menu">▾</button><div class="dropmenu"><a href="{{ '/work-readiness.html' | relative_url }}" data-modal-url="{{ '/work-readiness.html' | relative_url }}">Professionalism</a><a href="{{ '/work-readiness.html' | relative_url }}" data-modal-url="{{ '/work-readiness.html' | relative_url }}">Organisation</a><a href="{{ '/work-readiness.html' | relative_url }}" data-modal-url="{{ '/work-readiness.html' | relative_url }}">Learning new systems</a></div></div>
+      <div class="navitem"><a class="navlabel" href="{{ '/questions-for-them.html' | relative_url }}" data-modal-url="{{ '/questions-for-them.html' | relative_url }}">Questions<br>for Them</a></div>
+      <div class="navitem nav-right"><a class="navlabel" href="{{ '/word-wall.html' | relative_url }}">Word Wall</a></div>
     </nav>
   </header>
+
   <main class="page-shell">
-    <header class="hero">
-      {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
-      <h1>{{ page.title }}</h1>
-      {% if page.intro %}<p class="intro">{{ page.intro }}</p>{% endif %}
-    </header>
-    <article class="article-body">
-      {{ content }}
+    <article class="paper">
+      <header class="hero">
+        {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+        <h1>{{ page.title }}</h1>
+        {% if page.intro %}<p class="intro">{{ page.intro }}</p>{% endif %}
+        <div class="page-tabs" aria-label="Page tools">
+          <button type="button" class="tabbtn is-active">▶ Answers</button>
+          <a class="tabbtn" href="{{ '/word-wall.html' | relative_url }}">▶ Word Wall</a>
+        </div>
+      </header>
+      <div class="article-body">{{ content }}</div>
     </article>
   </main>
+
+  <aside class="floating-tools" aria-label="Page tools">
+    <a href="https://app.pagescms.org/ronandownes/coop/main" target="_blank" rel="noopener">Edit here</a>
+    <button type="button" data-print>Print</button>
+    <button type="button" data-listen>Listen</button>
+  </aside>
+
   <div class="modal-backdrop" data-modal-backdrop hidden>
     <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
       <button class="modal-close" type="button" data-modal-close aria-label="Close section">×</button>
