@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: Spare Page 3
-eyebrow: EXTRA INTERVIEW NOTES
+title: Page 3
+eyebrow: EDITABLE PAGE
 intro: Rename this page in Pages CMS and use it for any extra interview material.
 ---
 
