@@ -239,8 +239,6 @@
     });
   };
 
-  restoreSavedAnswers();
-
   /* -----------------------------------------------------------------------
      Audio state shared by inline play, focus play and page Listen.
      ----------------------------------------------------------------------- */
@@ -416,108 +414,38 @@
       play.textContent = '▶ Play';
     });
 
-    const select = document.createElement('button');
-    select.type = 'button';
-    select.textContent = 'Select';
-    select.title = 'Select the full answer for copying';
-    select.addEventListener('click', event => {
+    const copyButton = document.createElement('button');
+    copyButton.type = 'button';
+    copyButton.textContent = 'Copy';
+    copyButton.title = 'Copy this answer to the clipboard';
+    copyButton.addEventListener('click', async event => {
       event.stopPropagation();
-      selectContent(copy);
-      const original = select.textContent;
-      select.textContent = 'Selected';
-      window.setTimeout(() => { select.textContent = original; }, 900);
-    });
-
-    const edit = document.createElement('button');
-    edit.type = 'button';
-    edit.textContent = 'Edit';
-    edit.title = 'Make a temporary local edit while settling the answer';
-
-    const bold = document.createElement('button');
-    bold.type = 'button';
-    bold.textContent = 'B';
-    bold.title = 'Bold or unbold the selected words';
-    bold.hidden = true;
-
-    const save = document.createElement('button');
-    save.type = 'button';
-    save.className = 'answer-focus-save';
-    save.textContent = 'Save';
-    save.hidden = true;
-
-    const hint = document.createElement('div');
-    hint.className = 'answer-focus-hint';
-    hint.hidden = true;
-    hint.textContent = 'Local rehearsal edit. Use Open CMS to commit permanent wording to GitHub.';
-
-    const setEditing = on => {
-      resetAudio();
-      copy.toggleAttribute('contenteditable', on);
-      copy.toggleAttribute('spellcheck', on);
-      edit.textContent = on ? 'Cancel' : 'Edit';
-      bold.hidden = !on;
-      save.hidden = !on;
-      hint.hidden = !on;
-      if (on) copy.focus({ preventScroll: true });
-    };
-
-    const toggleBold = () => {
-      if (copy.getAttribute('contenteditable') !== 'true') return;
-      const selection = window.getSelection();
-      if (!selection || selection.rangeCount === 0 || selection.isCollapsed) return;
-      const range = selection.getRangeAt(0);
-      if (!copy.contains(range.commonAncestorContainer)) return;
-      document.execCommand('bold', false, null);
-    };
-
-    copy.addEventListener('keydown', event => {
-      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'b' && copy.getAttribute('contenteditable') === 'true') {
-        event.preventDefault();
-        toggleBold();
+      const text = cleanText(copy.innerText);
+      try {
+        await navigator.clipboard.writeText(text);
+        copyButton.textContent = 'Copied';
+      } catch (_) {
+        selectContent(copy);
+        copyButton.textContent = 'Selected';
       }
+      window.setTimeout(() => { copyButton.textContent = 'Copy'; }, 900);
     });
 
-    bold.addEventListener('mousedown', event => event.preventDefault());
-    bold.addEventListener('click', event => {
-      event.stopPropagation();
-      toggleBold();
-    });
+    controls.append(play, stop, copyButton);
 
-    edit.addEventListener('click', event => {
-      event.stopPropagation();
-      const editing = copy.getAttribute('contenteditable') === 'true';
-      if (editing) {
-        const fresh = cloneAnswer(heading);
-        copy.innerHTML = fresh.innerHTML;
-        setEditing(false);
-      } else {
-        setEditing(true);
-      }
-    });
 
-    save.addEventListener('click', event => {
-      event.stopPropagation();
-      const html = copy.innerHTML;
-      localStorage.setItem(editKeyFor(heading), html);
-      applySavedToSource(heading, html);
-      setEditing(false);
-      save.textContent = 'Saved';
-      window.setTimeout(() => { save.textContent = 'Save'; }, 1000);
-    });
-
-    controls.append(play, stop, select, edit, bold, save);
 
     if (pageEdit?.href) {
       const cms = document.createElement('a');
       cms.href = `${pageEdit.href.split('#')[0]}#:~:text=${encodeURIComponent(sourceHeadingText(heading))}`;
       cms.target = '_blank';
       cms.rel = 'noopener';
-      cms.textContent = 'Open CMS';
-      cms.title = 'Open this page in Pages CMS for a permanent edit';
+      cms.textContent = 'Edit in CMS';
+      cms.title = 'Edit this page permanently in Pages CMS';
       controls.appendChild(cms);
     }
 
-    focusContent.replaceChildren(title, controls, hint, copy);
+    focusContent.replaceChildren(title, controls, copy);
     lastTrigger = heading;
     overlay.hidden = false;
     document.body.classList.add('answer-focus-open');
