@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Page 3
+nav_order: 100
 eyebrow: EDITABLE PAGE
 intro: Rename this page in Pages CMS and use it for any extra interview material.
 ---
