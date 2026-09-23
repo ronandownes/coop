@@ -74,18 +74,19 @@
     });
   });
 
-  // First click opens and pins the menu; a second click follows the section link.
+  // Match the Education site: on desktop, clicking a top menu item opens the
+  // whole page immediately. On smaller screens, the first tap opens its
+  // section menu and a second tap follows the page link.
   document.querySelectorAll('.navitem > .navlabel').forEach(label => {
-    const item = label.closest('.navitem');
-    const menu = item?.querySelector(':scope > .dropmenu');
-    if (!menu) return;
     label.addEventListener('click', event => {
-      if (item.classList.contains('is-open')) return;
+      if (window.innerWidth > 1500) return;
+      const item = label.closest('.navitem');
+      const menu = item?.querySelector(':scope > .dropmenu');
+      if (!item || !menu || item.classList.contains('is-open')) return;
       event.preventDefault();
       event.stopPropagation();
       closeNavMenus(item);
       item.classList.add('is-open');
-      item.querySelector('[data-nav-toggle]')?.setAttribute('aria-expanded', 'true');
     });
   });
 
