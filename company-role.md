@@ -6,9 +6,7 @@ eyebrow: "PREPARE FOR Abelo Employment "
 intro: These answers should change for every interview. Keep the structure
   stable but replace the company evidence.
 ---
-
-
-### Overview|Overview of Abelo
+### Overview | Overview of Abelo
 
 Focused on the latest in turboprop technology, Abelo serves the growing market of environmentally conscious travellers. The turboprop aircraft provides a clear transition towards sustainable aviation.   
 
