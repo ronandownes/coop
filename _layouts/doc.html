@@ -22,38 +22,46 @@
     <nav class="topnav" id="mainNav" aria-label="Main navigation">
       <div class="navitem nav-about" data-question-menu>
         <a class="navlabel" href="{{ '/about-you.html' | relative_url }}"><span>About You</span></a>
-        <button class="navtoggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open About You menu">▾</button>
         <div class="dropmenu"><a href="{{ '/about-you.html' | relative_url }}">Open section</a></div>
       </div>
 
       <div class="navitem nav-company" data-question-menu>
         <a class="navlabel" href="{{ '/company-role.html' | relative_url }}"><span>Company &amp;<br>Role</span></a>
-        <button class="navtoggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open Company and Role menu">▾</button>
         <div class="dropmenu"><a href="{{ '/company-role.html' | relative_url }}">Open section</a></div>
       </div>
 
       <div class="navitem nav-teamwork" data-question-menu>
         <a class="navlabel" href="{{ '/teamwork.html' | relative_url }}"><span>Teamwork &amp;<br>Communication</span></a>
-        <button class="navtoggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open Teamwork and Communication menu">▾</button>
         <div class="dropmenu"><a href="{{ '/teamwork.html' | relative_url }}">Open section</a></div>
       </div>
 
       <div class="navitem nav-problem" data-question-menu>
         <a class="navlabel" href="{{ '/problem-solving.html' | relative_url }}"><span>Problem Solving<br>&amp; Initiative</span></a>
-        <button class="navtoggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open Problem Solving and Initiative menu">▾</button>
         <div class="dropmenu"><a href="{{ '/problem-solving.html' | relative_url }}">Open section</a></div>
       </div>
 
       <div class="navitem nav-financial" data-question-menu>
         <a class="navlabel" href="{{ '/financial-maths.html' | relative_url }}"><span>Financial Maths<br>&amp; Analytics</span></a>
-        <button class="navtoggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open Financial Mathematics and Analytics menu">▾</button>
         <div class="dropmenu"><a href="{{ '/financial-maths.html' | relative_url }}">Open section</a></div>
       </div>
 
       <div class="navitem nav-work" data-question-menu>
         <a class="navlabel" href="{{ '/work-readiness.html' | relative_url }}"><span>Work<br>Readiness</span></a>
-        <button class="navtoggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open Work Readiness menu">▾</button>
         <div class="dropmenu"><a href="{{ '/work-readiness.html' | relative_url }}">Open section</a></div>
+      </div>
+
+      {% assign misc_page = site.pages | where: "path", "miscellaneous.md" | first %}
+      {% assign spare1_page = site.pages | where: "path", "spare-1.md" | first %}
+      {% assign spare2_page = site.pages | where: "path", "spare-2.md" | first %}
+      {% assign spare3_page = site.pages | where: "path", "spare-3.md" | first %}
+      <div class="navitem nav-extras">
+        <a class="navlabel" href="{{ misc_page.url | relative_url }}"><span>Extras</span></a>
+        <div class="dropmenu">
+          {% if misc_page %}<a href="{{ misc_page.url | relative_url }}">{{ misc_page.title }}</a>{% endif %}
+          {% if spare1_page %}<a href="{{ spare1_page.url | relative_url }}">{{ spare1_page.title }}</a>{% endif %}
+          {% if spare2_page %}<a href="{{ spare2_page.url | relative_url }}">{{ spare2_page.title }}</a>{% endif %}
+          {% if spare3_page %}<a href="{{ spare3_page.url | relative_url }}">{{ spare3_page.title }}</a>{% endif %}
+        </div>
       </div>
 
       <div class="navitem nav-questions">
@@ -78,6 +86,10 @@
     {% when 'work-readiness.md' %}{% assign cms_url = cms_base | append: '/file/work_readiness' %}
     {% when 'questions-for-them.md' %}{% assign cms_url = cms_base | append: '/file/questions' %}
     {% when 'word-wall.md' %}{% assign cms_url = cms_base | append: '/file/wordwall' %}
+    {% when 'miscellaneous.md' %}{% assign cms_url = cms_base | append: '/file/misc' %}
+    {% when 'spare-1.md' %}{% assign cms_url = cms_base | append: '/file/spare1' %}
+    {% when 'spare-2.md' %}{% assign cms_url = cms_base | append: '/file/spare2' %}
+    {% when 'spare-3.md' %}{% assign cms_url = cms_base | append: '/file/spare3' %}
   {% endcase %}
 
   <main class="page-stage">
