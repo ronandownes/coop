@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Financial Mathematics & Quantitative Skills
+nav_order: 50
 eyebrow: TECHNICAL / GRADUATE INTERVIEW
 intro: Use concise explanations. Show that you can calculate, interpret, challenge assumptions and communicate the result.
 ---
