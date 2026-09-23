@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: dummy page
-nav_order: 90
+nav_order: 2
 eyebrow: EDITABLE PAGE
 intro: Rename this page in Pages CMS and use it for any extra interview material.
 ---
