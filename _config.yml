@@ -3,3 +3,29 @@ description: Focused interview preparation for Financial Mathematics co-op and g
 url: https://ronandownes.github.io
 baseurl: /coop
 markdown: kramdown
+
+defaults:
+  - scope: { path: "about-you.md" }
+    values: { nav_order: 10 }
+  - scope: { path: "company-role.md" }
+    values: { nav_order: 20 }
+  - scope: { path: "teamwork.md" }
+    values: { nav_order: 30 }
+  - scope: { path: "problem-solving.md" }
+    values: { nav_order: 40 }
+  - scope: { path: "financial-maths.md" }
+    values: { nav_order: 50 }
+  - scope: { path: "work-readiness.md" }
+    values: { nav_order: 60 }
+  - scope: { path: "miscellaneous.md" }
+    values: { nav_order: 70 }
+  - scope: { path: "spare-1.md" }
+    values: { nav_order: 80 }
+  - scope: { path: "spare-2.md" }
+    values: { nav_order: 90 }
+  - scope: { path: "spare-3.md" }
+    values: { nav_order: 100 }
+  - scope: { path: "questions-for-them.md" }
+    values: { nav_order: 110 }
+  - scope: { path: "word-wall.md" }
+    values: { nav_order: 120 }
