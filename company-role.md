@@ -11,8 +11,6 @@ intro: These answers should change for every interview. Keep the structure
 
 &nbsp;
 
-&nbsp;
-
 ### Overview
 
 Focused on the latest in turboprop technology, Abelo serves the growing market of environmentally conscious travellers. The turboprop aircraft provides a clear transition towards sustainable aviation.   
