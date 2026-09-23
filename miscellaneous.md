@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Miscellaneous
+nav_order: 70
 eyebrow: GENERAL NOTES
 intro: Rename this page in Pages CMS and use it for any extra interview material.
 ---
