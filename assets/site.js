@@ -1,4 +1,4 @@
-(() => {
+(async () => {
   const body = document.getElementById('docBody');
   const topbar = document.querySelector('.topbar');
   const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
@@ -31,6 +31,63 @@
   };
 
   const currentPath = location.pathname.replace(/\/+$/, '') || '/';
+
+  // Keep page names and ordering fresh even while GitHub Pages/CDN caches an
+  // older HTML page. nav.json is rebuilt from the current page titles/orders,
+  // then fetched with a cache-busting query on every page load.
+  const syncFreshNavigation = async () => {
+    const nav = document.getElementById('mainNav');
+    if (!nav) return;
+    try {
+      const rootHref = document.querySelector('.brand')?.href || new URL('/coop/', location.origin).href;
+      const manifestUrl = new URL('nav.json', rootHref);
+      manifestUrl.searchParams.set('_', Date.now().toString());
+      const response = await fetch(manifestUrl.href, { cache: 'no-store' });
+      if (!response.ok) return;
+      const entries = await response.json();
+      if (!Array.isArray(entries) || !entries.length) return;
+
+      const existing = new Map(
+        Array.from(nav.querySelectorAll(':scope > .navitem')).map(item => {
+          const label = item.querySelector(':scope > .navlabel[href]');
+          return [label ? normalisePath(label.href) : '', item];
+        })
+      );
+
+      const fragment = document.createDocumentFragment();
+      entries.forEach(entry => {
+        const href = new URL(entry.url, location.origin).href;
+        const path = normalisePath(href);
+        let item = existing.get(path);
+        if (!item) {
+          item = document.createElement('div');
+          item.className = 'navitem nav-dynamic';
+          item.dataset.questionMenu = '';
+          item.innerHTML = '<a class="navlabel"><span></span></a><div class="dropmenu"><a>Open page</a></div>';
+        }
+        const label = item.querySelector(':scope > .navlabel');
+        const span = label?.querySelector('span');
+        if (label) label.href = href;
+        if (span) span.textContent = entry.title || '';
+        else if (label) label.textContent = entry.title || '';
+        const fallback = item.querySelector(':scope > .dropmenu > a');
+        if (fallback && !fallback.hash) fallback.href = href;
+        fragment.appendChild(item);
+
+        if (path === currentPath) {
+          const h1 = document.querySelector('.doc-paper > h1');
+          if (h1 && entry.title) h1.textContent = entry.title;
+          if (entry.title) document.title = entry.title + ' | UL Co-op Interview';
+        }
+      });
+      nav.replaceChildren(fragment);
+    } catch (_) {
+      // If the manifest is temporarily unavailable, leave the server-rendered
+      // navigation untouched.
+    }
+  };
+
+  await syncFreshNavigation();
 
   /* -----------------------------------------------------------------------
      Navigation: same open/pin behaviour as the Education site.
