@@ -5,7 +5,6 @@ nav_order: 90
 eyebrow: EDITABLE PAGE
 intro: Rename this page in Pages CMS and use it for any extra interview material.
 ---
-```text
 ## Teamwork | How would you work with someone whose approach was different from yours?
 I would first understand how they prefer to work, explain my own approach clearly, and focus on the shared outcome. If there were differences, I would try to agree a practical way forward rather than allowing working style to become the issue.
 communication|flexibility|shared outcome|respect
@@ -45,5 +44,5 @@ systematic|check|validation|consistency
 ## Independence | What would you do before asking a colleague for help?
 I would first make a reasonable attempt myself, check the available instructions and identify exactly where I was stuck. That means when I ask for help, I can ask a specific question rather than simply handing the problem to someone else.
 first attempt|research|specific question|independence
-```
+
 
