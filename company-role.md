@@ -5,12 +5,20 @@ eyebrow: "PREPARE FOR Abelo Employment "
 intro: These answers should change for every interview. Keep the structure
   stable but replace the company evidence.
 ---
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ### Overview
 
 Focused on the latest in turboprop technology, Abelo serves the growing market of environmentally conscious travellers. The turboprop aircraft provides a clear transition towards sustainable aviation.   
-  
+
 The Abelo team has amassed decades of experience in the regional aircraft sector and are passionate about providing a friendly and expert leasing solution. The Abelo platform offers a full-service leasing suite with in-house capabilities in all areas.   
-  
+
 Connecting communities, families and businesses economically while reducing the environmental footprint associated with air travel is at the core of our business.
 
 
@@ -19,9 +27,9 @@ Abelo: Reaching new heights in the turboprop sector
 
 
 
-&nbsp;
+**Abelo is a  B2B aircraft lessor, not a consumer-facing airline**. It was only created in **2022**, from the combination of Elix Aviation and ADARE Aviation Capital, so it doesn’t have the long public/media footprint of companies like AerCap or Avolon.
 
-&nbsp;
+
 
 &nbsp;
 
