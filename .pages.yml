@@ -26,11 +26,7 @@ content:
   - { name: wordwall, label: "Word Wall", type: file, path: word-wall.md, format: yaml-frontmatter, fields: *docfields }
 
 
-  - name: extras
-    label: "Extra Pages"
-    type: group
-    items:
-      - { name: misc, label: "Miscellaneous", type: file, path: miscellaneous.md, format: yaml-frontmatter, fields: *docfields }
-      - { name: spare1, label: "Spare Page 1", type: file, path: spare-1.md, format: yaml-frontmatter, fields: *docfields }
-      - { name: spare2, label: "Spare Page 2", type: file, path: spare-2.md, format: yaml-frontmatter, fields: *docfields }
-      - { name: spare3, label: "Spare Page 3", type: file, path: spare-3.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: misc, label: "Miscellaneous", type: file, path: miscellaneous.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: spare1, label: "Abela Ethos and Values", type: file, path: spare-1.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: spare2, label: "dummy page", type: file, path: spare-2.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: spare3, label: "AI and Work", type: file, path: spare-3.md, format: yaml-frontmatter, fields: *docfields }
