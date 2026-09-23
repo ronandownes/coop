@@ -5,6 +5,32 @@ eyebrow: PREPARE FOR EACH EMPLOYER
 intro: These answers should change for every interview. Keep the structure
   stable but replace the company evidence.
 ---
+### Overview
+
+Focused on the latest in turboprop technology, Abelo serves the growing market of environmentally conscious travellers. The turboprop aircraft provides a clear transition towards sustainable aviation.   
+  
+The Abelo team has amassed decades of experience in the regional aircraft sector and are passionate about providing a friendly and expert leasing solution. The Abelo platform offers a full-service leasing suite with in-house capabilities in all areas.   
+  
+Connecting communities, families and businesses economically while reducing the environmental footprint associated with air travel is at the core of our business.
+
+
+
+Abelo: Reaching new heights in the turboprop sector
+
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ## Why Abelo | What interests you about this opportunity?
 
 I was very pleased to be put forward for the opportunity with Abelo because the work connects strongly with my **Financial Mathematics degree**.
