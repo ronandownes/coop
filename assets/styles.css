@@ -143,3 +143,12 @@ body.answer-focus-open{overflow:hidden}
 @media print{
   body{background:#fff}.topbar,.doc-toolbar,#floating-page-tools,.cm-question-play,.answer-focus-overlay{display:none!important}.page-stage{padding:0}.doc-paper{width:100%;border:0;box-shadow:none;padding:0;min-height:0}.doc-body>h2.interview-question-heading{break-after:avoid;border-top:1px solid #ddd}.section-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
+
+
+/* Arrow-free Co-op navigation */
+.navitem{grid-template-columns:1fr}
+.navtoggle{display:none!important}
+.nav-extras{--nav-w:84px}
+@media(max-width:1500px){
+  .navitem{grid-template-columns:1fr}
+}
