@@ -54,15 +54,34 @@
       {% assign spare1_page = site.pages | where: "path", "spare-1.md" | first %}
       {% assign spare2_page = site.pages | where: "path", "spare-2.md" | first %}
       {% assign spare3_page = site.pages | where: "path", "spare-3.md" | first %}
-      <div class="navitem nav-extras">
-        <a class="navlabel" href="{{ misc_page.url | relative_url }}"><span>Extras</span></a>
-        <div class="dropmenu">
-          {% if misc_page %}<a href="{{ misc_page.url | relative_url }}">{{ misc_page.title }}</a>{% endif %}
-          {% if spare1_page %}<a href="{{ spare1_page.url | relative_url }}">{{ spare1_page.title }}</a>{% endif %}
-          {% if spare2_page %}<a href="{{ spare2_page.url | relative_url }}">{{ spare2_page.title }}</a>{% endif %}
-          {% if spare3_page %}<a href="{{ spare3_page.url | relative_url }}">{{ spare3_page.title }}</a>{% endif %}
-        </div>
+
+      {% if misc_page %}
+      <div class="navitem nav-extra-page" data-question-menu>
+        <a class="navlabel" href="{{ misc_page.url | relative_url }}"><span>{{ misc_page.title }}</span></a>
+        <div class="dropmenu"><a href="{{ misc_page.url | relative_url }}">Open page</a></div>
       </div>
+      {% endif %}
+
+      {% if spare1_page %}
+      <div class="navitem nav-extra-page" data-question-menu>
+        <a class="navlabel" href="{{ spare1_page.url | relative_url }}"><span>{{ spare1_page.title }}</span></a>
+        <div class="dropmenu"><a href="{{ spare1_page.url | relative_url }}">Open page</a></div>
+      </div>
+      {% endif %}
+
+      {% if spare2_page %}
+      <div class="navitem nav-extra-page" data-question-menu>
+        <a class="navlabel" href="{{ spare2_page.url | relative_url }}"><span>{{ spare2_page.title }}</span></a>
+        <div class="dropmenu"><a href="{{ spare2_page.url | relative_url }}">Open page</a></div>
+      </div>
+      {% endif %}
+
+      {% if spare3_page %}
+      <div class="navitem nav-extra-page" data-question-menu>
+        <a class="navlabel" href="{{ spare3_page.url | relative_url }}"><span>{{ spare3_page.title }}</span></a>
+        <div class="dropmenu"><a href="{{ spare3_page.url | relative_url }}">Open page</a></div>
+      </div>
+      {% endif %}
 
       <div class="navitem nav-questions">
         <a class="navlabel" href="{{ '/questions-for-them.html' | relative_url }}"><span>Questions<br>for Them</span></a>
