@@ -20,76 +20,13 @@
     </button>
 
     <nav class="topnav" id="mainNav" aria-label="Main navigation">
-      <div class="navitem nav-about" data-question-menu>
-        <a class="navlabel" href="{{ '/about-you.html' | relative_url }}"><span>About You</span></a>
-        <div class="dropmenu"><a href="{{ '/about-you.html' | relative_url }}">Open section</a></div>
+      {% assign nav_pages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
+      {% for navpage in nav_pages %}
+      <div class="navitem nav-dynamic" data-question-menu>
+        <a class="navlabel" href="{{ navpage.url | relative_url }}"><span>{{ navpage.title }}</span></a>
+        <div class="dropmenu"><a href="{{ navpage.url | relative_url }}">Open page</a></div>
       </div>
-
-      <div class="navitem nav-company" data-question-menu>
-        <a class="navlabel" href="{{ '/company-role.html' | relative_url }}"><span>Company &amp;<br>Role</span></a>
-        <div class="dropmenu"><a href="{{ '/company-role.html' | relative_url }}">Open section</a></div>
-      </div>
-
-      <div class="navitem nav-teamwork" data-question-menu>
-        <a class="navlabel" href="{{ '/teamwork.html' | relative_url }}"><span>Teamwork &amp;<br>Communication</span></a>
-        <div class="dropmenu"><a href="{{ '/teamwork.html' | relative_url }}">Open section</a></div>
-      </div>
-
-      <div class="navitem nav-problem" data-question-menu>
-        <a class="navlabel" href="{{ '/problem-solving.html' | relative_url }}"><span>Problem Solving<br>&amp; Initiative</span></a>
-        <div class="dropmenu"><a href="{{ '/problem-solving.html' | relative_url }}">Open section</a></div>
-      </div>
-
-      <div class="navitem nav-financial" data-question-menu>
-        <a class="navlabel" href="{{ '/financial-maths.html' | relative_url }}"><span>Financial Maths<br>&amp; Analytics</span></a>
-        <div class="dropmenu"><a href="{{ '/financial-maths.html' | relative_url }}">Open section</a></div>
-      </div>
-
-      <div class="navitem nav-work" data-question-menu>
-        <a class="navlabel" href="{{ '/work-readiness.html' | relative_url }}"><span>Work<br>Readiness</span></a>
-        <div class="dropmenu"><a href="{{ '/work-readiness.html' | relative_url }}">Open section</a></div>
-      </div>
-
-      {% assign misc_page = site.pages | where: "path", "miscellaneous.md" | first %}
-      {% assign spare1_page = site.pages | where: "path", "spare-1.md" | first %}
-      {% assign spare2_page = site.pages | where: "path", "spare-2.md" | first %}
-      {% assign spare3_page = site.pages | where: "path", "spare-3.md" | first %}
-
-      {% if misc_page %}
-      <div class="navitem nav-extra-page" data-question-menu>
-        <a class="navlabel" href="{{ misc_page.url | relative_url }}"><span>{{ misc_page.title }}</span></a>
-        <div class="dropmenu"><a href="{{ misc_page.url | relative_url }}">Open page</a></div>
-      </div>
-      {% endif %}
-
-      {% if spare1_page %}
-      <div class="navitem nav-extra-page" data-question-menu>
-        <a class="navlabel" href="{{ spare1_page.url | relative_url }}"><span>{{ spare1_page.title }}</span></a>
-        <div class="dropmenu"><a href="{{ spare1_page.url | relative_url }}">Open page</a></div>
-      </div>
-      {% endif %}
-
-      {% if spare2_page %}
-      <div class="navitem nav-extra-page" data-question-menu>
-        <a class="navlabel" href="{{ spare2_page.url | relative_url }}"><span>{{ spare2_page.title }}</span></a>
-        <div class="dropmenu"><a href="{{ spare2_page.url | relative_url }}">Open page</a></div>
-      </div>
-      {% endif %}
-
-      {% if spare3_page %}
-      <div class="navitem nav-extra-page" data-question-menu>
-        <a class="navlabel" href="{{ spare3_page.url | relative_url }}"><span>{{ spare3_page.title }}</span></a>
-        <div class="dropmenu"><a href="{{ spare3_page.url | relative_url }}">Open page</a></div>
-      </div>
-      {% endif %}
-
-      <div class="navitem nav-questions">
-        <a class="navlabel" href="{{ '/questions-for-them.html' | relative_url }}"><span>Questions<br>for Them</span></a>
-      </div>
-
-      <div class="navitem nav-wordwall nav-right">
-        <a class="navlabel" href="{{ '/word-wall.html' | relative_url }}"><span>Word Wall</span></a>
-      </div>
+      {% endfor %}
     </nav>
   </header>
 
