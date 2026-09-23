@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Problem Solving & Initiative
+nav_order: 40
 eyebrow: STAR QUESTIONS
 intro: Employers are looking for how you think when the answer is not obvious.
 ---
