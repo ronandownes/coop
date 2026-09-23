@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: About You
+nav_order: 10
 eyebrow: CORE INTERVIEW QUESTIONS
 intro: Build a confident academic and personal introduction without sounding scripted.
 ---
