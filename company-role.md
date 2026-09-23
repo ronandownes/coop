@@ -5,20 +5,15 @@ eyebrow: PREPARE FOR EACH EMPLOYER
 intro: These answers should change for every interview. Keep the structure
   stable but replace the company evidence.
 ---
+## Why Abelo | What interests you about this opportunity?
 
+I was very pleased to be put forward for the opportunity with Abelo because the work connects strongly with my **Financial Mathematics degree**.
 
-## Why Abelo | Why did you apply to Abelo?
+What particularly interests me is the combination of **finance, quantitative analysis and aircraft as real commercial assets**. Areas such as valuation, risk, cash flows and pricing are all relevant to what I’m studying, but here I would get to see how those ideas are used in a real business.
 
-Abelo specialises in **aircraft leasing, with a particular focus on turboprop aircraft and regional aviation**. Its internship programme also emphasises giving students real responsibility and integrating them into the team.
+I’d like to learn more about how aircraft leasing works in practice and contribute the analytical and problem-solving skills I’ve developed through my course.
 
-Connect this to:
-
-- Interest in the **financial and commercial side of aviation**.
-- Financial Mathematics: **modelling, statistics, valuation, risk and quantitative analysis**.
-- Interest in seeing how financial decisions are made around real, high-value assets.
-- Opportunity to learn from an experienced aviation-leasing team while contributing strong analytical skills.
-
-**Recall cue:** Abelo → aviation leasing → Financial Maths → real responsibility.
+**Recall cue:** Put forward → Financial Maths → aircraft finance → learn and contribute.
 
 ## Why Aircraft Leasing | What interests you about this work?
 
