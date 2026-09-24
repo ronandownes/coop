@@ -1,9 +1,11 @@
 media:
-  input: assets/uploads
-  output: /assets/uploads
-  categories: [image]
-  extensions: [jpg, jpeg, png, webp, gif]
-  rename: safe
+  - name: images
+    label: Images
+    input: assets/uploads
+    output: /assets/uploads
+    categories: [image]
+    extensions: [jpg, jpeg, png, webp, gif]
+    rename: safe
 
 components:
   document_fields:
@@ -20,6 +22,7 @@ components:
         label: "Page image"
         description: "Optional image shown below the introduction."
         options:
+          media: images
           categories: [image]
           extensions: [jpg, jpeg, png, webp, gif]
           rename: safe
@@ -28,7 +31,9 @@ components:
         type: rich-text
         label: "Answers (handle | question)"
         options:
-          switcher: true
+          format: markdown
+          switcher: false
+          media: images
           categories: [image]
           extensions: [jpg, jpeg, png, webp, gif]
           rename: safe
