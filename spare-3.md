@@ -1,5 +1,6 @@
 ---
 layout: doc
+handle: AI
 title: AI and Work
 nav_order: 100
 eyebrow: EDITABLE PAGE
