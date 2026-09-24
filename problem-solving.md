@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Problem Solving, Initiative & Working Independently
+title: Problem Solving | Problem Solving, Initiative & Working Independently
 nav_order: 40
 eyebrow: STAR QUESTIONS
 intro: Employers are looking for how you think when the answer is not obvious.
