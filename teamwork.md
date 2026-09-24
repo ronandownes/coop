@@ -2,6 +2,7 @@
 layout: doc
 title: Teamwork
 nav_order: 30
+eyebrow: INTERVIEW STRUCTURE
 intro: Use specific examples. Keep the answer focused on what you did, how you
   communicated and what happened.
 ---
