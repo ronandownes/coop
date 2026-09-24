@@ -1,6 +1,6 @@
 ---
 layout: doc
-handle: Us
+handle: Abelo
 title: About us
 nav_order: 20
 eyebrow: INTERVIEW STRUCTURE
@@ -156,17 +156,13 @@ Then finish with contribution:
 
 ### Internship
 
-  
-
-
 ![image.png](/assets/uploads/image-3.png)
 
 
 
 &nbsp;
 
-  
-
+&nbsp;
 
 Abelo’s ‘people first’ culture starts at university.  Every year we welcome several students to join our team as part of our internship program.  This program affords students the opportunity to learn about our business and to contribute towards its development.  Abelo ensure that students are given responsibility and exposure and are fully integrated within the team.
 
