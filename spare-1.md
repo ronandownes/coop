@@ -1,6 +1,6 @@
 ---
 layout: doc
-handle: Page1
+handle: Proects
 title: A spare page
 nav_order: 300
 eyebrow: EDITABLE PAGE
