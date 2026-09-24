@@ -63,6 +63,11 @@
       <p class="doc-kicker">INTERVIEW STRUCTURE</p>
       <h1>{{ page_display_title }}</h1>
       {% if page.intro %}<p class="doc-intro">{{ page.intro }}</p>{% endif %}
+      {% if page.image %}
+      <figure class="doc-page-image">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page_display_title | escape }}">
+      </figure>
+      {% endif %}
       <div class="doc-toolbar" aria-label="Document controls">
         <button type="button" data-action="print">Print</button>
         <a class="edit-link" href="{{ cms_url }}" target="_blank" rel="noopener">Edit this page</a>
