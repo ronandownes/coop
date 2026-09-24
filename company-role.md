@@ -2,7 +2,6 @@
 layout: doc
 title: About us
 nav_order: 20
-eyebrow: "PREPARE FOR Abelo Employment "
 intro: These answers should change for every interview. Keep the structure
   stable but replace the company evidence.
 ---
@@ -26,7 +25,7 @@ Abelo: Reaching new heights in the turboprop sector
 
 &nbsp;
 
-### Purpose & Mission
+## Purpose & Mission
 
 Positive change requires leadership and at Abelo we work on creating solutions which will improve society’s connectivity while addressing the need to reduce the environmental impact of travel. Our blueprint is nature; our activity, akin to the Bee, is to provide sustainable support to our global ecosystem.  
 
@@ -35,6 +34,42 @@ We focus on advancing ways of bringing together people, families, communities, a
 Our current investments in the latest technology will support the future development of new routes and connect previously isolated destinations. We are working to make air travel more sustainable, efficient and economical – and, in certain locations, a quicker, cleaner alternative to longer road journeys.  
 
 Our style is personal but passionate and trusted by our partners globally. We are innovative in our approach and lead by example. By embracing and supporting new and disruptive technology, our goal is to set new standards in the industry.
+
+
+
+&nbsp;
+
+## Bees | The Essential Nature of Bees
+
+## Inspired by the nature and necessity of Bees, Abelo styles itself in both name and function on the ubiquitous Bee. Gaining its name from the Esperanto translation of the word Bee, Abelo strives to embody the teamwork, structures and importance in nature that the Bee plays in life.
+
+Our focus is on providing an efficient, less environmentally impactful mode of transport and to mimic the Bees in the way they support the biodiversity on which we all depend on for survival.
+
+
+
+## The Abelo Team
+
+A people first approach to leadership; empowering and trusting. The Abelo team, with its diverse regional aviation experience, is skilled, customer-focused, and passionate.  Leasing challenges ignite our innovative spirit.
+
+Together we are reaching new heights in the turboprop sector.
+
+  
+
+
+
+
+## Looking for | What we are looking for
+
+  
+Abelo explicitly says it looks for interns who are **interested and curious about aircraft leasing**, gives them **responsibility and exposure**, and wants students who can contribute a fresh perspective. Its business combines aircraft, finance, asset management, data, risk and sustainability — which makes Financial Mathematics a surprisingly strong fit.
+
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ## Hoping to get? | What are you hoping to get from co-op with Alebo?
 
