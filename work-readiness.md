@@ -3,6 +3,7 @@ layout: doc
 handle: Competencies
 title: Work Competencies
 nav_order: 60
+eyebrow: INTERVIEW STRUCTURE
 intro: These questions test whether an employer can trust you to learn,
   communicate and work responsibly.
 ---
