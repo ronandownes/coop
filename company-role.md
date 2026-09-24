@@ -190,3 +190,12 @@ role requirementstransferable skillslearningcontribution
 Give three grounded reasons: strong quantitative preparation, evidence that you can learn unfamiliar material, and a professional attitude to working with others. Keep it factual and avoid overselling.
 
 **Recall cue:** Quantitative ability → learning ability → dependable colleague.
+
+
+
+&nbsp;
+
+&nbsp;
+
+[https://chatgpt.com/share/6ab5b717-e00c-83ed-9d3d-7486d991436c](https://chatgpt.com/share/6ab5b717-e00c-83ed-9d3d-7486d991436c)
+
