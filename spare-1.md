@@ -1,10 +1,10 @@
 ---
 layout: doc
-handle: Spre
-title: Free
+handle: Page1
+title: A spare page
 nav_order: 300
 eyebrow: EDITABLE PAGE
-intro: Rename this page in Pages CMS and use it for any extra interview material.
+intro: Use it for any extra interview material.
 ---
 ## Handle1 | Long Question1
 
