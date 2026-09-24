@@ -2,6 +2,7 @@
 layout: doc
 title: Communication
 nav_order: 35
+eyebrow: INTERVIEW STRUCTURE
 intro: Rename this page in Pages CMS and use it for any extra interview material.
 ---
 ## Explain clearly | How would you explain something technical to a non-technical person?
