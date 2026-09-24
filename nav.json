@@ -5,6 +5,13 @@ permalink: /nav.json
 [
 {% assign nav_pages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
 {% for p in nav_pages %}
-  {"title": {{ p.title | jsonify }}, "url": {{ p.url | relative_url | jsonify }}, "order": {{ p.nav_order | jsonify }}}{% unless forloop.last %},{% endunless %}
+  {% assign raw_title = p.title | default: '' %}
+  {% assign title_parts = raw_title | split: '|' %}
+  {% assign menu_title = title_parts[0] | strip %}
+  {% assign page_title = raw_title | strip %}
+  {% if title_parts.size > 1 %}
+    {% assign page_title = title_parts[1] | strip %}
+  {% endif %}
+  {"title": {{ menu_title | jsonify }}, "page_title": {{ page_title | jsonify }}, "url": {{ p.url | relative_url | jsonify }}, "order": {{ p.nav_order | jsonify }}}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]
