@@ -1,6 +1,6 @@
 ---
 layout: doc
-handle: Problem Solving
+handle: Critical
 title: Problem Solving, Initiative & Working Independently
 nav_order: 40
 eyebrow: STAR QUESTIONS
