@@ -199,3 +199,7 @@ Give three grounded reasons: strong quantitative preparation, evidence that you 
 
 [https://chatgpt.com/share/6ab5b717-e00c-83ed-9d3d-7486d991436c](https://chatgpt.com/share/6ab5b717-e00c-83ed-9d3d-7486d991436c)
 
+
+
+[https://www.spglobal.com/en](https://www.spglobal.com/en)
+
