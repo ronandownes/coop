@@ -1,11 +1,17 @@
 <!doctype html>
+{% assign page_title_parts = page.title | split: '|' %}
+{% assign page_menu_title = page_title_parts[0] | strip %}
+{% assign page_display_title = page.title | strip %}
+{% if page_title_parts.size > 1 %}
+  {% assign page_display_title = page_title_parts[1] | strip %}
+{% endif %}
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
   <meta name="description" content="{{ page.intro | escape }}">
-  <title>{{ page.title }} | UL Co-op Interview</title>
+  <title>{{ page_display_title }} | UL Co-op Interview</title>
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}?v={{ site.github.build_revision }}">
   <link rel="stylesheet" href="{{ '/assets/mirror-fixes.css' | relative_url }}?v={{ site.github.build_revision }}">
@@ -22,8 +28,10 @@
     <nav class="topnav" id="mainNav" aria-label="Main navigation">
       {% assign nav_pages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
       {% for navpage in nav_pages %}
+      {% assign nav_title_parts = navpage.title | split: '|' %}
+      {% assign nav_menu_title = nav_title_parts[0] | strip %}
       <div class="navitem nav-dynamic" data-question-menu>
-        <a class="navlabel" href="{{ navpage.url | relative_url }}"><span>{{ navpage.title }}</span></a>
+        <a class="navlabel" href="{{ navpage.url | relative_url }}"><span>{{ nav_menu_title }}</span></a>
         <div class="dropmenu"><a href="{{ navpage.url | relative_url }}">Open page</a></div>
       </div>
       {% endfor %}
@@ -51,7 +59,7 @@
   <main class="page-stage">
     <article class="doc-paper">
       {% if page.eyebrow %}<p class="doc-kicker">{{ page.eyebrow }}</p>{% endif %}
-      <h1>{{ page.title }}</h1>
+      <h1>{{ page_display_title }}</h1>
       {% if page.intro %}<p class="doc-intro">{{ page.intro }}</p>{% endif %}
       <div class="doc-toolbar" aria-label="Document controls">
         <button type="button" data-action="print">Print</button>
