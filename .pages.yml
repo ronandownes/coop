@@ -8,7 +8,7 @@ components:
     label: Document fields
     fields: &docfields
       - { name: layout, type: string, hidden: true }
-      - { name: title, type: string, label: Title }
+      - { name: title, type: string, label: "Title (menu | page title)" }
       - { name: nav_order, type: number, label: "Menu order" }
       - { name: eyebrow, type: string, label: Eyebrow }
       - { name: intro, type: text, label: Introduction }
