@@ -1,11 +1,12 @@
 ---
 layout: doc
-handle: Preparation
+handle: Prepare
 title: Interview Preparation
 nav_order: 2
-intro: Interviews are not about inventing brilliant answers on the spot. They are about learning to articulate what you already know, then performing it clearly under pressure.
+intro: Interviews are not about inventing brilliant answers on the spot. They
+  are about learning to articulate what you already know, then performing it
+  clearly under pressure.
 ---
-
 <div class="home-hero">
   <div class="home-hero-kicker">AN INTERVIEW IS A PERFORMANCE</div>
   <div class="home-hero-words">
