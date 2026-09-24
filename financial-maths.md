@@ -1,6 +1,6 @@
 ---
 layout: doc
-handle: Financial
+handle: Modules
 title: Financial Mathematics & Quantitative Skills
 nav_order: 50
 eyebrow: Module
