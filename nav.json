@@ -7,9 +7,10 @@ permalink: /nav.json
 {% for p in nav_pages %}
   {% assign raw_title = p.title | default: '' %}
   {% assign title_parts = raw_title | split: '|' %}
-  {% assign menu_title = title_parts[0] | strip %}
+  {% assign legacy_menu_title = title_parts[0] | strip %}
+  {% assign menu_title = p.handle | default: legacy_menu_title | strip %}
   {% assign page_title = raw_title | strip %}
-  {% if title_parts.size > 1 %}
+  {% if p.handle == nil and title_parts.size > 1 %}
     {% assign page_title = title_parts[1] | strip %}
   {% endif %}
   {"title": {{ menu_title | jsonify }}, "page_title": {{ page_title | jsonify }}, "url": {{ p.url | relative_url | jsonify }}, "order": {{ p.nav_order | jsonify }}}{% unless forloop.last %},{% endunless %}
