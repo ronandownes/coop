@@ -7,6 +7,12 @@ intro: These answers should change for every interview. Keep the structure
 ---
 ## Overview | Official Overview of Abelo From Website
 
+
+
+![image.png](blob:https:/app.pagescms.org/3f707828-a2cd-4fa6-9b9b-1789dcfc632b)
+
+
+
 Focused on the latest in turboprop technology, Abelo serves the growing market of environmentally conscious travellers. The turboprop aircraft provides a clear transition towards sustainable aviation.   
 
 The Abelo team has amassed decades of experience in the regional aircraft sector and are passionate about providing a friendly and expert leasing solution. The Abelo platform offers a full-service leasing suite with in-house capabilities in all areas.   
@@ -26,8 +32,6 @@ Abelo: Reaching new heights in the turboprop sector
 &nbsp;
 
 ## Purpose & Mission |  Purpose & Mission
-
-
 
 Positive change requires leadership and at Abelo we work on creating solutions which will improve society’s connectivity while addressing the need to reduce the environmental impact of travel. Our blueprint is nature; our activity, akin to the Bee, is to provide sustainable support to our global ecosystem.  
 
