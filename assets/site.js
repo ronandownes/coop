@@ -67,17 +67,19 @@
         }
         const label = item.querySelector(':scope > .navlabel');
         const span = label?.querySelector('span');
+        const menuTitle = entry.title || '';
+        const pageTitle = entry.page_title || entry.title || '';
         if (label) label.href = href;
-        if (span) span.textContent = entry.title || '';
-        else if (label) label.textContent = entry.title || '';
+        if (span) span.textContent = menuTitle;
+        else if (label) label.textContent = menuTitle;
         const fallback = item.querySelector(':scope > .dropmenu > a');
         if (fallback && !fallback.hash) fallback.href = href;
         fragment.appendChild(item);
 
         if (path === currentPath) {
           const h1 = document.querySelector('.doc-paper > h1');
-          if (h1 && entry.title) h1.textContent = entry.title;
-          if (entry.title) document.title = entry.title + ' | UL Co-op Interview';
+          if (h1 && pageTitle) h1.textContent = pageTitle;
+          if (pageTitle) document.title = pageTitle + ' | UL Co-op Interview';
         }
       });
       nav.replaceChildren(fragment);
