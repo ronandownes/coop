@@ -29,7 +29,7 @@ Assume an Audi A6 costing **€65,000**, financed over three years, with a final
 
 The financial arrangement is the same in each explanation. **What changes is the language and level of detail.**
 
-### Low-tech audience | Completely non-technical customer
+## Low-tech audience | Completely non-technical customer
 
 I would focus on the decisions the customer actually has to make.
 
@@ -39,7 +39,11 @@ I would avoid terms such as residual value, amortisation or present value.
 
 **Recall cue:** Now → monthly → end → return or buy.
 
-### Middle-tech audience | Financially comfortable non-specialist
+
+
+## Middle-tech audience | Financially comfortable non-specialist
+
+
 
 I could introduce the idea of **deferred value**.
 
@@ -49,7 +53,11 @@ I would also explain that a lower monthly payment does **not necessarily mean a 
 
 **Recall cue:** Deposit → deferred amount → monthly payment → total cost.
 
-### High-tech audience | Financial or quantitative colleague
+
+
+## High-tech audience | Financial or quantitative colleague
+
+
 
 I could explain the underlying mechanics.
 
