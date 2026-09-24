@@ -73,10 +73,7 @@ Together we are reaching new heights in the turboprop sector.
 
 Abelo’s vision is to deliver sustainable regional connectivity.  Headquartered in Dublin, Ireland, Abelo offers a full-service leasing suite with in-house capabilities in all areas.  Supporting a fleet of more than 60 turboprop aircraft, Abelo is an emerging market leader. A leadership position which affords the opportunity to support new disruptive technologies and innovations.  
 
-
 ## Fleet & Customers
-
-
 
 Abelo’s vison of sustainable regional connectivity is strengthened by a balanced portfolio of turboprop aircraft. This growing fleet delivers an immediate and measurable positive impact by generating significantly less pollution than comparable jet aircraft.
 
@@ -152,6 +149,28 @@ Then finish with contribution:
 > “I’d bring strong quantitative and analytical skills, but I’d also be coming in ready to learn. I’d like to understand how those skills are actually used in aircraft leasing and contribute wherever I can to the team.”
 
 **Recall cue:** Numbers → learn → team → contribute.
+
+
+
+&nbsp;
+
+### Internship
+
+  
+
+
+![image.png](/assets/uploads/image-3.png)
+
+
+
+&nbsp;
+
+  
+
+
+Abelo’s ‘people first’ culture starts at university.  Every year we welcome several students to join our team as part of our internship program.  This program affords students the opportunity to learn about our business and to contribute towards its development.  Abelo ensure that students are given responsibility and exposure and are fully integrated within the team.
+
+Abelo is continuously looking for students who are interested and curious about aircraft leasing and who can bring something unique to our team, learning from our experience as we learn from their enthusiasm and fresh perspectives.
 
 
 
