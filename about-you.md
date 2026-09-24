@@ -3,6 +3,7 @@ layout: doc
 handle: You
 title: About You
 nav_order: 10
+eyebrow: INTERVIEW STRUCTURE
 intro: Build a confident academic and personal introduction without sounding scripted.
 ---
 ## Introduction | Tell me about yourself.
