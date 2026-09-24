@@ -1,13 +1,12 @@
 ---
 layout: doc
+handle: Us
 title: About us
 nav_order: 20
 intro: These answers should change for every interview. Keep the structure
   stable but replace the company evidence.
 ---
 ## Overview | Official Overview of Abelo From Website
-
-
 
 ![image.png](/assets/uploads/image-1.png)
 
@@ -47,7 +46,7 @@ Our style is personal but passionate and trusted by our partners globally. We ar
 
 ## Bees | The Essential Nature of Bees
 
-## Inspired by the nature and necessity of Bees, Abelo styles itself in both name and function on the ubiquitous Bee. Gaining its name from the Esperanto translation of the word Bee, Abelo strives to embody the teamwork, structures and importance in nature that the Bee plays in life.
+Inspired by the nature and necessity of Bees, Abelo styles itself in both name and function on the ubiquitous Bee. Gaining its name from the Esperanto translation of the word Bee, Abelo strives to embody the teamwork, structures and importance in nature that the Bee plays in life.
 
 Our focus is on providing an efficient, less environmentally impactful mode of transport and to mimic the Bees in the way they support the biodiversity on which we all depend on for survival.
 
@@ -60,6 +59,37 @@ A people first approach to leadership; empowering and trusting. The Abelo team, 
 Together we are reaching new heights in the turboprop sector.
 
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## Our Business  |  Our Business
+
+Abelo’s vision is to deliver sustainable regional connectivity.  Headquartered in Dublin, Ireland, Abelo offers a full-service leasing suite with in-house capabilities in all areas.  Supporting a fleet of more than 60 turboprop aircraft, Abelo is an emerging market leader. A leadership position which affords the opportunity to support new disruptive technologies and innovations.  
+
+
+## Fleet & Customers
+
+
+
+Abelo’s vison of sustainable regional connectivity is strengthened by a balanced portfolio of turboprop aircraft. This growing fleet delivers an immediate and measurable positive impact by generating significantly less pollution than comparable jet aircraft.
+
+
+
+![image.png](/assets/uploads/image-2.png)
+
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
