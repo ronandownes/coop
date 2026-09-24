@@ -28,9 +28,15 @@ Abelo: Reaching new heights in the turboprop sector
 
 &nbsp;
 
-&nbsp;
+## What are you hoping to get from co-op with Alebo?
 
-&nbsp;
+I want to understand how quantitative work is actually used inside an organisation — how problems are framed, how data is checked, how results are communicated, and how decisions are made when there is uncertainty. In a company working on sustainable aircraft, I’d also like to see how quantitative analysis contributes to real engineering, commercial and sustainability decisions.
+
+I also want to improve my professional judgement and communication, and learn how to contribute effectively as part of a team rather than just completing the technical side of a task.
+
+**Recall cue:** Apply learning → real decisions → judgement → communication → contribute
+
+
 
 ## Why Abelo | What interests you about this opportunity?
 
