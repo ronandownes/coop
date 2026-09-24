@@ -35,9 +35,9 @@ Our current investments in the latest technology will support the future develop
 
 Our style is personal but passionate and trusted by our partners globally. We are innovative in our approach and lead by example. By embracing and supporting new and disruptive technology, our goal is to set new standards in the industry.
 
+![image.png](/assets/uploads/image.png)
 
 
-&nbsp;
 
 ## Bees | The Essential Nature of Bees
 
@@ -53,14 +53,12 @@ A people first approach to leadership; empowering and trusting. The Abelo team, 
 
 Together we are reaching new heights in the turboprop sector.
 
-  
 
 
-
+&nbsp;
 
 ## Looking for | What we are looking for
 
-  
 Abelo explicitly says it looks for interns who are **interested and curious about aircraft leasing**, gives them **responsibility and exposure**, and wants students who can contribute a fresh perspective. Its business combines aircraft, finance, asset management, data, risk and sustainability — which makes Financial Mathematics a surprisingly strong fit.
 
 
