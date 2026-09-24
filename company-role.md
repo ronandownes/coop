@@ -9,7 +9,7 @@ intro: These answers should change for every interview. Keep the structure
 
 
 
-![image.png](blob:https:/app.pagescms.org/3f707828-a2cd-4fa6-9b9b-1789dcfc632b)
+![image.png](/assets/uploads/image-1.png)
 
 
 
