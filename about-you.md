@@ -2,7 +2,7 @@
 layout: doc
 handle: You
 title: About You
-nav_order: 10
+nav_order: 15
 eyebrow: INTERVIEW STRUCTURE
 intro: Build a confident academic and personal introduction without sounding scripted.
 ---
