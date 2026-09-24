@@ -1,9 +1,10 @@
 <!doctype html>
-{% assign page_title_parts = page.title | split: '|' %}
-{% assign page_menu_title = page_title_parts[0] | strip %}
+{% assign legacy_title_parts = page.title | split: '|' %}
+{% assign legacy_menu_title = legacy_title_parts[0] | strip %}
+{% assign page_menu_title = page.handle | default: legacy_menu_title | strip %}
 {% assign page_display_title = page.title | strip %}
-{% if page_title_parts.size > 1 %}
-  {% assign page_display_title = page_title_parts[1] | strip %}
+{% if page.handle == nil and legacy_title_parts.size > 1 %}
+  {% assign page_display_title = legacy_title_parts[1] | strip %}
 {% endif %}
 <html lang="en">
 <head>
@@ -29,7 +30,8 @@
       {% assign nav_pages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
       {% for navpage in nav_pages %}
       {% assign nav_title_parts = navpage.title | split: '|' %}
-      {% assign nav_menu_title = nav_title_parts[0] | strip %}
+      {% assign nav_legacy_title = nav_title_parts[0] | strip %}
+      {% assign nav_menu_title = navpage.handle | default: nav_legacy_title | strip %}
       <div class="navitem nav-dynamic" data-question-menu>
         <a class="navlabel" href="{{ navpage.url | relative_url }}"><span>{{ nav_menu_title }}</span></a>
         <div class="dropmenu"><a href="{{ navpage.url | relative_url }}">Open page</a></div>
@@ -58,7 +60,7 @@
 
   <main class="page-stage">
     <article class="doc-paper">
-      {% if page.eyebrow %}<p class="doc-kicker">{{ page.eyebrow }}</p>{% endif %}
+      <p class="doc-kicker">INTERVIEW STRUCTURE</p>
       <h1>{{ page_display_title }}</h1>
       {% if page.intro %}<p class="doc-intro">{{ page.intro }}</p>{% endif %}
       <div class="doc-toolbar" aria-label="Document controls">
