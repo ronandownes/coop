@@ -1,7 +1,7 @@
 ---
 layout: doc
-handle: Modules
-title: Financial Mathematics & Quantitative Skills
+handle: MP
+title: Modules and Project Work
 nav_order: 50
 eyebrow: Module
 intro: Use concise explanations. Show that you can calculate, interpret,
