@@ -16,6 +16,7 @@ components:
       - { name: handle, type: string, label: "Menu handle" }
       - { name: title, type: string, label: "Page title" }
       - { name: nav_order, type: number, label: "Menu order" }
+      - { name: eyebrow, type: string, label: "Eyebrow", required: false }
       - { name: intro, type: text, label: Introduction }
       - name: image
         type: image
