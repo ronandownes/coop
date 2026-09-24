@@ -6,7 +6,7 @@ intro: Rename this page in Pages CMS and use it for any extra interview material
 ---
 ## Explain clearly | How would you explain something technical to a non-technical person?
 
-I would approach it almost like planning a lesson. First, I would **profile the audience** — what they already know, their role in the company, their level of technical experience, and whether they have worked on similar projects before.
+. First, I would **profile the recipient**— what they already know, their role in the company, their level of technical experience, and whether they have worked on similar projects before.
 
 From there, I would identify the **prerequisite knowledge** they need, pitch the explanation at the right level, and avoid introducing technical detail that does not help them understand the main idea.
 
