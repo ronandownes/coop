@@ -39,7 +39,34 @@ components:
           rename: safe
 
 content:
-  - { name: home, label: "Home", type: file, path: index.md, format: yaml-frontmatter, fields: *docfields }
+  - name: home
+    label: "Home"
+    type: file
+    path: index.md
+    format: yaml-frontmatter
+    fields:
+      - { name: layout, type: string, hidden: true }
+      - { name: handle, type: string, label: "Menu handle" }
+      - { name: title, type: string, label: "Page title" }
+      - { name: nav_order, type: number, label: "Menu order" }
+      - { name: intro, type: text, label: Introduction }
+      - name: image
+        type: image
+        label: "Page image"
+        description: "Optional image shown below the introduction."
+        options:
+          media: images
+          categories: [image]
+          extensions: [jpg, jpeg, png, webp, gif]
+          rename: safe
+      - { name: image_alt, type: string, label: "Image description" }
+      - name: body
+        type: code
+        label: "Homepage layout/content"
+        description: "The homepage uses custom visual HTML. Edit the wording carefully and keep the class names intact."
+        options:
+          format: html
+
   - { name: about, label: "About You", type: file, path: about-you.md, format: yaml-frontmatter, fields: *docfields }
   - { name: company, label: "Company & Role", type: file, path: company-role.md, format: yaml-frontmatter, fields: *docfields }
   - { name: teamwork, label: "Teamwork & Communication", type: file, path: teamwork.md, format: yaml-frontmatter, fields: *docfields }
