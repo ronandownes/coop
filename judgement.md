@@ -23,7 +23,7 @@ ownershipimpactcorrectionprevention
 
 ## Professionalism | What does professionalism mean to you?
 
-Being reliable, communicating clearly, respecting confidentiality, meeting commitments, taking feedback seriously and behaving in a way that makes it easy for colleagues to trust your work.
+Being reliable, communicating clearly, respecting confidentiality, meeting commitments, taking feedback seriously and behaving in a way that makes it easy for colleagues to trust my work.
 
 **Recall cue:** Reliable → clear → confidential → accountable.
 
