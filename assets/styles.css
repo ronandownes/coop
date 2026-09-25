@@ -267,6 +267,9 @@ body.answer-focus-open{overflow:hidden}
   border-radius: 10px;
   background: #f4f7f9;
 }
+.abelo-popup-grid > .is-wide {
+  grid-column: 1 / -1;
+}
 .abelo-popup-grid span {
   display: block;
   margin-bottom: .1rem;
