@@ -62,6 +62,10 @@ intro: Choose two or three. Ask questions that help you understand the work and
   **Why this works:** It shifts Erik from **“What training will you give me?”** to **“Where could I contribute?”**
   ## David Cann | What distinguishes the students who succeed?
 
+  
+- 
+  ![image.png](blob:https:/app.pagescms.org/96a60b33-524f-489a-b4d0-070479562ee9)
+
   Because you've seen students coming through Abelo's internship programme:
 
   **What have you noticed about the students who become genuinely valuable members of the team during their placement?**
