@@ -72,7 +72,7 @@ Aircraft Leasing | Financial maths link
 
 **Key idea:** compare the aircraft’s **purchase cost** with the present value of future lease payments and its expected value at lease end.
 
-## Building Abelo | Elix + ADARE
+## Merging to Abelo | Elix (Leasing)+ ADARE  (Management) 
 
 - **2013:** Elix founded — turboprop leasing platform and portfolio.
 - **2020:** ADARE founded — regional-aviation management expertise.
