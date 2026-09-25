@@ -160,9 +160,29 @@ Then finish with contribution:
 
 
 
-&nbsp;
+## News | Abelo  Announcements
 
-### Internship
+### From Bangladesh to Braathens, Colombia to Kenya
+
+Abelo’s announcements tell a consistent story: **capital, aircraft, customers and capability — spread across markets around the world.**
+
+- **Cerberus acquisition:** backing for a new phase of growth.
+- **$750m warehouse facility:** financial firepower to expand the fleet.
+- **ATR orderbook expansion:** confidence in the aircraft type and future demand.
+- **SATENA | Colombia:** repeat placement from Abelo’s ATR orderbook.
+- **Air Astra | Bangladesh:** three brand-new ATR 72-600s entering a growing domestic market.
+- **Maldivian | Maldives:** examples of both sale-and-leaseback and finance leasing.
+- **Braathens | Sweden:** acquisition of aircraft already placed on lease.
+- **Aergo portfolio:** broader diversification across five operators and several regions.
+- **Aerlink | Australia:** aircraft transitions and hands-on technical asset management.
+- **IndiGo | India:** four ATR 72-600s acquired with leases already in place.
+- **Renegade Air | Kenya:** passenger aircraft converted to cargo, extending the useful life of the asset.
+
+Taken together, the pattern is clear: **buy, finance, place, manage, transition and repurpose aircraft across a global turboprop market.**
+
+## Internship
+
+
 
 ![image.png](/assets/uploads/image-3.png)
 
@@ -172,7 +192,7 @@ Then finish with contribution:
 
 &nbsp;
 
-Abelo’s ‘people first’ culture starts at university.  Every year we welcome several students to join our team as part of our internship program.  This program affords students the opportunity to learn about our business and to contribute towards its development.  Abelo ensure that students are given responsibility and exposure and are fully integrated within the team.
+Abelo’s ‘people first’ culture starts at university.  Every year we welcome several students to join our team as part of our internship program.  This program affords students the opportunity to learn about our business and to contribute towards its development.  Abelo ensure that students are given **responsibility** and **exposure** and are **fully integrated within the team.**
 
 Abelo is continuously looking for students who are interested and curious about aircraft leasing and who can bring something unique to our team, learning from our experience as we learn from their enthusiasm and fresh perspectives.
 
