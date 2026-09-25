@@ -352,3 +352,197 @@ body.answer-focus-open{overflow:hidden}
 @media (max-width: 520px) {
   .abelo-popup-grid { grid-template-columns: 1fr; }
 }
+
+
+/* --------------------------------------------------------------------------
+   Global A-Z glossary + selection helper
+   -------------------------------------------------------------------------- */
+.global-glossary-button {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 120;
+  border: 1px solid rgba(30, 41, 59, .22);
+  border-radius: 999px;
+  background: #fff;
+  color: #172033;
+  padding: .62rem .9rem;
+  font: inherit;
+  font-weight: 700;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, .16);
+  cursor: pointer;
+}
+
+.glossary-selection-chip {
+  position: absolute;
+  z-index: 240;
+  border: 1px solid rgba(30, 41, 59, .2);
+  border-radius: 999px;
+  background: #fff;
+  color: #172033;
+  padding: .42rem .72rem;
+  font: inherit;
+  font-size: .86rem;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, .18);
+  cursor: pointer;
+}
+
+.glossary-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgba(15, 23, 42, .58);
+}
+
+.glossary-dialog-overlay[hidden] {
+  display: none;
+}
+
+.glossary-dialog {
+  position: relative;
+  width: min(680px, 100%);
+  max-height: min(760px, 88vh);
+  overflow: auto;
+  border-radius: 18px;
+  background: #fff;
+  padding: 1.4rem;
+  box-shadow: 0 28px 80px rgba(15, 23, 42, .28);
+}
+
+.glossary-dialog-close {
+  position: absolute;
+  top: .75rem;
+  right: .75rem;
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 50%;
+  background: #f1f5f9;
+  font: inherit;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.glossary-term-form {
+  display: grid;
+  gap: .65rem;
+}
+
+.glossary-term-form h2 {
+  margin: 0 2.5rem .35rem 0;
+}
+
+.glossary-term-form label {
+  font-weight: 700;
+}
+
+.glossary-term-form input,
+.glossary-term-form textarea,
+.glossary-search {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background: #fff;
+  padding: .7rem .8rem;
+  font: inherit;
+  color: inherit;
+}
+
+.glossary-term-form textarea {
+  resize: vertical;
+}
+
+.glossary-term-actions,
+.glossary-entry-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  align-items: center;
+}
+
+.glossary-term-actions button,
+.glossary-term-actions a,
+.glossary-entry-tools button {
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #fff;
+  color: inherit;
+  padding: .5rem .78rem;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.glossary-search {
+  margin: 0 0 .85rem;
+}
+
+.glossary-alphabet {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin: 0 0 1.2rem;
+}
+
+.glossary-alphabet button {
+  min-width: 2rem;
+  border: 1px solid #d7dee8;
+  border-radius: 8px;
+  background: #fff;
+  padding: .35rem .45rem;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.glossary-alphabet button:disabled {
+  opacity: .28;
+  cursor: default;
+}
+
+.glossary-letter {
+  scroll-margin-top: 92px;
+  margin-top: 1.35rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.glossary-entry {
+  border-bottom: 1px solid #edf1f5;
+  padding: .35rem 0 .75rem;
+}
+
+.glossary-entry summary {
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.03rem;
+}
+
+.glossary-entry p {
+  margin: .55rem 0;
+}
+
+.answer-focus-copy.is-editing {
+  outline: 2px solid #94a3b8;
+  outline-offset: 7px;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+@media (max-width: 720px) {
+  .global-glossary-button {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .glossary-dialog {
+    border-radius: 14px;
+    padding: 1.1rem;
+  }
+}
