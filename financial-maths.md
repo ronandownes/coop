@@ -1,14 +1,12 @@
 ---
 layout: doc
-handle: MP
-title: Modules and Project Work
+handle: Modules and Projects
+title: Modules Coursework  and Projects
 nav_order: 60
 eyebrow: Module
 intro: Use concise explanations. Show that you can calculate, interpret,
   challenge assumptions and communicate the result.
 ---
-
-
 # Financial Mathematics — Course Overview
 
 ## Key Line
