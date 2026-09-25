@@ -1,7 +1,7 @@
 ---
 layout: doc
 handle: Abelo
-title: Abelo
+title: About Abelo
 nav_order: 30
 eyebrow: Research us to death
 intro: These answers should change for every interview. Keep the structure
