@@ -99,5 +99,11 @@ At this level I could discuss **principal, cash flows, terminal value, interest 
 
 ## Feedback | How would you respond to constructive feedback?
 
+I would listen carefully, make sure I understood the point being made, and apply it to my work. I see useful feedback as information that helps me improve rather than something to become defensive about.
+listen|understand|apply|improve
 
 ## Customer | How would you deal with someone who was frustrated or unhappy?
+
+I would listen without interrupting, establish exactly what the problem was, explain what I could do to help, and either resolve it or refer it to the appropriate person. I would remain calm and professional throughout.
+listen|clarify|resolve|professional
+
