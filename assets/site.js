@@ -7,6 +7,23 @@
   const pageEdit = document.querySelector('.doc-toolbar .edit-link[href]');
   const pagePrint = document.querySelector('.doc-toolbar [data-action="print"]');
   const EDIT_PREFIX = 'coop-answer-edit:v1:';
+  const GLOSSARY_PREFIX = 'coop-glossary:v1';
+  const GLOSSARY_SEED = [
+    { term: 'Commercial awareness', definition: 'Understanding how an organisation creates value, controls cost, serves customers and responds to its market.', cue: 'Business model → costs → customers → decisions.' },
+    { term: 'Correlation', definition: 'A measure of the strength and direction of association between two variables.', cue: 'Association, not causation.' },
+    { term: 'Discounting', definition: 'Converting future cash flows into an equivalent value today using a discount rate.', cue: 'Future cash → rate → today.' },
+    { term: 'Expected value', definition: 'The probability-weighted average outcome of a random variable.', cue: 'Outcome × probability, then add.' },
+    { term: 'Model assumption', definition: 'A condition accepted as part of a model so that the problem can be analysed.', cue: 'State it → justify it → test sensitivity.' },
+    { term: 'Numerical method', definition: 'A computational procedure used to approximate a mathematical solution when an exact method is impractical or unavailable.', cue: 'Approximate → iterate → check error.' },
+    { term: 'Operations research', definition: 'The use of mathematical models and analytical methods to improve decisions about complex systems and limited resources.', cue: 'Model → constraints → optimise.' },
+    { term: 'Optimisation', definition: 'Finding the best feasible value of an objective subject to stated constraints.', cue: 'Objective → constraints → best feasible solution.' },
+    { term: 'Outlier', definition: 'An observation that lies unusually far from the rest of a dataset and may warrant investigation.', cue: 'Spot → investigate → decide treatment.' },
+    { term: 'Present value', definition: 'The current worth of a future cash flow after discounting for time and required return.', cue: 'Future value ÷ growth factor.' },
+    { term: 'Regression', definition: 'A statistical method for modelling the relationship between a response variable and one or more explanatory variables.', cue: 'Relationship → estimate → interpret.' },
+    { term: 'Robustness', definition: 'The extent to which a result remains reliable when assumptions, inputs or conditions change.', cue: 'Change inputs → does the conclusion hold?' },
+    { term: 'Sensitivity analysis', definition: 'Testing how changes in model inputs or assumptions affect the resulting output.', cue: 'Vary input → observe output.' },
+    { term: 'Variance', definition: 'A measure of how widely values are dispersed around their mean.', cue: 'Distance from mean, squared and averaged.' }
+  ];
 
   const cleanText = value => (value || '')
     .replace(/\s+/g, ' ')
@@ -241,14 +258,311 @@
   pagePrint?.addEventListener('click', () => window.print());
 
   /* -----------------------------------------------------------------------
-     Word Wall page.
+     Glossary — available from every page and automatically alphabetical.
+     User-added entries are stored locally in this browser.
      ----------------------------------------------------------------------- */
-  document.addEventListener('click', event => {
-    const term = event.target.closest('[data-term]');
-    if (!term) return;
-    const panel = document.querySelector('[data-term-panel]');
-    if (!panel) return;
-    panel.innerHTML = `<h3>${term.dataset.term}</h3><p>${term.dataset.definition}</p><p class="recall"><strong>Recall cue:</strong> ${term.dataset.cue || 'Define it simply, give a use, then give an example.'}</p>`;
+  const readGlossary = () => {
+    let custom = [];
+    try {
+      custom = JSON.parse(localStorage.getItem(GLOSSARY_PREFIX) || '[]');
+      if (!Array.isArray(custom)) custom = [];
+    } catch (_) {
+      custom = [];
+    }
+    const merged = new Map();
+    GLOSSARY_SEED.forEach(item => merged.set(item.term.toLowerCase(), { ...item, builtIn: true }));
+    custom.forEach(item => {
+      if (!item?.term) return;
+      merged.set(cleanText(item.term).toLowerCase(), { ...item, builtIn: false });
+    });
+    return Array.from(merged.values()).sort((a, b) => a.term.localeCompare(b.term, 'en', { sensitivity: 'base' }));
+  };
+
+  const writeCustomGlossary = items => {
+    localStorage.setItem(GLOSSARY_PREFIX, JSON.stringify(items));
+    renderGlossaryPage();
+  };
+
+  const customGlossary = () => readGlossary().filter(item => !item.builtIn);
+
+  const glossaryDialog = document.createElement('div');
+  glossaryDialog.className = 'glossary-dialog-overlay';
+  glossaryDialog.hidden = true;
+  glossaryDialog.innerHTML = `
+    <section class="glossary-dialog" role="dialog" aria-modal="true" aria-label="Glossary term">
+      <button type="button" class="glossary-dialog-close" aria-label="Close glossary">×</button>
+      <div class="glossary-dialog-body"></div>
+    </section>
+  `;
+  document.body.appendChild(glossaryDialog);
+  const glossaryDialogBody = glossaryDialog.querySelector('.glossary-dialog-body');
+
+  const closeGlossaryDialog = () => {
+    glossaryDialog.hidden = true;
+    glossaryDialogBody.replaceChildren();
+  };
+
+  glossaryDialog.addEventListener('click', event => {
+    if (event.target === glossaryDialog || event.target.closest('.glossary-dialog-close')) closeGlossaryDialog();
+  });
+
+  const lookupDefinition = async raw => {
+    const term = cleanText(raw);
+    if (!term) return '';
+    const existing = readGlossary().find(item => item.term.toLowerCase() === term.toLowerCase());
+    if (existing) return existing.definition || '';
+    try {
+      if (!term.includes(' ')) {
+        const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(term)}`);
+        if (response.ok) {
+          const data = await response.json();
+          const found = data?.[0]?.meanings?.flatMap(m => m.definitions || [])?.find(d => d.definition);
+          if (found?.definition) return found.definition;
+        }
+      }
+    } catch (_) {}
+    try {
+      const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(term)}`);
+      if (response.ok) {
+        const data = await response.json();
+        if (data?.extract) return data.extract.split(/(?<=[.!?])\s+/).slice(0, 2).join(' ');
+      }
+    } catch (_) {}
+    return '';
+  };
+
+  const openGlossaryTerm = async rawTerm => {
+    const term = cleanText(rawTerm);
+    if (!term) {
+      const page = new URL('glossary.html', document.querySelector('.brand')?.href || location.href);
+      location.href = page.href;
+      return;
+    }
+
+    glossaryDialog.hidden = false;
+    glossaryDialogBody.innerHTML = '<p class="glossary-looking-up">Looking up definition…</p>';
+
+    const existing = readGlossary().find(item => item.term.toLowerCase() === term.toLowerCase());
+    const suggested = existing?.definition || await lookupDefinition(term);
+
+    const form = document.createElement('form');
+    form.className = 'glossary-term-form';
+
+    const h2 = document.createElement('h2');
+    h2.textContent = existing ? term : 'Add to Glossary';
+
+    const termLabel = document.createElement('label');
+    termLabel.textContent = 'Term';
+    const termInput = document.createElement('input');
+    termInput.type = 'text';
+    termInput.value = existing?.term || term;
+
+    const defLabel = document.createElement('label');
+    defLabel.textContent = 'Plain-English meaning';
+    const defInput = document.createElement('textarea');
+    defInput.rows = 5;
+    defInput.value = suggested || '';
+
+    const cueLabel = document.createElement('label');
+    cueLabel.textContent = 'Recall cue';
+    const cueInput = document.createElement('input');
+    cueInput.type = 'text';
+    cueInput.value = existing?.cue || '';
+
+    const actions = document.createElement('div');
+    actions.className = 'glossary-term-actions';
+
+    const save = document.createElement('button');
+    save.type = 'submit';
+    save.textContent = existing?.builtIn ? 'Save my version' : 'Save';
+
+    const view = document.createElement('a');
+    view.href = new URL('glossary.html', document.querySelector('.brand')?.href || location.href).href;
+    view.textContent = 'Open A–Z Glossary';
+
+    actions.append(save, view);
+    form.append(h2, termLabel, termInput, defLabel, defInput, cueLabel, cueInput, actions);
+
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const item = {
+        term: cleanText(termInput.value),
+        definition: cleanText(defInput.value),
+        cue: cleanText(cueInput.value)
+      };
+      if (!item.term || !item.definition) return;
+      const items = customGlossary().filter(x => x.term.toLowerCase() !== item.term.toLowerCase());
+      items.push(item);
+      writeCustomGlossary(items);
+      save.textContent = 'Saved ✓';
+      window.setTimeout(closeGlossaryDialog, 500);
+    });
+
+    glossaryDialogBody.replaceChildren(form);
+    defInput.focus();
+    defInput.setSelectionRange(defInput.value.length, defInput.value.length);
+  };
+
+  const renderGlossaryPage = () => {
+    const app = document.getElementById('glossary-app');
+    if (!app) return;
+
+    const entries = readGlossary();
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    const present = new Set(entries.map(item => item.term[0]?.toUpperCase()).filter(Boolean));
+
+    const search = document.createElement('input');
+    search.type = 'search';
+    search.className = 'glossary-search';
+    search.placeholder = 'Search glossary…';
+    search.setAttribute('aria-label', 'Search glossary');
+
+    const alphabet = document.createElement('nav');
+    alphabet.className = 'glossary-alphabet';
+    alphabet.setAttribute('aria-label', 'Glossary alphabet');
+
+    letters.forEach(letter => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = letter;
+      button.disabled = !present.has(letter);
+      button.addEventListener('click', () => document.getElementById(`glossary-${letter}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+      alphabet.appendChild(button);
+    });
+
+    const list = document.createElement('div');
+    list.className = 'glossary-az';
+
+    const draw = query => {
+      list.replaceChildren();
+      const q = cleanText(query).toLowerCase();
+      const filtered = entries.filter(item =>
+        !q || item.term.toLowerCase().includes(q) || (item.definition || '').toLowerCase().includes(q)
+      );
+      let current = '';
+      filtered.forEach(item => {
+        const letter = item.term[0]?.toUpperCase() || '#';
+        if (letter !== current) {
+          current = letter;
+          const heading = document.createElement('h2');
+          heading.id = `glossary-${letter}`;
+          heading.className = 'glossary-letter';
+          heading.textContent = letter;
+          list.appendChild(heading);
+        }
+
+        const card = document.createElement('details');
+        card.className = 'glossary-entry';
+        const summary = document.createElement('summary');
+        summary.textContent = item.term;
+        const p = document.createElement('p');
+        p.textContent = item.definition;
+        card.append(summary, p);
+
+        if (item.cue) {
+          const cue = document.createElement('p');
+          cue.className = 'recall';
+          cue.innerHTML = '<strong>Recall cue:</strong> ';
+          cue.append(document.createTextNode(item.cue));
+          card.appendChild(cue);
+        }
+
+        const tools = document.createElement('div');
+        tools.className = 'glossary-entry-tools';
+        const edit = document.createElement('button');
+        edit.type = 'button';
+        edit.textContent = item.builtIn ? 'Adapt' : 'Edit';
+        edit.addEventListener('click', () => openGlossaryTerm(item.term));
+        tools.appendChild(edit);
+
+        if (!item.builtIn) {
+          const remove = document.createElement('button');
+          remove.type = 'button';
+          remove.textContent = 'Remove';
+          remove.addEventListener('click', () => {
+            const items = customGlossary().filter(x => x.term.toLowerCase() !== item.term.toLowerCase());
+            writeCustomGlossary(items);
+          });
+          tools.appendChild(remove);
+        }
+        card.appendChild(tools);
+        list.appendChild(card);
+      });
+
+      if (!filtered.length) {
+        const empty = document.createElement('p');
+        empty.className = 'glossary-empty';
+        empty.textContent = 'No matching terms yet.';
+        list.appendChild(empty);
+      }
+    };
+
+    search.addEventListener('input', () => draw(search.value));
+    app.replaceChildren(search, alphabet, list);
+    draw('');
+  };
+
+  renderGlossaryPage();
+
+  // Permanent access from every page.
+  const globalGlossary = document.createElement('button');
+  globalGlossary.type = 'button';
+  globalGlossary.className = 'global-glossary-button';
+  globalGlossary.textContent = 'A–Z Glossary';
+  globalGlossary.title = 'Open the glossary from anywhere';
+  globalGlossary.addEventListener('click', () => {
+    const selection = window.getSelection()?.toString() || '';
+    if (cleanText(selection)) openGlossaryTerm(selection);
+    else location.href = new URL('glossary.html', document.querySelector('.brand')?.href || location.href).href;
+  });
+  document.body.appendChild(globalGlossary);
+
+  // Select or double-click a word/phrase anywhere in the document and offer
+  // a one-click route into the glossary.
+  const selectionChip = document.createElement('button');
+  selectionChip.type = 'button';
+  selectionChip.className = 'glossary-selection-chip';
+  selectionChip.textContent = '+ Glossary';
+  selectionChip.hidden = true;
+  document.body.appendChild(selectionChip);
+
+  let selectedGlossaryText = '';
+  const positionSelectionChip = () => {
+    const selection = window.getSelection();
+    const text = cleanText(selection?.toString() || '');
+    if (!selection || selection.rangeCount === 0 || !text || text.length > 90) {
+      selectionChip.hidden = true;
+      selectedGlossaryText = '';
+      return;
+    }
+    const range = selection.getRangeAt(0);
+    if (!body?.contains(range.commonAncestorContainer)) {
+      selectionChip.hidden = true;
+      return;
+    }
+    const rect = range.getBoundingClientRect();
+    if (!rect.width && !rect.height) {
+      selectionChip.hidden = true;
+      return;
+    }
+    selectedGlossaryText = text;
+    selectionChip.style.left = `${Math.max(8, Math.min(window.innerWidth - 120, rect.left + window.scrollX))}px`;
+    selectionChip.style.top = `${Math.max(8, rect.bottom + window.scrollY + 7)}px`;
+    selectionChip.hidden = false;
+  };
+
+  body?.addEventListener('mouseup', () => window.setTimeout(positionSelectionChip, 0));
+  body?.addEventListener('keyup', () => window.setTimeout(positionSelectionChip, 0));
+  selectionChip.addEventListener('mousedown', event => event.preventDefault());
+  selectionChip.addEventListener('click', () => {
+    const term = selectedGlossaryText;
+    selectionChip.hidden = true;
+    openGlossaryTerm(term);
+  });
+
+  document.addEventListener('mousedown', event => {
+    if (event.target === selectionChip || event.target.closest('.glossary-dialog')) return;
+    selectionChip.hidden = true;
   });
 
   if (!body) return;
@@ -491,9 +805,40 @@
       window.setTimeout(() => { copyButton.textContent = 'Copy'; }, 900);
     });
 
-    controls.append(play, stop, copyButton);
+    const editButton = document.createElement('button');
+    editButton.type = 'button';
+    editButton.textContent = 'Edit';
+    editButton.title = 'Edit this answer here';
+    editButton.addEventListener('click', event => {
+      event.stopPropagation();
+      const editing = copy.isContentEditable;
+      if (!editing) {
+        resetAudio();
+        copy.contentEditable = 'true';
+        copy.classList.add('is-editing');
+        copy.focus();
+        editButton.textContent = 'Save';
+        return;
+      }
+      copy.contentEditable = 'false';
+      copy.classList.remove('is-editing');
+      localStorage.setItem(editKeyFor(heading), copy.innerHTML);
+      applySavedToSource(heading, copy.innerHTML);
+      editButton.textContent = 'Saved ✓';
+      window.setTimeout(() => { editButton.textContent = 'Edit'; }, 800);
+    });
 
+    const glossaryButton = document.createElement('button');
+    glossaryButton.type = 'button';
+    glossaryButton.textContent = '+ Glossary';
+    glossaryButton.title = 'Select a word or phrase in this answer, then add it to the glossary';
+    glossaryButton.addEventListener('click', event => {
+      event.stopPropagation();
+      const selection = cleanText(window.getSelection()?.toString() || '');
+      openGlossaryTerm(selection);
+    });
 
+    controls.append(play, stop, copyButton, editButton, glossaryButton);
 
     if (pageEdit?.href) {
       const cms = document.createElement('a');
