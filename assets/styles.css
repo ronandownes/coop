@@ -531,6 +531,26 @@ body.answer-focus-open{overflow:hidden}
   margin: .55rem 0;
 }
 
+
+.answer-focus-editor{
+  display:block;
+  width:100%;
+  min-height:360px;
+  box-sizing:border-box;
+  padding:16px 18px;
+  border:2px solid #aecbfa;
+  border-radius:10px;
+  background:#fbfdff;
+  color:#202124;
+  font:inherit;
+  line-height:1.65;
+  resize:vertical;
+  outline:none;
+  caret-color:#202124;
+}
+.answer-focus-editor:focus{
+  box-shadow:0 0 0 3px rgba(66,133,244,.12);
+}
 .answer-focus-copy.is-editing {
   outline: 2px solid #94a3b8;
   outline-offset: 7px;
