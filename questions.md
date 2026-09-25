@@ -62,32 +62,38 @@ intro: Choose two or three. Ask questions that help you understand the work and
   **Why this works:** It shifts Erik from **“What training will you give me?”** to **“Where could I contribute?”**
   ## David Cann | What distinguishes the students who succeed?
 
-  
-- 
-  ![image.png](blob:https:/app.pagescms.org/96a60b33-524f-489a-b4d0-070479562ee9)
 
-  Because you've seen students coming through Abelo's internship programme:
 
-  **What have you noticed about the students who become genuinely valuable members of the team during their placement?**
+![image.png](blob:https:/app.pagescms.org/0e59ec31-be52-47a5-81bd-6538f5962852)
 
-  Or, even sharper:
 
-  **By the end of the placement, what would make you say, “That was an excellent co-op student”?**
 
-  **Why this works:** David Cann is MD Human Resources. This is exactly the kind of question he is unusually well placed to answer.
-  ---
+&nbsp;
 
-  **Rule:** Do not ask all of them.
+&nbsp;
 
-  A very strong combination with David Cann would be:
+Because you've seen students coming through Abelo's internship programme:
 
-  **1. Responsibility** — What could I eventually be trusted to own?
+**What have you noticed about the students who become genuinely valuable members of the team during their placement?**
 
-  **2. Asset Management** — Where does the analysis turn into a commercial decision?
+Or, even sharper:
 
-  **3. Success** — What makes you say someone was an excellent co-op student?
+**By the end of the placement, what would make you say, “That was an excellent co-op student”?**
 
-  If the interview has already covered one of those subjects, switch to the **Abelo Growth** or **Data & Power BI** question.
+## **Why this works:** David Cann is MD Human Resources. This is exactly the kind of question he is unusually well placed to answer.
+
+**Rule:** Do not ask all of them.
+
+A very strong combination with David Cann would be:
+
+**1. Responsibility** — What could I eventually be trusted to own?
+
+**2. Asset Management** — Where does the analysis turn into a commercial decision?
+
+**3. Success** — What makes you say someone was an excellent co-op student?
+
+If the interview has already covered one of those subjects, switch to the **Abelo Growth** or **Data & Power BI** question.
+
 - 
 - 
 - 
