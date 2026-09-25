@@ -823,22 +823,36 @@
     cancelButton.disabled = true;
 
     let answerEditor = null;
+    let formatToolbar = null;
 
-    const plainTextToHtml = value => {
-      const safe = value
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;');
-      return safe
-        .split(/\n{2,}/)
-        .map(block => `<p>${block.replace(/\n/g, '<br>')}</p>`)
-        .join('');
+    const runFormat = (command, value = null) => {
+      if (!answerEditor) return;
+      answerEditor.focus({ preventScroll: true });
+      document.execCommand(command, false, value);
+    };
+
+    const makeFormatButton = (label, title, command, value = null) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = label;
+      button.title = title;
+      button.addEventListener('mousedown', event => {
+        event.preventDefault();
+      });
+      button.addEventListener('click', event => {
+        event.preventDefault();
+        event.stopPropagation();
+        runFormat(command, value);
+      });
+      return button;
     };
 
     const stopEditing = () => {
       if (!answerEditor) return;
       answerEditor.remove();
+      formatToolbar?.remove();
       answerEditor = null;
+      formatToolbar = null;
       copy.hidden = false;
       editButton.disabled = false;
       saveButton.disabled = true;
@@ -852,14 +866,32 @@
 
       resetAudio();
 
-      answerEditor = document.createElement('textarea');
+      formatToolbar = document.createElement('div');
+      formatToolbar.className = 'answer-format-toolbar';
+      formatToolbar.setAttribute('aria-label', 'Text formatting controls');
+
+      const normal = makeFormatButton('Text', 'Normal paragraph', 'formatBlock', 'p');
+      const h1 = makeFormatButton('H1', 'Heading 1', 'formatBlock', 'h1');
+      const h2 = makeFormatButton('H2', 'Heading 2', 'formatBlock', 'h2');
+      const bold = makeFormatButton('B', 'Bold', 'bold');
+      const italic = makeFormatButton('I', 'Italic', 'italic');
+      const bullets = makeFormatButton('• List', 'Bulleted list', 'insertUnorderedList');
+      const numbers = makeFormatButton('1. List', 'Numbered list', 'insertOrderedList');
+
+      formatToolbar.append(normal, h1, h2, bold, italic, bullets, numbers);
+
+      answerEditor = document.createElement('div');
       answerEditor.className = 'answer-focus-editor';
-      answerEditor.value = copy.innerText.trim();
+      answerEditor.contentEditable = 'true';
+      answerEditor.setAttribute('role', 'textbox');
+      answerEditor.setAttribute('aria-multiline', 'true');
       answerEditor.setAttribute('aria-label', 'Edit this answer');
       answerEditor.spellcheck = true;
+      answerEditor.innerHTML = copy.innerHTML;
 
       copy.hidden = true;
-      copy.insertAdjacentElement('afterend', answerEditor);
+      copy.insertAdjacentElement('afterend', formatToolbar);
+      formatToolbar.insertAdjacentElement('afterend', answerEditor);
 
       editButton.disabled = true;
       saveButton.disabled = false;
@@ -867,8 +899,6 @@
 
       requestAnimationFrame(() => {
         answerEditor.focus({ preventScroll: true });
-        const end = answerEditor.value.length;
-        answerEditor.setSelectionRange(end, end);
       });
     });
 
@@ -877,7 +907,7 @@
       event.stopPropagation();
       if (!answerEditor) return;
 
-      const html = plainTextToHtml(answerEditor.value.trim());
+      const html = answerEditor.innerHTML.trim();
       copy.innerHTML = html;
 
       localStorage.setItem(editKeyFor(heading), html);
