@@ -9,8 +9,6 @@ intro: Follow the story from the first powered flight to modern regional
   leasing and the creation of Abelo from Elix Aviation and ADARE Aviation
   Capital.
 ---
-
-
 ## Flight | Propeller to Jet
 
 - **1903:** piston engine + propeller enables powered flight.
@@ -19,7 +17,7 @@ intro: Follow the story from the first powered flight to modern regional
   - **Jet:** faster, higher, longer-range.
   - **Turboprop:** turbine drives a propeller for efficient short-haul flying.
 
-**Key idea:** jets did not replace propellers everywhere; each technology became suited to different missions.
+**Key idea:** aviation did not simply move from propeller to jet. Propellers remained ideal for small aircraft and evolved into turboprops for short regional routes, while jets became dominant for faster, longer-distance travel.
 
 ## Regional Aviation | Why turboprops matter
 
