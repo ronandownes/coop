@@ -39,6 +39,19 @@ intro: Follow the story from the Wright brothers’ propeller-driven aircraft to
 
 **Key idea:** ATR specialises in efficient regional turboprops.
 
+##   
+  
+Aircraft Leasing | Financial maths link
+
+
+
+- **ATR 42:** roughly **US$20–22m** new.
+- **ATR 72:** roughly **US$26–27m** new.
+- Actual purchase prices are usually **negotiated and confidential**.
+- Lease economics depend on **purchase price, term, interest/discount rate, airline credit risk, cash flow and residual value**.
+
+**Key idea:** aircraft value = **future lease income + residual value, discounted for time and risk**.
+
 ## Aircraft Leasing | The Age of Aircraft Leasing Arrives
 
 - Leasing separates **ownership** from **airline operation**.
