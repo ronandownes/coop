@@ -149,6 +149,21 @@ A natural follow-up question is:
 
 **“In Abelo’s Asset Management team, where would someone on placement most often see that analysis turn into an actual decision about an aircraft?”**
 
+### Project | Aircraft Leasing Decision Lab
+
+[Open the interactive Aircraft Leasing Decision Lab]({{ '/lease-dashboard.html' | relative_url }})
+
+This project turns the course connection into a working model. It lets Erik:
+
+- start with an aircraft at a selected age
+- model lease income and residual value
+- discount future cash flows
+- compare lease extension with transition and re-leasing
+- stress assumptions using conservative, base and upside scenarios
+- explain why the result changes rather than just quote a number
+
+**Technical evidence:** browser-based HTML, CSS and JavaScript; interactive modelling; no proprietary BI platform required.
+
 ## Interview-level quantitative concepts
 
 The module pages hold the detail. This overview keeps the cross-module ideas that can recur in interviews.
