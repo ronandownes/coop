@@ -63,9 +63,9 @@ Together we are reaching new heights in the turboprop sector.
 
 &nbsp;
 
-&nbsp;
+![image.png](blob:https:/app.pagescms.org/875ad8a5-7b6f-4e12-b84b-d66466997689)
 
-&nbsp;
+
 
 &nbsp;
 
@@ -190,7 +190,6 @@ role requirementstransferable skillslearningcontribution
 Give three grounded reasons: strong quantitative preparation, evidence that you can learn unfamiliar material, and a professional attitude to working with others. Keep it factual and avoid overselling.
 
 **Recall cue:** Quantitative ability → learning ability → dependable colleague.
-
 
 
 
