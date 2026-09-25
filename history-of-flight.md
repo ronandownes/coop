@@ -57,7 +57,3 @@ intro: Follow the story from the first powered flight to modern regional
 
 **Key idea:** Elix brought the **platform and fleet**; ADARE brought the **management expertise**; Cerberus provides the **large-scale investment backing**.
 
-## The Story in One Line
-
-**Flight technology → regional economics → ATR → aircraft assets → leasing → Abelo**
-
