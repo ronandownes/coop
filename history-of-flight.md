@@ -21,14 +21,23 @@ Follow the story from the Wright brothers’ propeller-driven aircraft to the em
 
 **Key idea:** aviation did not simply move from propeller to jet. Propellers remained ideal for small aircraft and evolved into turboprops for short regional routes, while jets became dominant for faster, longer-distance travel.
 
-## Regional Aviation | Why turboprops matter
+## ## Regional Aviation | Why Turboprops Matter
 
 - Regional routes are often **short and lower-density**.
-- Typical aircraft: roughly **40–80 seats**.
-- Priorities: **low trip cost, right-sized capacity, frequency, reliability and airport access**.
-- On short sectors, extra jet speed may save little total journey time.
 
-**Remember:** **jet = speed/range; turboprop = short-haul efficiency/access.**
+- The **route economics largely drive the aircraft choice**: distance, passenger demand, frequency, airport infrastructure and operating cost.
+
+- Typical turboprop capacity is roughly **40–80 seats**.
+
+- Priorities are **low trip cost, right-sized capacity, frequency, reliability and airport access**.
+
+- Lower-density routes may suit an **ATR 42 or ATR 72**.
+
+- Higher-density routes may justify a larger jet such as an **Airbus A320**, typically carrying roughly **150–190 passengers** depending on configuration.
+
+- On short sectors, extra jet speed may save relatively little total journey time.
+
+**Remember:** **the route drives the aircraft — turboprop for lower-density short-haul efficiency; larger jets for higher-density demand.**
 
 ## ATR | 1981 to now
 
