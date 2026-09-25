@@ -47,7 +47,7 @@ intro: Follow the story from the first powered flight to modern regional
 
 **Key idea:** the aircraft is managed as a **long-life financial and technical asset**.
 
-## Elix + ADARE → Abelo
+## Building Abelo | Elix + ADARE
 
 - **2013:** Elix founded — turboprop leasing platform and portfolio.
 - **2020:** ADARE founded — regional-aviation management expertise.
