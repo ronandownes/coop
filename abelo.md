@@ -35,9 +35,13 @@ Its strategy focuses on modern turboprop aircraft and newer technologies that ca
   
 I liked the idea behind the name. Abelo means bee in Esperanto, and the company links that to teamwork, structure and supporting a wider ecosystem.
 
-## The Abelo Team | How is the business organised?
+## The Abelo Team | How is the Abelo business organised?
 
-Abelo describes a **people-first** culture built around trust, responsibility and specialist regional-aviation experience.
+Abelo has  a **people-first** culture built around 
+
+1. trust, 
+2. responsibility and 
+3. specialist regional-aviation experience.
 
 The team brings together expertise across **asset management, finance, legal, technical, commercial, digital innovation, risk and operations**.
 
