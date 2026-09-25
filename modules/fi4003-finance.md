@@ -32,7 +32,19 @@ Write a short plain-English explanation of what this module is about and what pr
 
 ## Applications & connections
 
-Connect the module to finance, data, modelling, computing, business, engineering or Abelo where relevant.
+### Abelo asset-management connection
+
+Finance connects directly to the fact that an aircraft produces cash flows over many years, so **the timing of money matters**.
+
+Relevant ideas include:
+
+- Present and future value
+- Discounting
+- Interest rates
+- Cash-flow streams
+- Investment appraisal
+
+**Aircraft decision:** Compare the value of keeping an aircraft on lease, extending the lease, re-leasing it or selling it.
 
 ## Interview questions
 
