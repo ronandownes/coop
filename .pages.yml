@@ -41,7 +41,7 @@ components:
 
 content:
   - name: home
-    label: "Home"
+    label: "Prepare"
     type: file
     path: index.md
     format: yaml-frontmatter
@@ -68,16 +68,11 @@ content:
         options:
           format: html
 
-  - { name: about, label: "About You", type: file, path: about-you.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: company, label: "Company & Role", type: file, path: company-role.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: teamwork, label: "Teamwork & Communication", type: file, path: teamwork.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: problem_solving, label: "Problem Solving & Initiative", type: file, path: problem-solving.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: financial_maths, label: "Financial Mathematics", type: file, path: financial-maths.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: work_readiness, label: "Work Readiness", type: file, path: work-readiness.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: questions, label: "Questions for Them", type: file, path: questions-for-them.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: wordwall, label: "Word Wall", type: file, path: word-wall.md, format: yaml-frontmatter, fields: *docfields }
-
-  - { name: misc, label: "Miscellaneous", type: file, path: miscellaneous.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: spare1, label: "Abela Ethos and Values", type: file, path: spare-1.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: spare2, label: "dummy page", type: file, path: spare-2.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: spare3, label: "AI and Work", type: file, path: spare-3.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: about_erik, label: "About Erik", type: file, path: about-erik.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: abelo, label: "Abelo", type: file, path: abelo.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: working_with_others, label: "Work with Others", type: file, path: working-with-others.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: working_independently, label: "Work Independently", type: file, path: working-independently.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: modules_projects, label: "Modules & Projects", type: file, path: modules-projects.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: judgement, label: "Judgement", type: file, path: judgement.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: questions, label: "Questions", type: file, path: questions.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: glossary, label: "Glossary", type: file, path: glossary.md, format: yaml-frontmatter, fields: *docfields }
