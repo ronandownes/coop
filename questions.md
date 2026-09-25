@@ -1,7 +1,7 @@
 ---
 layout: doc
 handle: Questions
-title: Questions for Them
+title: Questions
 nav_order: 80
 eyebrow: FINISH THE INTERVIEW WELL
 intro: Choose two or three. Ask questions that help you understand the work and
