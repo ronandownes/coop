@@ -31,10 +31,11 @@ intro: Follow the story from the Wright brothers’ propeller-driven aircraft to
 
 ## ATR | 1981 to now
 
-- **1981:** ATR formed by Aérospatiale and Aeritalia.
+- **1981:** ATR formed by France’s **Aérospatiale** and Italy’s **Aeritalia**.
 - **1985:** ATR 42 enters service.
 - **1989:** larger ATR 72 follows.
-- Later **500** and **600** redesigned generations modernise the family.
+- Later **500-series** and **600-series** generations modernise the family.
+- **Today:** final assembly in **Toulouse**; roughly **30–40 aircraft per year**, mostly ATR 72s.
 
 **Key idea:** ATR specialises in efficient regional turboprops.
 
