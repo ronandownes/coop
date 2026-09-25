@@ -78,14 +78,24 @@
           if (!body) return;
           body.querySelectorAll(':scope > h2').forEach(heading => {
             const raw = heading.textContent.replace(/\s+/g, ' ').trim();
+            if (!raw) return;
+
             const pipeIndex = raw.indexOf('|');
-            if (pipeIndex < 0) return;
-            const menuLabel = raw.slice(0, pipeIndex).trim();
-            const questionText = raw.slice(pipeIndex + 1).trim();
+            const hasPipe = pipeIndex >= 0;
+            const left = hasPipe ? raw.slice(0, pipeIndex).trim() : raw;
+            const right = hasPipe ? raw.slice(pipeIndex + 1).trim() : raw;
+
+            // "Handle | Section title" is optional. Legacy H2 headings with no
+            // pipe remain fully supported by using the same text for both.
+            const menuLabel = left || right;
+            const questionText = right || left;
             if (!menuLabel || !questionText) return;
+
             heading.dataset.menuLabel = menuLabel;
             heading.dataset.questionText = questionText;
-            heading.dataset.sourceHeading = `${menuLabel} | ${questionText}`;
+            heading.dataset.sourceHeading = hasPipe
+              ? `${menuLabel} | ${questionText}`
+              : raw;
             heading.textContent = questionText;
             heading.classList.add('interview-question-heading');
           });
