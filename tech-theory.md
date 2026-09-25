@@ -4,9 +4,10 @@ handle: Tech + Theory
 title: Tech & Theory
 nav_order: 100
 eyebrow: UNDERSTAND THE SYSTEM
-intro: Keep the core interview pages lean. Use this space for the deeper mathematics, finance, aircraft, data and technology that make the interview answers more intelligent.
+intro: Keep the core interview pages lean. Use this space for the deeper
+  mathematics, finance, aircraft, data and technology that make the interview
+  answers more intelligent.
 ---
-
 ## Aircraft & flight
 
 Build enough engineering understanding to explain what a turboprop is, why propellers are still used on modern commercial aircraft, and why the design can make sense on shorter regional routes.
@@ -71,7 +72,7 @@ Useful areas to explore:
 - natural-language interfaces over structured business data
 - human review, validation and model limitations
 
-## Global markets, localisation & AI
+## Global | Global markets, localisation & AI
 
 A strong international product experience should not feel like English content that has simply been translated.
 
