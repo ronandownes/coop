@@ -24,17 +24,11 @@ Follow the story from the Wright brothers’ propeller-driven aircraft to the em
 ## ## Regional Aviation | Why Turboprops Matter
 
 - Regional routes are often **short and lower-density**.
-
 - The **route economics largely drive the aircraft choice**: distance, passenger demand, frequency, airport infrastructure and operating cost.
-
 - Typical turboprop capacity is roughly **40–80 seats**.
-
 - Priorities are **low trip cost, right-sized capacity, frequency, reliability and airport access**.
-
 - Lower-density routes may suit an **ATR 42 or ATR 72**.
-
 - Higher-density routes may justify a larger jet such as an **Airbus A320**, typically carrying roughly **150–190 passengers** depending on configuration.
-
 - On short sectors, extra jet speed may save relatively little total journey time.
 
 **Remember:** **the route drives the aircraft — turboprop for lower-density short-haul efficiency; larger jets for higher-density demand.**
@@ -62,15 +56,14 @@ Aircraft Leasing | Financial maths link
 
 **Key idea:** aircraft value = **future lease income + residual value, discounted for time and risk**.
 
-## Aircraft Leasing | The Age of Aircraft Leasing Arrives
+## Aircraft Leasing | Financial maths link
 
-- Leasing separates **ownership** from **airline operation**.
-- Lessor **buys, finances, leases, manages, transitions and remarkets** aircraft.
-- **1975:** GPA founded in Shannon, helping establish Ireland as a global leasing centre.
-- Major Irish-based lessors include **AerCap, Avolon, SMBC Aviation Capital and Abelo**.
-- **Abelo** specialises in regional turboprops.
+- **ATR 42:** roughly **US$20–22m** new.
+- **ATR 72:** roughly **US$26–27m** new.
+- Actual purchase prices are usually **negotiated and confidential**.
+- Lease economics depend on **purchase price, term, interest/discount rate, airline credit risk, cash flow and residual value**.
 
-**Key idea:** the aircraft is managed as a **long-life financial and technical asset**.
+**Key idea:** aircraft value = **future lease income + residual value, discounted for time and risk**.
 
 ## Building Abelo | Elix + ADARE
 
