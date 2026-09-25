@@ -1,6 +1,6 @@
 ---
 layout: doc
-handle: Think
+handle: Work alone
 title: Critical Thinking, Problem Solving, Initiative & Working Independently
 nav_order: 40
 eyebrow: STAR QUESTIONS
