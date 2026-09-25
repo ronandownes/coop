@@ -204,6 +204,3 @@ Give three grounded reasons: strong quantitative preparation, evidence that you 
 
 
 &nbsp;
-
-## H2
-
