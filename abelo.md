@@ -4,16 +4,13 @@ handle: About Abelo
 title: About Abelo
 nav_order: 30
 eyebrow: Know the company. Say it simply.
-intro: Company knowledge for the Abelo interview. Keep each section short enough to explain naturally rather than recite.
+intro: "Company knowledge for the Abelo interview. "
 ---
-
 ## Overview | What is Abelo?
 
 ![Abelo overview](/assets/uploads/image-1.png)
 
-**Abelo is an Irish B2B aircraft leasing company specialising in regional turboprop aircraft.**
-
-It does not sell seats to passengers. It acquires, finances, leases and manages aircraft for airline customers, with a particular focus on the ATR 42 and ATR 72 family.
+Abelo specialises in  leasing turboprop aircraft such as the ATR 42 and ATR 72  . 
 
 Abelo was created in **June 2022** from the combination of the Elix Aviation platform and turboprop portfolio with the management expertise of ADARE Aviation Capital.
 
@@ -103,12 +100,15 @@ Keep this as a quick-reference people map rather than something to memorise.
 **ESG = Environmental, Social & Governance.**
 
 ### Environmental
+
 More efficient aircraft, lower emissions and the transition towards newer turboprop technology.
 
 ### Social
+
 Regional connectivity: helping smaller communities, businesses and families stay connected.
 
 ### Governance
+
 Responsible management, transparency, fairness and strong relationships with customers and stakeholders.
 
 **Interview wording:**  
@@ -213,14 +213,3 @@ V94 KW28
 
 The placement job specification is **based in Limerick**, while the Asset Management team it supports is described in the specification as Dublin-based.
 
-<div class="map-embed" style="margin-top:1rem; border-radius:14px; overflow:hidden;">
-  <iframe
-    src="https://www.google.com/maps?q=Unit+7,+Castletroy+Business+Park,+Plassey+Park+Road,+Castletroy,+Limerick,+V94+KW28&output=embed"
-    width="100%"
-    height="420"
-    style="border:0;"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-    title="Abelo Aviation Limerick office map">
-  </iframe>
-</div>
