@@ -3,242 +3,224 @@ layout: doc
 handle: About Abelo
 title: About Abelo
 nav_order: 30
-eyebrow: Research us to death
-intro: These answers should change for every interview. Keep the structure
-  stable but replace the company evidence.
+eyebrow: Know the company. Say it simply.
+intro: Company knowledge for the Abelo interview. Keep each section short enough to explain naturally rather than recite.
 ---
-## Overview | Our Overview
 
-![image.png](/assets/uploads/image-1.png)
+## Overview | What is Abelo?
 
+![Abelo overview](/assets/uploads/image-1.png)
 
+**Abelo is an Irish B2B aircraft leasing company specialising in regional turboprop aircraft.**
 
-Focused on the latest in turboprop technology, Abelo serves the growing market of environmentally conscious travellers. The turboprop aircraft provides a clear transition towards sustainable aviation.   
+It does not sell seats to passengers. It acquires, finances, leases and manages aircraft for airline customers, with a particular focus on the ATR 42 and ATR 72 family.
 
-The Abelo team has amassed decades of experience in the regional aircraft sector and are passionate about providing a friendly and expert leasing solution. The Abelo platform offers a full-service leasing suite with in-house capabilities in all areas.   
+Abelo was created in **June 2022** from the combination of the Elix Aviation platform and turboprop portfolio with the management expertise of ADARE Aviation Capital.
 
-Connecting communities, families and businesses economically while reducing the environmental footprint associated with air travel is at the core of our business.
+**Interview wording:**  
+“Abelo is an Irish aircraft lessor specialising in turboprops and regional aviation. It combines aircraft leasing with asset management and other in-house capabilities.”
 
+[Official Abelo website](https://abelo.aero/)
 
+## Purpose & Mission | What is Abelo trying to do?
 
-Abelo: Reaching new heights in the turboprop sector
+Abelo’s purpose is built around **regional connectivity**: connecting people, families, communities and businesses while reducing the environmental impact of shorter-distance air travel.
 
+Its strategy focuses on modern turboprop aircraft and newer technologies that can make regional routes more efficient and economical.
 
+![Abelo purpose and mission](/assets/uploads/image.png)
 
-**Abelo is a  B2B aircraft lessor, not a consumer-facing airline**. It was only created in **2022**, from the combination of Elix Aviation and ADARE Aviation Capital, so it doesn’t have the long public/media footprint of companies like AerCap or Avolon.
+**Interview wording:**  
+“What stood out to me is that Abelo is not just leasing aircraft. It has a clear focus on regional connectivity and on moving towards newer, more efficient aircraft.”
 
+## The Essential Nature of Bees | Why “Abelo”?
 
+**Abelo is the Esperanto word for “bee”.**
 
-## Our Map
+The company uses the bee as a metaphor for **teamwork, structure, connectivity and supporting a wider ecosystem**.
 
+That fits its broader idea of connecting communities while operating as efficiently and responsibly as possible.
 
+**Interview wording:**  
+“I liked the idea behind the name. Abelo means bee in Esperanto, and the company links that to teamwork, structure and supporting a wider ecosystem.”
 
-### Erik's Abelo research summary
+## The Abelo Team | How is the business organised?
+
+Abelo describes a **people-first** culture built around trust, responsibility and specialist regional-aviation experience.
+
+The team brings together expertise across **asset management, finance, legal, technical, commercial, digital innovation, risk and operations**.
+
+For this placement, the important connection is that Asset Management does not work in isolation: the job specification also refers to supporting **Commercial, Finance and Legal**.
+
+## Leadership & Senior Management | Who leads Abelo?
+
+### Leadership
+
+- **Stephen Gorman** — Chief Executive Officer
+- **Mathieu Duquesnoy** — Chief Marketing Officer
+- **Richard Hill** — Chief Financial Officer
+- **Paul Dillon** — Chief Technical Officer
+
+### Senior Management
+
+- **David Cann** — MD Human Resources
+- **Lorraine Jordan** — MD Finance
+- **Mike Scimgeour** — MD Legal
+- **Martina O Neill** — Head of Operations
+
+**Interview connection:** David Cann is conducting Erik’s UL co-op interview.
+
+## Our Team | Who works across the business?
+
+Keep this as a quick-reference people map rather than something to memorise.
+
+- **Amy Mizzoni** — VP Contract Management
+- **Bill Rossi** — SVP Marketing
+- **Declan Corcoran** — VP Digital Innovation
+- **Francis Walsh** — Manager Legal
+- **Eoghan Connolly** — VP Legal
+- **Fergus Woods** — SVP Marketing
+- **Ian McElligott** — VP Technical
+- **Gary Lomax** — VP Technical
+- **Ian Derwin** — VP Marketing
+- **Jack Conroy** — VP Marketing
+- **Karen Hayes** — VP Finance
+- **Liam Duffy** — VP Asset Management
+- **Melissa Rayos** — Finance Accountant
+- **Padraig Hayes** — Manager Accounts Payable
+- **Richard Murphy** — VP Risk
+- **Shannon Jackson** — AVP Digital Innovation
+- **Shane McInerney** — Manager FP&A & Pricing
+- **Saskia Reijnen** — SVP Marketing
+- **Niamh O' Dwyer** — AVP Asset Management
+- **Paul Prendeville** — VP Technical & Engineering
+- **Edel Burke** — VP Legal
+
+**Most relevant to this placement:** Asset Management, Finance / FP&A, Digital Innovation, Legal and Commercial.
+
+## ESG | Environmental, Social & Governance
+
+**ESG = Environmental, Social & Governance.**
+
+### Environmental
+More efficient aircraft, lower emissions and the transition towards newer turboprop technology.
+
+### Social
+Regional connectivity: helping smaller communities, businesses and families stay connected.
+
+### Governance
+Responsible management, transparency, fairness and strong relationships with customers and stakeholders.
+
+**Interview wording:**  
+“For Abelo, ESG is not just a reporting label. It connects directly to the aircraft strategy, regional connectivity and how the business is managed.”
+
+[Abelo ESG](https://abelo.aero/esg/)
+
+## Our Business | How does an aircraft lessor work?
+
+Abelo describes itself as a **full-service leasing platform** with in-house capability across the aircraft ownership cycle.
+
+A useful mental model is:
+
+**Acquire → Finance → Lease → Manage → Transition / Remarket → End-of-life**
+
+The commercial question is not simply “What does the aircraft cost?” It is also how the aircraft is financed, placed with an airline, managed through the lease and ultimately transitioned or remarketed.
+
+**Interview wording:**  
+“What interests me is that an aircraft remains a financial and physical asset throughout a long lifecycle, so the work brings together finance, data, contracts, technical information and commercial judgement.”
+
+## Fleet & Customers | What does the portfolio look like?
+
+Abelo says it supports a fleet of **more than 60 turboprop aircraft** across a geographically diverse customer base.
+
+![Abelo fleet and customers](/assets/uploads/image-2.png)
+
+The portfolio is centred on regional turboprops, particularly the **ATR 42 and ATR 72 families**.
+
+Recent public transactions include customers and operators across **Europe, Africa, Asia, Latin America and Australia**.
+
+### Erik's Abelo research map
 
 ABEL0_RESEARCH_WIDGET
 
+**Interview wording:**  
+“The fleet is international, so Asset Management has to work across different airlines, markets, lease structures and aircraft transitions rather than looking at one operator in isolation.”
 
+## Asset Management | What would Erik actually be supporting?
 
-## Purpose & Mission |  Our Purpose & Mission
+This is the most important company section for the placement.
 
-Positive change requires leadership and at Abelo we work on creating solutions which will improve society’s connectivity while addressing the need to reduce the environmental impact of travel. Our blueprint is nature; our activity, akin to the Bee, is to provide sustainable support to our global ecosystem.  
+The job specification says the intern will help with:
 
-We focus on advancing ways of bringing together people, families, communities, and businesses – and we are committed to doing this while taking care of the environment and reducing the carbon footprint, wherever we can along the way.  
+- **Reports required under lease agreements**
+- **Data entry and internal data-management systems**
+- **Billing support**
+- **Power BI and other reporting systems**
+- **Support for Commercial, Finance and Legal**
+- **Day-to-day Asset Management administration**
+- **Process improvement**
 
-Our current investments in the latest technology will support the future development of new routes and connect previously isolated destinations. We are working to make air travel more sustainable, efficient and economical – and, in certain locations, a quicker, cleaner alternative to longer road journeys.  
+**Simple explanation:**  
+**Asset Management means looking after the aircraft as an asset throughout the lease — using technical, contractual, operational and financial information to make sure it is properly monitored and managed.**
 
-Our style is personal but passionate and trusted by our partners globally. We are innovative in our approach and lead by example. By embracing and supporting new and disruptive technology, our goal is to set new standards in the industry.
+**Interview wording:**  
+“What attracts me to Asset Management is that the analysis becomes operational. The data and reports are connected to real aircraft, real lease obligations and real commercial decisions.”
 
-![image.png](/assets/uploads/image.png)
+## Our News | What has Abelo been doing recently?
 
+Do not memorise an archive. Know a small number of current examples and what they show.
 
+- **Air Astra** — delivery of three brand-new ATR 72-600 aircraft.
+- **Aergo Capital portfolio** — agreement to acquire six commercial turboprops.
+- **SATENA** — follow-on ATR placement in Colombia.
+- **ATR orderbook** — three additional ATR 72-600 options confirmed.
+- **Ethiopian Airlines** — two new ATR 72-600 aircraft for African operations.
+- **Air Navigator Group / Aerlink** — ATR 72-500 transition showing hands-on technical asset management.
+- **Braathens** — acquisition of three ATR 72-600 aircraft already on lease.
+- **Maldivian** — ATR 42-600 finance lease backed by EDC.
+- **$750 million warehouse facility** — financing capacity to support fleet and customer growth.
+- **Cerberus acquisition** — a new ownership and growth phase for Abelo.
 
-## Bees | The Essential Nature of Bees
+**Pattern to remember:**  
+**Buy → finance → place → manage → transition aircraft across a global turboprop market.**
 
-Inspired by the nature and necessity of Bees, Abelo styles itself in both name and function on the ubiquitous Bee. Gaining its name from the Esperanto translation of the word Bee, Abelo strives to embody the teamwork, structures and importance in nature that the Bee plays in life.
+[Abelo News](https://abelo.aero/our-news/)
 
-Our focus is on providing an efficient, less environmentally impactful mode of transport and to mimic the Bees in the way they support the biodiversity on which we all depend on for survival.
+## Internship | What does Abelo say about students?
 
+![Abelo internship](/assets/uploads/image-3.png)
 
+Abelo says interns are given **responsibility**, **exposure** and are **fully integrated into the team**.
 
-## The Abelo Team
+It says it looks for students who are **interested and curious about aircraft leasing** and who can bring something distinctive while learning from the team.
 
-A people first approach to leadership; empowering and trusting. The Abelo team, with its diverse regional aviation experience, is skilled, customer-focused, and passionate.  Leasing challenges ignite our innovative spirit.
+**Interview wording:**  
+“I liked that Abelo specifically says interns are given responsibility and integrated into the team. That is the type of placement I’m looking for — somewhere I can learn, but also contribute.”
 
-Together we are reaching new heights in the turboprop sector.
+[Abelo Internship](https://abelo.aero/internship/)
 
+## Contact & Limerick | Where is the interview?
 
+**Abelo Aviation — Limerick office**  
+Unit 7, Castletroy Business Park  
+Plassey Park Road  
+Castletroy, Limerick  
+V94 KW28
 
-&nbsp;
+**Interview:** Tuesday, 29 September 2026  
+**Time:** 11:10 AM  
+**Interviewer:** David Cann
 
-![image.png](/assets/uploads/image-9.png)
+The placement job specification is **based in Limerick**, while the Asset Management team it supports is described in the specification as Dublin-based.
 
-
-
-&nbsp;
-
-## Our Business  |  Our Business
-
-Abelo’s vision is to deliver sustainable regional connectivity.  Headquartered in Dublin, Ireland, Abelo offers a full-service leasing suite with in-house capabilities in all areas.  Supporting a fleet of more than 60 turboprop aircraft, Abelo is an emerging market leader. A leadership position which affords the opportunity to support new disruptive technologies and innovations.  
-
-## Fleet & Customers
-
-Abelo’s vison of sustainable regional connectivity is strengthened by a balanced portfolio of turboprop aircraft. This growing fleet delivers an immediate and measurable positive impact by generating significantly less pollution than comparable jet aircraft.
-
-
-
-![image.png](/assets/uploads/image-2.png)
-
-
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-## Looking for | What we are looking for
-
-Abelo explicitly says it looks for interns who are **interested and curious about aircraft leasing**, gives them **responsibility and exposure**, and wants students who can contribute a fresh perspective. Its business combines aircraft, finance, asset management, data, risk and sustainability — which makes Financial Mathematics a surprisingly strong fit.
-
-
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-## Hoping to get? | What are you hoping to get from co-op with Alebo?
-
-I want to understand how quantitative work is actually used inside an organisation — how problems are framed, how data is checked, how results are communicated, and how decisions are made when there is uncertainty. In a company working on sustainable aircraft, I’d also like to see how quantitative analysis contributes to real engineering, commercial and sustainability decisions.
-
-I also want to improve my professional judgement and communication, and learn how to contribute effectively as part of a team rather than just completing the technical side of a task.
-
-**Recall cue:** Apply learning → real decisions → judgement → communication → contribute
-
-
-
-## Why Abelo | What interests you about this opportunity?
-
-I was very pleased to be put forward for the opportunity with Abelo because the work connects strongly with my **Financial Mathematics degree**.
-
-What particularly interests me is the combination of **finance, quantitative analysis and aircraft as real commercial assets**. Areas such as valuation, risk, cash flows and pricing are all relevant to what I’m studying, but here I would get to see how those ideas are used in a real business.
-
-I’d like to learn more about how aircraft leasing works in practice and contribute the analytical and problem-solving skills I’ve developed through my course.
-
-**Recall cue:** Put forward → Financial Maths → aircraft finance → learn and contribute.
-
-## Why Aircraft Leasing | What interests you about this work?
-
-Focus on the combination of **finance, data and real-world assets**.
-
-You could discuss:
-
-- Analysing financial information and supporting commercial decisions.
-- Understanding **aircraft values, leasing economics, risk, pricing and forecasting**.
-- Using quantitative skills in a commercial environment rather than only in university problems.
-- Learning how finance, technical, asset-management and commercial teams work together.
-
-**Recall cue:** Aircraft → numbers → decisions → commercial impact.
-
-## Why You | What would you bring to Abelo?
-
-Build the answer around three strengths:
-
-- **Quantitative:** Financial Mathematics gives you a strong base in mathematics, statistics, finance and analytical problem-solving.
-- **Learning:** You are comfortable tackling unfamiliar problems, learning new systems and applying mathematical ideas to new situations.
-- **Professional:** You are dependable, organised and comfortable working with other people rather than treating analysis as an isolated exercise.
-
-Then finish with contribution:
-
-> “I’d bring strong quantitative and analytical skills, but I’d also be coming in ready to learn. I’d like to understand how those skills are actually used in aircraft leasing and contribute wherever I can to the team.”
-
-**Recall cue:** Numbers → learn → team → contribute.
-
-
-
-## News | Abelo  Announcements
-
-### From Bangladesh to Braathens, Colombia to Kenya
-
-Abelo’s announcements tell a consistent story: **capital, aircraft, customers and capability — spread across markets around the world.**
-
-- **Cerberus acquisition:** backing for a new phase of growth.
-- **$750m warehouse facility:** financial firepower to expand the fleet.
-- **ATR orderbook expansion:** confidence in the aircraft type and future demand.
-- **SATENA | Colombia:** repeat placement from Abelo’s ATR orderbook.
-- **Air Astra | Bangladesh:** three brand-new ATR 72-600s entering a growing domestic market.
-- **Maldivian | Maldives:** examples of both sale-and-leaseback and finance leasing.
-- **Braathens | Sweden:** acquisition of aircraft already placed on lease.
-- **Aergo portfolio:** broader diversification across five operators and several regions.
-- **Aerlink | Australia:** aircraft transitions and hands-on technical asset management.
-- **IndiGo | India:** four ATR 72-600s acquired with leases already in place.
-- **Renegade Air | Kenya:** passenger aircraft converted to cargo, extending the useful life of the asset.
-
-Taken together, the pattern is clear: **buy, finance, place, manage, transition and repurpose aircraft across a global turboprop market.**
-
-## Internship
-
-
-
-![image.png](/assets/uploads/image-3.png)
-
-
-
-&nbsp;
-
-&nbsp;
-
-Abelo’s ‘people first’ culture starts at university.  Every year we welcome several students to join our team as part of our internship program.  This program affords students the opportunity to learn about our business and to contribute towards its development.  Abelo ensure that students are given **responsibility** and **exposure** and are **fully integrated within the team.**
-
-Abelo is continuously looking for students who are interested and curious about aircraft leasing and who can bring something unique to our team, learning from our experience as we learn from their enthusiasm and fresh perspectives.
-
-
-
-## Why company | Why did you apply to our company?
-
-- One specific fact about the company or team.
-- Why that work interests you.
-- How your Financial Mathematics background connects.
-- What you hope to learn and contribute.
-
-**Recall cue:** Them → me → fit → contribution.
-
-## Why role | What interests you about this role?
-
-Focus on the actual work rather than saying only that it is a good opportunity. Mention analysis, data, modelling, systems, finance, operations or client work where relevant, then connect that to modules and projects you have already completed.
-
-role requirementstransferable skillslearningcontribution
-
-## Why you | Why should we choose you?
-
-Give three grounded reasons: strong quantitative preparation, evidence that you can learn unfamiliar material, and a professional attitude to working with others. Keep it factual and avoid overselling.
-
-**Recall cue:** Quantitative ability → learning ability → dependable colleague.
-
-
-
-## Turboprop | What is a turboprop?
-
-A turboprop is a gas-turbine engine that drives an aircraft propeller.
-
-![Turboprop aircraft](/assets/uploads/image-6.png)
-
-![Turboprop detail](/assets/uploads/image-4.png)
-
-![Turboprop aircraft](/assets/uploads/image-5.png)
-
-## Links | Links
-
-[https://chatgpt.com/share/6ab5b717-e00c-83ed-9d3d-7486d991436c](https://chatgpt.com/share/6ab5b717-e00c-83ed-9d3d-7486d991436c)
-
-
-
-[https://www.spglobal.com/en](https://www.spglobal.com/en)
-
-
-
-&nbsp;
+<div class="map-embed" style="margin-top:1rem; border-radius:14px; overflow:hidden;">
+  <iframe
+    src="https://www.google.com/maps?q=Unit+7,+Castletroy+Business+Park,+Plassey+Park+Road,+Castletroy,+Limerick,+V94+KW28&output=embed"
+    width="100%"
+    height="420"
+    style="border:0;"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Abelo Aviation Limerick office map">
+  </iframe>
+</div>
