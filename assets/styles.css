@@ -705,3 +705,52 @@ body.answer-focus-open{overflow:hidden}
     white-space: normal;
   }
 }
+
+
+.answer-format-toolbar{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  margin:0 0 8px;
+  padding:8px;
+  border:1px solid #d7dce2;
+  border-radius:10px;
+  background:#f8fafc;
+}
+.answer-format-toolbar button{
+  border:1px solid #cfd5dc;
+  border-radius:7px;
+  background:#fff;
+  color:#30343b;
+  padding:6px 10px;
+  font:inherit;
+  font-size:.82em;
+  font-weight:700;
+  cursor:pointer;
+}
+.answer-format-toolbar button:hover,
+.answer-format-toolbar button:focus-visible{
+  background:#edf4ff;
+  border-color:#8eb4e3;
+  outline:none;
+}
+.answer-focus-editor h1{
+  margin:.35em 0 .5em;
+  font-size:1.65em;
+  line-height:1.2;
+}
+.answer-focus-editor h2{
+  margin:.5em 0 .45em;
+  font-size:1.32em;
+  line-height:1.25;
+}
+.answer-focus-editor p{
+  margin:.55em 0;
+}
+.answer-focus-editor ul,
+.answer-focus-editor ol{
+  margin:.65em 0 .65em 1.4em;
+}
+.answer-focus-editor li{
+  margin:.2em 0;
+}
