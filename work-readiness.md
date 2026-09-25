@@ -2,7 +2,7 @@
 layout: doc
 handle: Judgement
 title: Professional Judgement & Self-Management
-nav_order: 60
+nav_order: 70
 eyebrow: INTERVIEW STRUCTURE
 intro: These questions test whether an employer can trust you to learn,
   communicate and work responsibly.
