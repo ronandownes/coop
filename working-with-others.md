@@ -31,8 +31,21 @@ communication|flexibility|shared outcome|respect
 
 
 
+## Feedback | How would you respond to constructive feedback?
+
+I would listen carefully, make sure I understood the point being made, and apply it to my work. I see useful feedback as information that helps me improve rather than something to become defensive about.
+listen|understand|apply|improve
+
+## Customer | How would you deal with someone who was frustrated or unhappy?
+
+I would listen without interrupting, establish exactly what the problem was, explain what I could do to help, and either resolve it or refer it to the appropriate person. I would remain calm and professional throughout.
+listen|clarify|resolve|professional
+
+
+
 &nbsp;
 
+Yes. I would keep the **three-level paradigm**, but add one compact table near the top so Erik can immediately see what changes as the audience changes.
 
 ## Explain clearly | How would you explain something technical to a non-technical person?
 
@@ -44,66 +57,70 @@ I would then **scaffold the explanation** from something familiar, using a pract
 
 **Recall cue:** Profile → prerequisites → level → scaffold → example → check.
 
-**Example — explaining a PCP**
+## Example | Explaining aircraft leasing at three levels
 
-Assume an Audi A6 costing **€65,000**, financed over three years, with a final optional payment of **€29,250**.
+Suppose an airline needs an aircraft but does not want to purchase it outright. A leasing company owns the aircraft and leases it to the airline.
 
-
-| Up-front payment | Approx. monthly payment | Final payment |
-| ---------------- | ----------------------- | ------------- |
-| €0 | €1,270 | €29,250 |
-| €15,000 | €808 | €29,250 |
-| €32,500 | €268 | €29,250 |
+**The underlying concept does not change. The language, assumptions and level of detail do.**
 
 
-The financial arrangement is the same in each explanation. **What changes is the language and level of detail.**
-
-## Low-tech audience | Completely non-technical customer
-
-I would focus on the decisions the customer actually has to make.
-
-“The car costs €65,000. You can put some money in at the beginning to reduce your monthly payments. At the end of the three years, you can return the car, subject to the agreement, or pay the remaining €29,250 and keep it.”
-
-I would avoid terms such as residual value, amortisation or present value.
-
-**Recall cue:** Now → monthly → end → return or buy.
+| Audience | Main focus | Language I would use | Detail I would avoid/add |
+| --------------- | ---------------------- | --------------------------------------------- | ----------------------------- |
+| **Low-tech** | What actually happens | Own, use, pay, return | Avoid finance terminology |
+| **Middle-tech** | How the business works | Asset, lease income, condition, future value | Introduce commercial concepts |
+| **High-tech** | How it is valued | Cash flows, discounting, risk, residual value | Add quantitative analysis |
 
 
+## Low-tech audience | Completely non-technical person
 
-## Middle-tech audience | Financially comfortable non-specialist
+I would focus on the basic relationship.
+
+> “The leasing company owns the aircraft. The airline pays to use it for an agreed period instead of buying it outright. When the agreement finishes, the aircraft normally returns to the leasing company.”
+
+I would avoid terms such as **residual value, discounted cash flow, credit risk or yield** unless they were necessary.
+
+**Recall cue:** Owner → airline uses → payments → aircraft returns.
+
+## Middle-tech audience | Commercially aware non-specialist
+
+I could introduce the aircraft as a **valuable income-producing asset**.
+
+> “The lessor owns the aircraft and receives regular lease payments from the airline. But it also has to consider what the aircraft will be worth later, its maintenance condition and whether there will be demand to lease it again when the current agreement ends.”
+
+At this level, I would begin connecting the lease to the wider commercial decision.
 
 
+| Question | Commercial consideration |
+| ---------------------------------------------- | ------------------------ |
+| What income will it produce? | Lease payments |
+| What condition will it return in? | Maintenance and usage |
+| What will it be worth later? | Residual value |
+| Can it be leased again? | Future market demand |
+| Is the airline likely to meet its obligations? | Customer / credit risk |
 
-I could introduce the idea of **deferred value**.
 
-“A PCP splits the cost into your initial payment, your monthly repayments and a substantial amount deferred until the end. Increasing the initial payment reduces the amount being financed and therefore reduces the monthly repayment.”
-
-I would also explain that a lower monthly payment does **not necessarily mean a lower overall cost**.
-
-**Recall cue:** Deposit → deferred amount → monthly payment → total cost.
-
-
+**Recall cue:** Asset → income → condition → future value → next lease.
 
 ## High-tech audience | Financial or quantitative colleague
 
+I could discuss the underlying valuation problem.
+
+> “The aircraft generates a stream of contractual lease cash flows while the lessor retains exposure to its residual value. I could therefore analyse the present value of the expected cash flows together with assumptions about lease rates, term, credit risk, maintenance status, market demand and the aircraft's value at redelivery.”
+
+At this level, I could use the quantitative language from Financial Mathematics:
 
 
-I could explain the underlying mechanics.
+| Concept | Aircraft-leasing application |
+| ------------------------ | ------------------------------------------------ |
+| **Cash flows** | Lease payments received over time |
+| **Present value** | Value today of future lease income |
+| **Discount rate** | Required return and risk |
+| **Residual value** | Expected aircraft value at the end of the lease |
+| **Sensitivity analysis** | Effect of changing assumptions |
+| **Risk** | Airline, market, asset and valuation uncertainty |
 
-“The PCP is a financed cash-flow structure with a terminal balloon payment. The deposit reduces the initial principal, while the €29,250 terminal amount remains deferred. The monthly payments therefore amortise only part of the financed amount while also covering financing costs.”
 
-At this level I could discuss **principal, cash flows, terminal value, interest and present value**.
+**Recall cue:** Cash flows → discounting → risk → residual value → return.
 
-**Recall cue:** Principal → cash flows → balloon → financing cost.
-
-
-## Feedback | How would you respond to constructive feedback?
-
-I would listen carefully, make sure I understood the point being made, and apply it to my work. I see useful feedback as information that helps me improve rather than something to become defensive about.
-listen|understand|apply|improve
-
-## Customer | How would you deal with someone who was frustrated or unhappy?
-
-I would listen without interrupting, establish exactly what the problem was, explain what I could do to help, and either resolve it or refer it to the appropriate person. I would remain calm and professional throughout.
-listen|clarify|resolve|professional
+The advantage of this version is that the **same example demonstrates three things simultaneously**: communication, understanding of Abelo's business, and the ability to connect Financial Mathematics to a real commercial asset.
 
