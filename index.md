@@ -61,14 +61,14 @@ intro: Interviews are not about inventing brilliant answers on the spot. They
 <p class="home-section-lead">Each section below gives you material to rehearse until the structure, examples and vocabulary become familiar.</p>
 
 <div class="section-grid">
-  <a class="section-card" href="{{ '/about-you.html' | relative_url }}"><strong>About You</strong><span>CV, course, strengths, academic story and motivation.</span><span class="cue">Start here</span></a>
-  <a class="section-card" href="{{ '/company-role.html' | relative_url }}"><strong>Company & Role</strong><span>Why this company, why this role, what you bring and what you want to learn.</span><span class="cue">Company-specific</span></a>
-  <a class="section-card" href="{{ '/teamwork.html' | relative_url }}"><strong>Teamwork & Communication</strong><span>Team roles, disagreement, explanation and asking for help.</span><span class="cue">Use evidence</span></a>
-  <a class="section-card" href="{{ '/problem-solving.html' | relative_url }}"><strong>Problem Solving & Initiative</strong><span>Setbacks, mistakes, initiative, feedback and independent thinking.</span><span class="cue">STAR where useful</span></a>
-  <a class="section-card" href="{{ '/financial-maths.html' | relative_url }}"><strong>Financial Mathematics</strong><span>Probability, statistics, modelling, finance, data, numerical methods and quantitative reasoning.</span><span class="cue">Core technical section</span></a>
-  <a class="section-card" href="{{ '/work-readiness.html' | relative_url }}"><strong>Work Readiness</strong><span>Professionalism, organisation, learning new systems and handling errors.</span><span class="cue">Can they trust you?</span></a>
-  <a class="section-card" href="{{ '/questions-for-them.html' | relative_url }}"><strong>Questions for Them</strong><span>Short, useful questions that show preparation and genuine technical curiosity.</span><span class="cue">Finish strongly</span></a>
-  <a class="section-card" href="{{ '/word-wall.html' | relative_url }}"><strong>Word Wall</strong><span>Key vocabulary for rapid recall before an interview.</span><span class="cue">Recall language fast</span></a>
+  <a class="section-card" href="{{ '/about-erik.html' | relative_url }}"><strong>About Erik</strong><span>Erik's course, strengths, academic story, motivation and co-op goals.</span><span class="cue">Start here</span></a>
+  <a class="section-card" href="{{ '/abelo.html' | relative_url }}"><strong>Abelo</strong><span>Abelo, aircraft leasing, values, role fit, turboprops and what you want to learn.</span><span class="cue">Company-specific</span></a>
+  <a class="section-card" href="{{ '/working-with-others.html' | relative_url }}"><strong>Work with Others</strong><span>Teamwork, communication, disagreement, explanation, feedback and working styles.</span><span class="cue">Use evidence</span></a>
+  <a class="section-card" href="{{ '/working-independently.html' | relative_url }}"><strong>Work Independently</strong><span>Problem solving, initiative, accuracy, learning and knowing when to ask for help.</span><span class="cue">STAR where useful</span></a>
+  <a class="section-card" href="{{ '/modules-projects.html' | relative_url }}"><strong>Modules & Projects</strong><span>Course overview, modules, technical concepts, coursework and project evidence.</span><span class="cue">Core technical section</span></a>
+  <a class="section-card" href="{{ '/judgement.html' | relative_url }}"><strong>Judgement</strong><span>Professional judgement, priorities, deadlines, confidentiality, errors and AI oversight.</span><span class="cue">Can they trust you?</span></a>
+  <a class="section-card" href="{{ '/questions.html' | relative_url }}"><strong>Questions</strong><span>Questions to ask the employer at the end of the interview.</span><span class="cue">Finish strongly</span></a>
+  <a class="section-card" href="{{ '/glossary.html' | relative_url }}"><strong>Glossary</strong><span>Key interview and technical vocabulary for rapid recall.</span><span class="cue">Recall language fast</span></a>
 </div>
 
 <div class="home-final">
