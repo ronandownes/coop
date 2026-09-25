@@ -695,18 +695,188 @@
   if (!mapHost) return;
 
   const placements = [
-    { lat: 53.35, lng: -6.26, title: 'Ireland — Emerald Airlines', detail: 'Documented Abelo portfolio placement; regional turboprop operations.' },
-    { lat: 59.33, lng: 18.07, title: 'Sweden — Braathens Regional Airways', detail: 'Three ATR 72-600 aircraft acquired while on lease to Braathens.' },
-    { lat: 37.98, lng: 23.72, title: 'Greece — SKY express / Aegean', detail: 'Abelo orderbook placements and customer relationships in Greece.' },
-    { lat: 28.29, lng: -16.63, title: 'Canary Islands — Binter Canarias', detail: 'Operator added through Abelo\'s 2026 Aergo portfolio acquisition.' },
-    { lat: 4.71, lng: -74.07, title: 'Colombia — SATENA', detail: 'ATR 42-600 and follow-on ATR 72-600 placement supporting regional connectivity.' },
-    { lat: 4.18, lng: 73.51, title: 'Maldives — Maldivian', detail: 'Two ATR 42-600 aircraft supporting domestic inter-island flying.' },
-    { lat: 23.81, lng: 90.41, title: 'Bangladesh — Air Astra', detail: 'Three brand-new ATR 72-600 aircraft delivered for domestic network growth.' },
-    { lat: -4.33, lng: 15.31, title: 'DR Congo — Air Congo', detail: 'Two new ATR 72-600 aircraft leased to Ethiopian Airlines Group for operation by Air Congo.' },
-    { lat: -6.21, lng: 106.85, title: 'Indonesia — Citilink', detail: 'Two aircraft in Abelo\'s 2026 Aergo portfolio acquisition.' },
-    { lat: 14.60, lng: 120.98, title: 'Philippines — Philippine Airlines', detail: 'Operator added through Abelo\'s 2026 Aergo portfolio acquisition.' },
-    { lat: -33.87, lng: 151.21, title: 'Australia — National Jet Express', detail: 'Operator added through Abelo\'s 2026 Aergo portfolio acquisition.' },
-    { lat: -31.95, lng: 115.86, title: 'Australia — Aerlink', detail: 'ATR 72-500 transitioned by Abelo for FIFO operations in Australia.' }
+    {
+      lat: 53.35, lng: -6.26,
+      title: 'Ireland — Emerald Airlines',
+      aircraft: 'ATR 72-600',
+      count: '1 aircraft identified in the Aergo portfolio announcement',
+      structure: 'Existing lease acquired as part of a six-aircraft portfolio',
+      role: 'Portfolio acquisition / continuing lease',
+      sourceDate: '2026',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 58,
+      detail: 'Abelo acquired a portfolio including an aircraft on lease to Emerald Airlines, adding the operator to its global customer base.'
+    },
+    {
+      lat: 59.33, lng: 18.07,
+      title: 'Sweden — Braathens Regional Airways',
+      aircraft: '3 × ATR 72-600',
+      count: '3 aircraft',
+      structure: 'Aircraft acquired while already on lease to Braathens',
+      role: 'Portfolio acquisition / existing operating leases',
+      sourceDate: 'June–July 2025 deliveries',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 62,
+      detail: 'Three 2015/2016-vintage ATR 72-600 aircraft were acquired from Bramora Ltd and remained on lease to Braathens.'
+    },
+    {
+      lat: 37.98, lng: 23.72,
+      title: 'Greece — SKY express / AEGEAN-Olympic',
+      aircraft: 'ATR 72-600',
+      count: 'Multiple aircraft across documented placements',
+      structure: 'New aircraft leases from Abelo orderbook',
+      role: 'Orderbook placement / fleet renewal',
+      sourceDate: '2024 onward',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 34,
+      detail: 'Abelo placed new ATR 72-600 aircraft with SKY express and Olympic Air / AEGEAN, supporting regional and island networks.'
+    },
+    {
+      lat: 28.29, lng: -16.63,
+      title: 'Canary Islands — Binter Canarias',
+      aircraft: 'ATR 72-600',
+      count: '1 aircraft identified in the Aergo portfolio announcement',
+      structure: 'Existing lease acquired as part of a six-aircraft portfolio',
+      role: 'Portfolio acquisition / continuing lease',
+      sourceDate: '2026',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 55,
+      detail: 'Binter Canarias was one of five new operators added to Abelo through the Aergo-managed portfolio acquisition.'
+    },
+    {
+      lat: 4.71, lng: -74.07,
+      title: 'Colombia — SATENA',
+      aircraft: 'ATR 42-600 + ATR 72-600',
+      count: 'At least 2 aircraft publicly documented',
+      structure: 'New aircraft placements from Abelo orderbook',
+      role: 'Orderbook placement / repeat customer',
+      sourceDate: 'Dec 2025 and May 2026',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 22,
+      detail: 'Abelo delivered an ATR 42-600 to SATENA in December 2025 and then announced a follow-on ATR 72-600 placement in May 2026.'
+    },
+    {
+      lat: 4.18, lng: 73.51,
+      title: 'Maldives — Maldivian',
+      aircraft: '2 × ATR 42-600',
+      count: '2 aircraft',
+      structure: 'Sale-and-leaseback for the first documented 2024 aircraft; later finance lease backed by EDC',
+      role: 'Fleet renewal / structured leasing',
+      sourceDate: '2024–2025',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 38,
+      detail: 'The public material shows two distinct structures: a sale-and-leaseback transaction in 2024 and an EDC-backed finance lease for the second ATR 42-600 delivered in 2025.'
+    },
+    {
+      lat: 23.81, lng: 90.41,
+      title: 'Bangladesh — Air Astra',
+      aircraft: '3 × ATR 72-600',
+      count: '3 aircraft',
+      structure: 'New aircraft lease placements',
+      role: 'Orderbook placement / fleet expansion',
+      sourceDate: 'Third aircraft delivered Sep 2026',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 14,
+      detail: 'Three brand-new ATR 72-600 aircraft were delivered to Air Astra to support domestic network expansion in Bangladesh.'
+    },
+    {
+      lat: -4.33, lng: 15.31,
+      title: 'DR Congo — Air Congo via Ethiopian Airlines Group',
+      aircraft: '2 × ATR 72-600',
+      count: '2 aircraft',
+      structure: 'Lease to Ethiopian Airlines Group for operation by partner airline Air Congo',
+      role: 'New aircraft lease / African market expansion',
+      sourceDate: 'March 2026',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 18,
+      detail: 'Two brand-new ATR 72-600 aircraft from Abelo’s orderbook were leased to Ethiopian Airlines Group for operation by Air Congo.'
+    },
+    {
+      lat: -6.21, lng: 106.85,
+      title: 'Indonesia — Citilink',
+      aircraft: '2 aircraft in the Aergo portfolio',
+      count: '2 aircraft',
+      structure: 'Existing leases acquired as part of a portfolio transaction',
+      role: 'Portfolio acquisition / continuing leases',
+      sourceDate: '2026',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 57,
+      detail: 'Citilink accounted for two of the six aircraft in the Aergo-managed portfolio acquired by Abelo.'
+    },
+    {
+      lat: 14.60, lng: 120.98,
+      title: 'Philippines — Philippine Airlines',
+      aircraft: 'Turboprop aircraft in Aergo portfolio',
+      count: '1 aircraft identified',
+      structure: 'Existing lease acquired as part of a portfolio transaction',
+      role: 'Portfolio acquisition / continuing lease',
+      sourceDate: '2026',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 56,
+      detail: 'Philippine Airlines was added as a new operator through Abelo’s acquisition of the Aergo-managed six-aircraft portfolio.'
+    },
+    {
+      lat: -33.87, lng: 151.21,
+      title: 'Australia — National Jet Express',
+      aircraft: 'Turboprop aircraft in Aergo portfolio',
+      count: '1 aircraft identified',
+      structure: 'Existing lease acquired as part of a portfolio transaction',
+      role: 'Portfolio acquisition / continuing lease',
+      sourceDate: '2026',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 56,
+      detail: 'National Jet Express was added as a new Abelo operator through the Aergo-managed portfolio acquisition.'
+    },
+    {
+      lat: -31.95, lng: 115.86,
+      title: 'Australia — Aerlink / Air Navigator Group',
+      aircraft: 'ATR 72-500, MSN 762',
+      count: '1 aircraft',
+      structure: 'Aircraft transition to a new operator',
+      role: 'Repossession → inspection → maintenance → reconfiguration → redelivery',
+      sourceDate: 'February 2026',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 20,
+      detail: 'Abelo coordinated the transition from Blue Islands to Aerlink in less than 100 days, including repossession, inspection, maintenance and reconfiguration.'
+    },
+    {
+      lat: 19.08, lng: 72.88,
+      title: 'India — IndiGo',
+      aircraft: '4 × ATR 72-600',
+      count: '4 aircraft',
+      structure: 'Aircraft acquired while already on lease to IndiGo',
+      role: 'Portfolio acquisition / existing leases',
+      sourceDate: 'March 2024',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 70,
+      detail: 'Abelo acquired four ATR 72-600 aircraft through SKY Leasing; all four were already on lease to IndiGo. The deal took Abelo’s portfolio to 57 owned and managed aircraft at that time.'
+    },
+    {
+      lat: -1.29, lng: 36.82,
+      title: 'Kenya — Renegade Air',
+      aircraft: 'ATR 72 cargo conversion, MSN 875',
+      count: '1 aircraft',
+      structure: 'Passenger-to-cargo conversion and lease placement',
+      role: 'Life-extension / asset repurposing',
+      sourceDate: 'May 2024',
+      maturityKnown: false,
+      maturityLabel: 'Lease maturity not disclosed publicly',
+      progress: 82,
+      detail: 'MSN 875 was converted from passenger use to cargo. Abelo said the conversion can extend useful life beyond the typical 25 years.'
+    }
   ];
 
   const loadLeaflet = () => new Promise((resolve, reject) => {
@@ -737,6 +907,54 @@
     document.head.appendChild(script);
   });
 
+  const escapeHtml = value => String(value).replace(/[&<>"']/g, ch => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+  }[ch]));
+
+  const popupHtml = p => {
+    const barClass = p.maturityKnown ? 'is-known' : 'is-estimate';
+    const maturityText = p.maturityKnown
+      ? p.maturityLabel
+      : 'Contractual maturity is not public. The bar is a visual asset-life / transaction-stage cue only — not a claimed lease expiry date.';
+
+    return `
+      <div class="abelo-popup-card">
+        <h3>${escapeHtml(p.title)}</h3>
+        <div class="abelo-popup-grid">
+          <div><span>Aircraft</span><strong>${escapeHtml(p.aircraft)}</strong></div>
+          <div><span>How many?</span><strong>${escapeHtml(p.count)}</strong></div>
+          <div><span>Lease / deal type</span><strong>${escapeHtml(p.structure)}</strong></div>
+          <div><span>Abelo role</span><strong>${escapeHtml(p.role)}</strong></div>
+          <div><span>Public date</span><strong>${escapeHtml(p.sourceDate)}</strong></div>
+        </div>
+        <p class="abelo-popup-detail">${escapeHtml(p.detail)}</p>
+        <div class="abelo-maturity">
+          <div class="abelo-maturity-head">
+            <strong>Lease / asset progress</strong>
+            <span>${escapeHtml(p.maturityLabel)}</span>
+          </div>
+          <div class="abelo-progress" aria-label="Lease or asset progress visual">
+            <span class="${barClass}" style="width:${Math.max(8, Math.min(100, p.progress))}%"></span>
+          </div>
+          <p>${escapeHtml(maturityText)}</p>
+        </div>
+        <details class="abelo-lease-params">
+          <summary>Lease parameters to think about</summary>
+          <ul>
+            <li>Lease start date and contractual maturity</li>
+            <li>Monthly / quarterly rent and escalation</li>
+            <li>Security deposit or letter of credit</li>
+            <li>Maintenance reserves and return conditions</li>
+            <li>Flight-hour / cycle assumptions</li>
+            <li>Residual value at lease end</li>
+            <li>Airline credit risk and jurisdiction risk</li>
+            <li>Interest rate, financing cost and currency exposure</li>
+          </ul>
+          <p><strong>Important:</strong> these contractual values are generally not disclosed in the public announcements, so they should be treated as the analytical questions Erik would ask — not as known Abelo lease terms.</p>
+        </details>
+      </div>`;
+  };
+
   loadLeaflet().then(L => {
     const map = L.map(mapHost, { scrollWheelZoom: false, worldCopyJump: true }).setView([18, 15], 2);
 
@@ -748,7 +966,7 @@
     placements.forEach(p => {
       L.marker([p.lat, p.lng])
         .addTo(map)
-        .bindPopup('<strong>' + p.title + '</strong>' + p.detail);
+        .bindPopup(popupHtml(p), { maxWidth: 420, minWidth: 300 });
     });
 
     const group = L.featureGroup(placements.map(p => L.marker([p.lat, p.lng])));
