@@ -2,16 +2,17 @@
 layout: doc
 handle: Glossary
 title: Glossary
+nav_order: 90
 eyebrow: RAPID RECALL
-intro: Click a term to retrieve a short definition and a recall cue. Use
-  vocabulary to support an answer, not to replace one.
+intro: Select a word or phrase anywhere on the site and add it here. The glossary stays alphabetical automatically.
 ---
-Expected valueVarianceRegressionCorrelationPresent valueDiscountingOptimisationSensitivity analysisOutlierModel assumptionNumerical methodOperations researchRobustnessCommercial awareness
 
-### Choose a term
+<div id="glossary-app">
+  <p class="glossary-loading">Loading glossary…</p>
+</div>
 
-The definition and recall cue will appear here.
+## How to use it
 
-## Use it properly
+Select a word or short phrase anywhere on the site. A **+ Glossary** control appears beside the selection. Open it, check or edit the suggested definition, and save it. The term is then filed automatically under **A–Z**.
 
-The word wall is for retrieval. The interview answer remains the main unit of practice: settle the answer, practise it aloud, and use the vocabulary only where it strengthens the explanation.
+Your additions are kept in this browser so they are available throughout the interview site.
