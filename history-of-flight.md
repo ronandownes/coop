@@ -11,29 +11,25 @@ intro: Follow the story from the first powered flight to modern regional
 ---
 ## Flight | 1903 to now
 
-**1903 — controlled powered flight**
 
-The Wright brothers demonstrated sustained, controlled powered flight. Early aircraft used piston engines to turn propellers: mechanically simple by modern standards, but the basic aerodynamic problem was already the same — generate lift, produce thrust and control the aircraft safely.
 
-**1910s–1930s — aviation becomes transport**
+**1903 — powered flight begins**  
+The Wright brothers achieved the first sustained, controlled powered flight, using a piston engine to drive twin propellers.
 
-Aircraft moved from experimental machines to mail, passenger and cargo transport. Metal airframes, better navigation, more reliable engines and designs such as the Douglas DC-3 helped turn flying into a practical commercial service.
+**1910s–1930s — aviation becomes transport**  
+Aircraft developed into practical mail, passenger and cargo transport, helped by stronger airframes, better navigation and more reliable engines.
 
-**1940s–1950s — bigger, faster, higher**
+**1940s–1950s — range and altitude increase**  
+Pressurised cabins and improved piston engines enabled longer routes, while gas-turbine technology developed rapidly.
 
-Pressurised cabins and improved piston engines allowed longer routes. At the same time, gas-turbine propulsion was developing rapidly.
+**1950s–1970s — the jet age**  
+Turbojets and turbofans transformed long-distance travel through greater speed, altitude and range.
 
-**1950s–1970s — the jet age**
+**1980s–2000s — market specialisation**  
+Wide-body, narrow-body and regional aircraft increasingly served different route structures and passenger markets.
 
-Turbojets and later turbofans transformed long-distance aviation. Aircraft could fly much faster, higher and farther, and large jet airliners changed international travel.
-
-**1980s–2000s — efficiency and specialisation**
-
-Commercial aviation became more specialised. Wide-body jets served long-haul markets; narrow-body jets served dense short- and medium-haul routes; regional aircraft connected smaller markets.
-
-**Today**
-
-Modern aviation is no longer simply a race for maximum speed. Airlines balance range, seat capacity, fuel burn, emissions, airport constraints, utilisation, maintenance and cost. That is why different aircraft technologies continue to coexist.
+**Today — efficiency matters most**  
+Aircraft are selected by balancing range, capacity, fuel burn, emissions, airport constraints, maintenance and operating cost.
 
 ## Turboprop | 1940s to now
 
