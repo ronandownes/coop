@@ -30,16 +30,10 @@ Its strategy focuses on modern turboprop aircraft and newer technologies that ca
 **Interview wording:**  
 “What stood out to me is that Abelo is not just leasing aircraft. It has a clear focus on regional connectivity and on moving towards newer, more efficient aircraft.”
 
-## The Essential Nature of Bees | Why “Abelo”?
+## Bees | Why the name  “Abelo”?
 
-**Abelo is the Esperanto word for “bee”.**
-
-The company uses the bee as a metaphor for **teamwork, structure, connectivity and supporting a wider ecosystem**.
-
-That fits its broader idea of connecting communities while operating as efficiently and responsibly as possible.
-
-**Interview wording:**  
-“I liked the idea behind the name. Abelo means bee in Esperanto, and the company links that to teamwork, structure and supporting a wider ecosystem.”
+  
+I liked the idea behind the name. Abelo means bee in Esperanto, and the company links that to teamwork, structure and supporting a wider ecosystem.
 
 ## The Abelo Team | How is the business organised?
 
