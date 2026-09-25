@@ -809,23 +809,49 @@
     editButton.type = 'button';
     editButton.textContent = 'Edit';
     editButton.title = 'Edit this answer here';
+    editButton.setAttribute('aria-pressed', 'false');
+
+    let editingAnswer = false;
+
     editButton.addEventListener('click', event => {
+      event.preventDefault();
       event.stopPropagation();
-      const editing = copy.isContentEditable;
-      if (!editing) {
+
+      if (!editingAnswer) {
         resetAudio();
-        copy.contentEditable = 'true';
+        editingAnswer = true;
+        copy.setAttribute('contenteditable', 'true');
+        copy.setAttribute('spellcheck', 'true');
         copy.classList.add('is-editing');
-        copy.focus();
         editButton.textContent = 'Save';
+        editButton.setAttribute('aria-pressed', 'true');
+
+        requestAnimationFrame(() => {
+          copy.focus({ preventScroll: true });
+          const selection = window.getSelection();
+          if (!selection) return;
+          const range = document.createRange();
+          range.selectNodeContents(copy);
+          range.collapse(false);
+          selection.removeAllRanges();
+          selection.addRange(range);
+        });
         return;
       }
-      copy.contentEditable = 'false';
+
+      editingAnswer = false;
+      copy.setAttribute('contenteditable', 'false');
       copy.classList.remove('is-editing');
-      localStorage.setItem(editKeyFor(heading), copy.innerHTML);
-      applySavedToSource(heading, copy.innerHTML);
+      editButton.setAttribute('aria-pressed', 'false');
+
+      const html = copy.innerHTML;
+      localStorage.setItem(editKeyFor(heading), html);
+      applySavedToSource(heading, html);
+
       editButton.textContent = 'Saved ✓';
-      window.setTimeout(() => { editButton.textContent = 'Edit'; }, 800);
+      window.setTimeout(() => {
+        editButton.textContent = 'Edit';
+      }, 800);
     });
 
     const glossaryButton = document.createElement('button');
