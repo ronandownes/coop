@@ -687,3 +687,73 @@
   window.addEventListener('pagehide', resetAudio);
   window.addEventListener('beforeunload', resetAudio);
 })();
+
+
+// Abelo global footprint map
+(() => {
+  const mapHost = document.querySelector('[data-abelo-map] #abeloWorldMap');
+  if (!mapHost) return;
+
+  const placements = [
+    { lat: 53.35, lng: -6.26, title: 'Ireland — Emerald Airlines', detail: 'Documented Abelo portfolio placement; regional turboprop operations.' },
+    { lat: 59.33, lng: 18.07, title: 'Sweden — Braathens Regional Airways', detail: 'Three ATR 72-600 aircraft acquired while on lease to Braathens.' },
+    { lat: 37.98, lng: 23.72, title: 'Greece — SKY express / Aegean', detail: 'Abelo orderbook placements and customer relationships in Greece.' },
+    { lat: 28.29, lng: -16.63, title: 'Canary Islands — Binter Canarias', detail: 'Operator added through Abelo\'s 2026 Aergo portfolio acquisition.' },
+    { lat: 4.71, lng: -74.07, title: 'Colombia — SATENA', detail: 'ATR 42-600 and follow-on ATR 72-600 placement supporting regional connectivity.' },
+    { lat: 4.18, lng: 73.51, title: 'Maldives — Maldivian', detail: 'Two ATR 42-600 aircraft supporting domestic inter-island flying.' },
+    { lat: 23.81, lng: 90.41, title: 'Bangladesh — Air Astra', detail: 'Three brand-new ATR 72-600 aircraft delivered for domestic network growth.' },
+    { lat: -4.33, lng: 15.31, title: 'DR Congo — Air Congo', detail: 'Two new ATR 72-600 aircraft leased to Ethiopian Airlines Group for operation by Air Congo.' },
+    { lat: -6.21, lng: 106.85, title: 'Indonesia — Citilink', detail: 'Two aircraft in Abelo\'s 2026 Aergo portfolio acquisition.' },
+    { lat: 14.60, lng: 120.98, title: 'Philippines — Philippine Airlines', detail: 'Operator added through Abelo\'s 2026 Aergo portfolio acquisition.' },
+    { lat: -33.87, lng: 151.21, title: 'Australia — National Jet Express', detail: 'Operator added through Abelo\'s 2026 Aergo portfolio acquisition.' },
+    { lat: -31.95, lng: 115.86, title: 'Australia — Aerlink', detail: 'ATR 72-500 transitioned by Abelo for FIFO operations in Australia.' }
+  ];
+
+  const loadLeaflet = () => new Promise((resolve, reject) => {
+    if (window.L) return resolve(window.L);
+
+    if (!document.querySelector('link[data-leaflet-css]')) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+      link.crossOrigin = '';
+      link.dataset.leafletCss = 'true';
+      document.head.appendChild(link);
+    }
+
+    const existing = document.querySelector('script[data-leaflet-js]');
+    if (existing) {
+      existing.addEventListener('load', () => resolve(window.L), { once: true });
+      existing.addEventListener('error', reject, { once: true });
+      return;
+    }
+
+    const script = document.createElement('script');
+    script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    script.crossOrigin = '';
+    script.dataset.leafletJs = 'true';
+    script.onload = () => resolve(window.L);
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+
+  loadLeaflet().then(L => {
+    const map = L.map(mapHost, { scrollWheelZoom: false, worldCopyJump: true }).setView([18, 15], 2);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 7,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    placements.forEach(p => {
+      L.marker([p.lat, p.lng])
+        .addTo(map)
+        .bindPopup('<strong>' + p.title + '</strong>' + p.detail);
+    });
+
+    const group = L.featureGroup(placements.map(p => L.marker([p.lat, p.lng])));
+    map.fitBounds(group.getBounds().pad(0.18), { maxZoom: 2 });
+  }).catch(() => {
+    mapHost.innerHTML = '<p style="padding:1rem">Interactive map unavailable. The placement list below remains available.</p>';
+  });
+})();
