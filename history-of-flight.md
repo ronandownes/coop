@@ -37,7 +37,7 @@ intro: Follow the story from the first powered flight to modern regional
 
 **Key idea:** ATR specialises in efficient regional turboprops.
 
-## Aircraft Leasing | Aircraft as an asset
+## Aircraft Leasing | The Age of Aircraft Leasing Arrives
 
 - Leasing separates **ownership** from **airline operation**.
 - Lessor **buys, finances, leases, manages, transitions and remarkets** aircraft.
