@@ -44,18 +44,14 @@
   {% assign cms_url = cms_base %}
   {% case page.path %}
     {% when 'index.md' %}{% assign cms_url = cms_base | append: '/file/home' %}
-    {% when 'about-you.md' %}{% assign cms_url = cms_base | append: '/file/about' %}
-    {% when 'company-role.md' %}{% assign cms_url = cms_base | append: '/file/company' %}
-    {% when 'teamwork.md' %}{% assign cms_url = cms_base | append: '/file/teamwork' %}
-    {% when 'problem-solving.md' %}{% assign cms_url = cms_base | append: '/file/problem_solving' %}
-    {% when 'financial-maths.md' %}{% assign cms_url = cms_base | append: '/file/financial_maths' %}
-    {% when 'work-readiness.md' %}{% assign cms_url = cms_base | append: '/file/work_readiness' %}
-    {% when 'questions-for-them.md' %}{% assign cms_url = cms_base | append: '/file/questions' %}
-    {% when 'word-wall.md' %}{% assign cms_url = cms_base | append: '/file/wordwall' %}
-    {% when 'miscellaneous.md' %}{% assign cms_url = cms_base | append: '/file/misc' %}
-    {% when 'spare-1.md' %}{% assign cms_url = cms_base | append: '/file/spare1' %}
-    {% when 'spare-2.md' %}{% assign cms_url = cms_base | append: '/file/spare2' %}
-    {% when 'spare-3.md' %}{% assign cms_url = cms_base | append: '/file/spare3' %}
+    {% when 'about-erik.md' %}{% assign cms_url = cms_base | append: '/file/about_erik' %}
+    {% when 'abelo.md' %}{% assign cms_url = cms_base | append: '/file/abelo' %}
+    {% when 'working-with-others.md' %}{% assign cms_url = cms_base | append: '/file/working_with_others' %}
+    {% when 'working-independently.md' %}{% assign cms_url = cms_base | append: '/file/working_independently' %}
+    {% when 'modules-projects.md' %}{% assign cms_url = cms_base | append: '/file/modules_projects' %}
+    {% when 'judgement.md' %}{% assign cms_url = cms_base | append: '/file/judgement' %}
+    {% when 'questions.md' %}{% assign cms_url = cms_base | append: '/file/questions' %}
+    {% when 'glossary.md' %}{% assign cms_url = cms_base | append: '/file/glossary' %}
   {% endcase %}
 
   <main class="page-stage">
