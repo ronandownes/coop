@@ -41,7 +41,9 @@ intro: Follow the story from the first powered flight to modern regional
 
 - Leasing separates **ownership** from **airline operation**.
 - Lessor **buys, finances, leases, manages, transitions and remarkets** aircraft.
-- Ireland became a major global leasing centre.
+- **1975:** GPA founded in Shannon, helping establish Ireland as a global leasing centre.
+- Major Irish-based lessors include **AerCap, Avolon, SMBC Aviation Capital and Abelo**.
+- **Abelo** specialises in regional turboprops.
 
 **Key idea:** the aircraft is managed as a **long-life financial and technical asset**.
 
