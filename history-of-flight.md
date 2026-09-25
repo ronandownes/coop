@@ -31,98 +31,63 @@ Wide-body, narrow-body and regional aircraft increasingly served different route
 **Today — efficiency matters most**  
 Aircraft are selected by balancing range, capacity, fuel burn, emissions, airport constraints, maintenance and operating cost.
 
+
+
 ## Turboprop | 1940s to now
 
-A turboprop is not an old piston aircraft with a propeller. It is a **gas-turbine aircraft** in which most of the engine's power is used to drive a propeller.
+**Key idea:** A turboprop is a **gas-turbine aircraft** that uses most of its engine power to drive a propeller.
 
-**1945–1948 — the modern turboprop emerges**
+**1940s — emergence**
 
-Development of the Rolls-Royce Dart began in 1945. The engine first ran in 1946 and flew in a test aircraft in 1947. In 1948 the Vickers Viscount prototype flew with Dart engines, becoming the first turboprop airliner.
+- Rolls-Royce Dart developed.
+- Vickers Viscount flew in 1948.
+- Combined turbine power/reliability with propeller efficiency.
 
-The idea combined two advantages: the power and reliability of the gas turbine with the propulsive efficiency of a propeller at lower aircraft speeds.
+**1950s–1970s — regional growth**
 
-**1950s–1970s — regional and short-haul growth**
+- Strong on short routes and smaller airports.
+- Examples: Viscount, Fokker F27, HS 748, Twin Otter.
 
-Aircraft such as the Vickers Viscount, Fokker F27, Hawker Siddeley 748 and later the Twin Otter showed where turboprops were strongest: shorter sectors, smaller passenger loads and airports where runway performance mattered.
+**1980s–1990s — modern generation**
 
-**1980s–1990s — a new generation**
+- ATR and Dash 8 families.
+- Better engines, avionics, aerodynamics and economics.
+- Regional jets added competition.
 
-Modern regional turboprops such as the ATR family and Dash 8 brought better aerodynamics, avionics, cabins, engines and operating economics.
+**2000s–today — efficiency focus**
 
-Regional jets later became strong competitors, particularly where passengers and airlines valued higher speed. Turboprops did not disappear because the technologies solve slightly different economic problems.
+- Short sectors often favour lower fuel burn and trip cost over maximum speed.
+- Turboprops remain valuable for regional routes and constrained airports.
 
-**2000s–today — efficiency becomes strategically important again**
-
-On short regional sectors, the time saved by a faster jet can be relatively small while fuel burn and trip cost remain important. Modern turboprops therefore continue to have a strong role where route length, passenger demand and airport conditions fit the aircraft.
-
-The key idea is:
-
-**propeller does not mean old technology — a modern turboprop is a modern turbine aircraft optimised for a different part of the market.**
+**Remember:** **Propeller ≠ old technology.** Modern turboprops are turbine aircraft optimised for shorter regional flying.
 
 ## Regional Aviation | Why the niche exists
 
-Commercial aviation has routes of very different sizes.
+- Serves **thin routes** that cannot support large jets.
+- Typically uses aircraft around **40–80 seats**.
+- Priorities: **low trip cost, frequency, short-runway capability, reliability**.
+- Best suited to smaller cities, islands and remote communities.
 
-A major city pair may support a large jet several times per day. A smaller island, provincial city or remote community may need regular air service but may not have enough passengers to fill a large aircraft.
-
-That creates the regional-aircraft problem:
-
-- enough seats to make the route useful;
-- not so many seats that the airline flies half-empty aircraft;
-- low trip cost;
-- good short-runway performance;
-- high reliability;
-- flexibility across different airports and climates.
-
-This is where aircraft in roughly the **40–80 seat** range become important.
-
-Regional aviation is therefore not simply a smaller version of long-haul aviation. The economics are different. Frequency, thin routes, airport access, aircraft utilisation and cost per trip can matter more than maximum cruising speed.
+**Key idea:** regional aviation optimises **economics and access**, not maximum speed.
 
 ## ATR | 1981 to now
 
-ATR sits directly inside that regional-aviation story.
+- **1981:** ATR formed by Aérospatiale and Aeritalia.
+- **1984–85:** ATR 42 first flight and entry into service.
+- **1988–89:** larger ATR 72 introduced.
+- **1990s:** improved **-500** generation.
+- **2007 onward:** modern **-600** generation.
 
-**1981 — ATR is created**
-
-France's Aérospatiale and Italy's Aeritalia combined two similar regional-aircraft projects. The cooperation agreement launching ATR was signed on 4 November 1981.
-
-**1984–1985 — ATR 42**
-
-The ATR 42 made its first flight in August 1984 and the first aircraft was delivered to Air Littoral in December 1985.
-
-The number **42** originally reflected the aircraft's approximate passenger-capacity class rather than being an engine or performance number.
-
-**1986–1989 — ATR 72**
-
-ATR launched the stretched ATR 72 in 1986. It first flew in October 1988 and the first delivery followed in 1989.
-
-The larger aircraft allowed the same basic family concept to serve a higher-capacity regional market.
-
-**1990s — the -500 generation**
-
-ATR introduced improved -500 variants, continuing the development of the family rather than replacing it with a completely different aircraft.
-
-**2007 onward — the -600 generation**
-
-ATR launched the -600 series in 2007. New avionics, cabin changes and successive engine developments modernised the platform while retaining the basic regional-aircraft concept.
-
-**Today**
-
-The ATR 42 and ATR 72 remain centred on the same fundamental proposition that created ATR: match an efficient aircraft to short regional routes where a larger or faster jet is not necessarily the best economic tool.
+**Key idea:** ATR has continuously refined the same core concept — efficient turboprops for short regional routes.
 
 ## Aircraft Leasing | The aircraft becomes an asset
 
-The history of Abelo also sits inside another major aviation story: the rise of aircraft leasing.
+- Leasing separates **aircraft ownership** from **airline operation**.
+- Lessor: **buys, finances, leases, manages, transitions and remarkets** aircraft.
+- Ireland became a major leasing centre from the **1970s onward**.
+- Today, a large share of the global commercial fleet is leased.
 
-Traditionally an airline might buy much of its fleet directly. Leasing separates **ownership of the aircraft** from **operation of the aircraft**.
-
-The lessor can buy and finance the asset, place it with an airline, manage the lease, monitor the aircraft technically and financially, transition it between operators, remarket it and eventually sell, convert or retire it.
-
-Ireland became especially important in this industry. Guinness Peat Aviation was established in Shannon in 1975 and became a major international lessor. Over the following decades, aircraft leasing developed into a mainstream part of aviation finance.
-
-By the end of 2023, IATA estimated that about **58% of the world's commercial aircraft fleet was leased rather than airline-owned**.
-
-This matters for understanding Abelo: it is not simply supplying aircraft. It is managing a long-lived, mobile and expensive asset through its ownership cycle.
+**Key idea:** a lessor manages the aircraft as a **long-life financial and technical asset**.
 
 ## Elix + ADARE | Two complementary foundations
 
