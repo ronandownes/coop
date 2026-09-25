@@ -809,46 +809,58 @@
     editButton.type = 'button';
     editButton.textContent = 'Edit';
     editButton.title = 'Edit this answer here';
-    editButton.setAttribute('aria-pressed', 'false');
 
-    let editingAnswer = false;
+    let answerEditor = null;
+
+    const plainTextToHtml = value => {
+      const safe = value
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+      return safe
+        .split(/\n{2,}/)
+        .map(block => `<p>${block.replace(/\n/g, '<br>')}</p>`)
+        .join('');
+    };
 
     editButton.addEventListener('click', event => {
       event.preventDefault();
       event.stopPropagation();
 
-      if (!editingAnswer) {
+      if (!answerEditor) {
         resetAudio();
-        editingAnswer = true;
-        copy.setAttribute('contenteditable', 'true');
-        copy.setAttribute('spellcheck', 'true');
-        copy.classList.add('is-editing');
+
+        answerEditor = document.createElement('textarea');
+        answerEditor.className = 'answer-focus-editor';
+        answerEditor.value = copy.innerText.trim();
+        answerEditor.setAttribute('aria-label', 'Edit this answer');
+        answerEditor.spellcheck = true;
+
+        copy.hidden = true;
+        copy.insertAdjacentElement('afterend', answerEditor);
+
         editButton.textContent = 'Save';
-        editButton.setAttribute('aria-pressed', 'true');
+        editButton.title = 'Save this edited answer';
 
         requestAnimationFrame(() => {
-          copy.focus({ preventScroll: true });
-          const selection = window.getSelection();
-          if (!selection) return;
-          const range = document.createRange();
-          range.selectNodeContents(copy);
-          range.collapse(false);
-          selection.removeAllRanges();
-          selection.addRange(range);
+          answerEditor.focus({ preventScroll: true });
+          const end = answerEditor.value.length;
+          answerEditor.setSelectionRange(end, end);
         });
         return;
       }
 
-      editingAnswer = false;
-      copy.setAttribute('contenteditable', 'false');
-      copy.classList.remove('is-editing');
-      editButton.setAttribute('aria-pressed', 'false');
+      const html = plainTextToHtml(answerEditor.value.trim());
+      copy.innerHTML = html;
+      copy.hidden = false;
+      answerEditor.remove();
+      answerEditor = null;
 
-      const html = copy.innerHTML;
       localStorage.setItem(editKeyFor(heading), html);
       applySavedToSource(heading, html);
 
       editButton.textContent = 'Saved ✓';
+      editButton.title = 'Edit this answer here';
       window.setTimeout(() => {
         editButton.textContent = 'Edit';
       }, 800);
