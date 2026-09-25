@@ -1,0 +1,38 @@
+
+.lease-note{margin:1rem 0;padding:1rem 1.1rem;border:1px solid #d7dce5;border-radius:14px;background:#f7f9fc}
+.lease-lab{margin:1.5rem 0}
+.lease-tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
+.lease-tab{border:1px solid #cbd3df;background:#fff;border-radius:999px;padding:.65rem 1rem;font:inherit;font-weight:700;cursor:pointer}
+.lease-tab.active{background:#111827;color:#fff;border-color:#111827}
+.lease-panel{display:none}
+.lease-panel.active{display:block}
+.lease-grid{display:grid;grid-template-columns:minmax(260px,340px) minmax(0,1fr);gap:1.25rem;align-items:start}
+.lease-controls,.lease-chart-card,.lease-kpis>div,.lease-mini-grid>div,.scenario-cards>article,.lineage-grid>article{border:1px solid #d7dce5;background:#fff;border-radius:16px}
+.lease-controls{padding:1rem;position:sticky;top:1rem}
+.lease-controls h3,.lease-chart-card h3{margin-top:0}
+.lease-controls label{display:block;font-weight:650;margin:1rem 0}
+.lease-controls output{float:right;font-weight:800}
+.lease-controls input[type=range],.lease-controls select{width:100%;margin-top:.45rem}
+.lease-controls select{padding:.55rem;border:1px solid #cbd3df;border-radius:10px;background:#fff}
+.lease-output{min-width:0}
+.lease-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.75rem;margin-bottom:.75rem}
+.lease-kpis>div{padding:.85rem}
+.lease-kpis span{display:block;font-size:.78rem;opacity:.7;margin-bottom:.25rem}
+.lease-kpis strong{font-size:1.35rem;line-height:1.1}
+.lease-chart-card{padding:1rem;overflow:hidden}
+.lease-chart-card canvas{width:100%;height:auto;display:block}
+.lease-mini-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin-top:.75rem}
+.lease-mini-grid>div{padding:1rem}
+.scenario-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;margin:1rem 0}
+.scenario-cards>article{padding:1rem}
+.scenario-cards strong{display:block;font-size:1.5rem;margin:.35rem 0}
+.lineage-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin:1rem 0}
+.lineage-grid>article{padding:1rem}
+.lineage-tag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.05em;border-radius:999px;padding:.3rem .55rem;background:#e8f3ec}
+.lineage-tag.historical{background:#fff2d8}
+@media(max-width:850px){
+  .lease-grid{grid-template-columns:1fr}
+  .lease-controls{position:static}
+  .lease-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .scenario-cards,.lineage-grid,.lease-mini-grid{grid-template-columns:1fr}
+}
