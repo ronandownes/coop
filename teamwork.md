@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Teamwork
-nav_order: 30
+nav_order: 40
 eyebrow: INTERVIEW STRUCTURE
 intro: Use specific examples. Keep the answer focused on what you did, how you
   communicated and what happened.
@@ -20,8 +20,8 @@ Show that you can disagree without becoming defensive. Explain how you listened,
 
 **Recall cue:** listen →  clarify →  evidence →  compromise
 
-##   
-  
+
+
 Teamwork | How would you work with someone whose approach was different from yours?
 
 
