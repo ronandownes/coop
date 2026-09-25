@@ -4,8 +4,10 @@ handle: Judgement
 title: Judgement
 nav_order: 70
 eyebrow: INTERVIEW STRUCTURE
-intro: These questions test whether an employer can trust you to learn,
-  communicate and work responsibly.
+intro: >
+  These questions test whether an employer can trust you to learn, communicate
+  and work responsibly. Show that you understand trade-offs, constraints and
+  real workplace problems.
 ---
 ## New task | How would you deal with a task you had never done before?
 
@@ -29,24 +31,20 @@ Being reliable, communicating clearly, respecting confidentiality, meeting commi
 
 I would check that my current work is complete, ask whether there is anything else that needs attention, and use the time constructively to learn systems, review documentation or understand the wider work of the team rather than waiting passively.
 
-
 ## Priorities | What would you do if you were given several tasks at the same time?
 
 I would identify deadlines, importance and dependencies, then organise the work in priority order. If two important tasks genuinely conflicted, I would clarify priorities with the appropriate person rather than make an assumption.
 prioritise|deadlines|dependencies|clarify
-
 
 ## Deadline | What would you do if you thought you might miss a deadline?
 
 I would raise the issue early rather than wait until the deadline had passed. I would explain what remained to be done, identify any obstacles, and agree the best way to complete the work or adjust priorities.
 early communication|obstacles|priorities|completion
 
-
 ## Confidentiality | How would you handle confidential information?
 
 I would only access or share information where there was a legitimate work reason to do so, follow the organisation's procedures, and avoid discussing sensitive information in inappropriate settings.
 need to know|procedures|privacy|judgement
-
 
 ## AI work era | How is work changing in the age of AI?
 
