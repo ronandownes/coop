@@ -8,7 +8,7 @@ intro: "Company knowledge for the Abelo interview. "
 ---
 ## Overview | What is Abelo?
 
-![Abelo overview](/assets/uploads/image-1.png)
+
 
 Abelo specialises in  leasing turboprop aircraft such as the ATR 42 and ATR 72  . 
 
@@ -32,15 +32,14 @@ Its strategy focuses on modern turboprop aircraft and newer technologies that ca
 
 ## Bees | Why the name  “Abelo”?
 
-  
 I liked the idea behind the name. Abelo means bee in Esperanto, and the company links that to teamwork, structure and supporting a wider ecosystem.
 
 ## The Abelo Team | How is the Abelo business organised?
 
 Abelo has  a **people-first** culture built around 
 
-1. trust, 
-2. responsibility and 
+1. trust,
+2. responsibility and
 3. specialist regional-aviation experience.
 
 The team brings together expertise across **asset management, finance, legal, technical, commercial, digital innovation, risk and operations**.
