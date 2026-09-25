@@ -7,7 +7,7 @@ eyebrow: Research us to death
 intro: These answers should change for every interview. Keep the structure
   stable but replace the company evidence.
 ---
-## Overview | Official Overview of Abelo From Website
+## Overview | Our Overview
 
 ![image.png](/assets/uploads/image-1.png)
 
@@ -29,14 +29,17 @@ Abelo: Reaching new heights in the turboprop sector
 
 
 
+## Our Map
+
+
+
 ### Erik's Abelo research summary
 
 ABEL0_RESEARCH_WIDGET
 
 
-&nbsp;
 
-## Purpose & Mission |  Purpose & Mission
+## Purpose & Mission |  Our Purpose & Mission
 
 Positive change requires leadership and at Abelo we work on creating solutions which will improve society’s connectivity while addressing the need to reduce the environmental impact of travel. Our blueprint is nature; our activity, akin to the Bee, is to provide sustainable support to our global ecosystem.  
 
