@@ -242,3 +242,113 @@ body.answer-focus-open{overflow:hidden}
 @media (max-width: 720px) {
   .abelo-map-canvas { min-height: 360px; }
 }
+
+
+/* Rich Abelo map popups */
+.abelo-map .leaflet-popup-content-wrapper {
+  border-radius: 16px;
+}
+.abelo-map .leaflet-popup-content {
+  margin: 14px 16px;
+  width: auto !important;
+}
+.abelo-popup-card h3 {
+  margin: 0 0 .75rem;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+.abelo-popup-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .55rem;
+}
+.abelo-popup-grid > div {
+  padding: .55rem .6rem;
+  border-radius: 10px;
+  background: #f4f7f9;
+}
+.abelo-popup-grid span {
+  display: block;
+  margin-bottom: .1rem;
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .045em;
+  color: #607080;
+}
+.abelo-popup-grid strong {
+  display: block;
+  font-size: .84rem;
+  line-height: 1.3;
+}
+.abelo-popup-detail {
+  margin: .75rem 0;
+  font-size: .86rem;
+}
+.abelo-maturity {
+  padding: .7rem;
+  border: 1px solid rgba(20,31,44,.12);
+  border-radius: 12px;
+}
+.abelo-maturity-head {
+  display: flex;
+  justify-content: space-between;
+  gap: .6rem;
+  align-items: baseline;
+  margin-bottom: .45rem;
+}
+.abelo-maturity-head strong {
+  font-size: .82rem;
+}
+.abelo-maturity-head span {
+  font-size: .7rem;
+  text-align: right;
+  color: #607080;
+}
+.abelo-progress {
+  position: relative;
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #dfe6eb;
+}
+.abelo-progress > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: currentColor;
+}
+.abelo-progress .is-estimate {
+  color: #687783;
+  opacity: .7;
+}
+.abelo-progress .is-known {
+  color: #1f6d54;
+}
+.abelo-maturity p {
+  margin: .45rem 0 0;
+  font-size: .72rem;
+  color: #607080;
+}
+.abelo-lease-params {
+  margin-top: .7rem;
+  font-size: .78rem;
+}
+.abelo-lease-params summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+.abelo-lease-params ul {
+  margin: .45rem 0 .5rem 1.1rem;
+  padding: 0;
+}
+.abelo-lease-params li {
+  margin: .18rem 0;
+}
+.abelo-lease-params p {
+  margin: .45rem 0 0;
+  font-size: .74rem;
+  color: #526170;
+}
+@media (max-width: 520px) {
+  .abelo-popup-grid { grid-template-columns: 1fr; }
+}
