@@ -549,3 +549,70 @@ body.answer-focus-open{overflow:hidden}
     padding: 1.1rem;
   }
 }
+
+
+/* Abelo documented fleet model chart */
+.abelo-fleet-chart {
+  margin: 1rem 0 1.4rem;
+  padding: 1rem 1rem .85rem;
+  border: 1px solid rgba(20,31,44,.12);
+  border-radius: 16px;
+  background: #fff;
+}
+.abelo-fleet-chart__plot {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(82px, 1fr));
+  gap: 1rem;
+  align-items: end;
+  min-height: 270px;
+  padding: 1.25rem .4rem .2rem;
+  border-bottom: 1px solid rgba(20,31,44,.14);
+}
+.abelo-fleet-bar {
+  display: grid;
+  grid-template-rows: auto 200px auto;
+  justify-items: center;
+  align-items: end;
+  min-width: 0;
+}
+.abelo-fleet-bar__value {
+  align-self: end;
+  margin-bottom: .35rem;
+  font-size: 1rem;
+  line-height: 1;
+}
+.abelo-fleet-bar__column {
+  display: block;
+  align-self: end;
+  width: min(66px, 72%);
+  height: calc((var(--value) / var(--max)) * 190px);
+  min-height: 18px;
+  border-radius: 9px 9px 3px 3px;
+  background: currentColor;
+  color: #2f6f8f;
+}
+.abelo-fleet-bar__label {
+  margin-top: .55rem;
+  font-size: .78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+.abelo-fleet-chart__note {
+  margin: .75rem 0 0;
+  font-size: .78rem;
+  color: #526170;
+}
+@media (max-width: 620px) {
+  .abelo-fleet-chart__plot {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    min-height: 0;
+    row-gap: 1.25rem;
+  }
+  .abelo-fleet-bar {
+    grid-template-rows: auto 150px auto;
+  }
+  .abelo-fleet-bar__column {
+    height: calc((var(--value) / var(--max)) * 140px);
+  }
+}
