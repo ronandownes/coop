@@ -1178,7 +1178,7 @@
         <div class="abelo-popup-grid">
           <div><span>ATR 42</span><strong>${escapeHtml(p.atr42)}</strong></div>
           <div><span>ATR 72</span><strong>${escapeHtml(p.atr72)}</strong></div>
-          <div><span>Age / vintage</span><strong>${escapeHtml(p.age)}</strong></div>
+          <div class="is-wide"><span>Age / vintage</span><strong>${escapeHtml(p.age)}</strong></div>
         </div>
         <p class="abelo-popup-detail"><strong>Fleet history:</strong> ${escapeHtml(p.history)}</p>
       </div>`;
@@ -1194,7 +1194,7 @@
     placements.forEach(p => {
       L.marker([p.lat, p.lng])
         .addTo(map)
-        .bindPopup(popupHtml(p), { maxWidth: 420, minWidth: 300 });
+        .bindPopup(popupHtml(p), { maxWidth: 340, minWidth: 260 });
     });
 
     const group = L.featureGroup(placements.map(p => L.marker([p.lat, p.lng])));
