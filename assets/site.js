@@ -191,8 +191,16 @@
     const handle = cleanText(heading.dataset?.menuLabel);
     const question = cleanText(heading.dataset?.questionText);
     if (handle && question) return { handle, question, id: heading.id };
-    const parsed = splitQuestionHeading(heading.textContent);
-    return parsed ? { ...parsed, id: heading.id } : null;
+
+    const raw = cleanText(heading.textContent);
+    if (!raw) return null;
+
+    const parsed = splitQuestionHeading(raw);
+    if (parsed) return { ...parsed, id: heading.id };
+
+    // Legacy H2: no pipe means the same text is both the menu handle
+    // and the visible section title.
+    return { handle: raw, question: raw, id: heading.id };
   };
 
   const populateQuestionMenu = (item, headings, pageUrl) => {
@@ -242,7 +250,7 @@
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const html = await response.text();
       const parsed = new DOMParser().parseFromString(html, 'text/html');
-      const headings = Array.from(parsed.querySelectorAll('#docBody > h2')).filter(heading => splitQuestionHeading(heading.textContent));
+      const headings = Array.from(parsed.querySelectorAll('#docBody > h2')).filter(heading => headingInfo(heading));
       populateQuestionMenu(item, headings, pageUrl);
     } catch (_) {
       menu.replaceChildren();
