@@ -39,6 +39,30 @@ components:
           extensions: [jpg, jpeg, png, webp, gif]
           rename: safe
 
+  module_fields:
+    type: object
+    label: Module fields
+    fields: &modulefields
+      - { name: layout, type: string, hidden: true }
+      - { name: title, type: string, label: "Page title" }
+      - { name: code, type: string, label: "Module code" }
+      - { name: year, type: string, label: "Year" }
+      - { name: semester, type: string, label: "Semester" }
+      - { name: status, type: string, label: "Status", required: false }
+      - { name: eyebrow, type: string, label: "Eyebrow", required: false }
+      - { name: intro, type: text, label: Introduction }
+      - name: body
+        type: rich-text
+        label: "Module notes"
+        description: "Paste lecturer material here, then reduce it to upper-level concepts, explanations, applications and interview questions."
+        options:
+          format: markdown
+          switcher: false
+          media: images
+          categories: [image]
+          extensions: [jpg, jpeg, png, webp, gif]
+          rename: safe
+
 content:
   - name: home
     label: "Prepare"
@@ -72,7 +96,31 @@ content:
   - { name: abelo, label: "Abelo", type: file, path: abelo.md, format: yaml-frontmatter, fields: *docfields }
   - { name: working_with_others, label: "Work with Others", type: file, path: working-with-others.md, format: yaml-frontmatter, fields: *docfields }
   - { name: working_independently, label: "Work Independently", type: file, path: working-independently.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: modules_projects, label: "Modules & Projects", type: file, path: modules-projects.md, format: yaml-frontmatter, fields: *docfields }
+
+  - name: modules_group
+    label: "Modules & Projects"
+    type: group
+    items:
+      - { name: modules_projects, label: "Overview", type: file, path: modules-projects.md, format: yaml-frontmatter, fields: *docfields }
+      - name: modules
+        label: "Modules"
+        type: collection
+        path: modules
+        format: yaml-frontmatter
+        subfolders: false
+        filename: "{code}-{title}.md"
+        fields: *modulefields
+        operations:
+          rename: false
+        view:
+          primary: title
+          fields: [code, year, semester, status]
+          sort: [title, code, year, semester]
+          search: [title, code, year, semester, status]
+          default:
+            sort: title
+            order: asc
+
   - { name: judgement, label: "Judgement", type: file, path: judgement.md, format: yaml-frontmatter, fields: *docfields }
   - { name: questions, label: "Questions", type: file, path: questions.md, format: yaml-frontmatter, fields: *docfields }
   - { name: glossary, label: "Glossary", type: file, path: glossary.md, format: yaml-frontmatter, fields: *docfields }

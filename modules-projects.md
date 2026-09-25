@@ -7,164 +7,110 @@ eyebrow: Module
 intro: Use concise explanations. Show that you can calculate, interpret,
   challenge assumptions and communicate the result.
 ---
-# Financial Mathematics — Course Overview
+# Module Library
+
+Each module now has its own tidy page. Use the module page to paste the lecturer's overview or syllabus, then reduce it to the **upper-level concepts Erik should be able to recognise, explain and connect to practice**.
+
+## First Year
+
+### Sem1
+
+- [AC4213 — Financial Accounting]({{ '/modules/ac4213-financial-accounting.html' | relative_url }})
+- [CE4701 — Computer Software 1]({{ '/modules/ce4701-computer-software-1.html' | relative_url }})
+- [MS4021 — Calculus 1]({{ '/modules/ms4021-calculus-1.html' | relative_url }})
+- [MS4101 — Mathematical Laboratory]({{ '/modules/ms4101-mathematical-laboratory.html' | relative_url }})
+- [MS4131 — Linear Algebra 1]({{ '/modules/ms4131-linear-algebra-1.html' | relative_url }})
+
+### Sem2
+
+- [AC4214 — Accounting for Financial Decision Making]({{ '/modules/ac4214-accounting-for-financial-decision-making.html' | relative_url }})
+- [CE4702 — Computer Software 2]({{ '/modules/ce4702-computer-software-2.html' | relative_url }})
+- [MS4022 — Calculus 2]({{ '/modules/ms4022-calculus-2.html' | relative_url }})
+- [MS4122 — Further Linear Algebra]({{ '/modules/ms4122-further-linear-algebra.html' | relative_url }})
+- [MS4222 — Introduction to Probability and Statistics]({{ '/modules/ms4222-introduction-to-probability-and-statistics.html' | relative_url }})
+
+## Second Year
+
+### Sem1
+
+- [FI4003 — Finance]({{ '/modules/fi4003-finance.html' | relative_url }})
+- [MS4035 — Probability Models]({{ '/modules/ms4035-probability-models.html' | relative_url }})
+- [MS4043 — Methods of Linear Analysis]({{ '/modules/ms4043-methods-of-linear-analysis.html' | relative_url }})
+- [MS4403 — Ordinary Differential Equations]({{ '/modules/ms4403-ordinary-differential-equations.html' | relative_url }})
+- [MS4613 — Vector Analysis]({{ '/modules/ms4613-vector-analysis.html' | relative_url }})
+
+### Sem2
+
+- [MS4014 — Introduction to Numerical Analysis]({{ '/modules/ms4014-introduction-to-numerical-analysis.html' | relative_url }})
+- [MS4034 — Applied Data Analysis]({{ '/modules/ms4034-applied-data-analysis.html' | relative_url }})
+- [MS4303 — Operations Research 1]({{ '/modules/ms4303-operations-research-1.html' | relative_url }})
+- [MS4404 — Partial Differential Equations]({{ '/modules/ms4404-partial-differential-equations.html' | relative_url }})
+- [MS4414 — Theoretical Mechanics]({{ '/modules/ms4414-theoretical-mechanics.html' | relative_url }})
+
+## Third Year
+
+### Sem1
+
+- [MS4045 — Complex Analysis]({{ '/modules/ms4045-complex-analysis.html' | relative_url }})
+- [MS4105 — Linear Algebra 2]({{ '/modules/ms4105-linear-algebra-2.html' | relative_url }})
+- [MS4214 — Statistical Inference]({{ '/modules/ms4214-statistical-inference.html' | relative_url }})
+- [MS4215 — Advanced Data Analysis]({{ '/modules/ms4215-advanced-data-analysis.html' | relative_url }})
+- [MS4027 — Fundamentals of Financial Mathematics]({{ '/modules/ms4027-fundamentals-of-financial-mathematics.html' | relative_url }})
+
+### Sem2
+
+- [COOP_1 — Cooperative Education]({{ '/modules/coop-1-cooperative-education.html' | relative_url }})
+
+## Fourth Year
+
+### Sem1
+
+- [MS4037 — Statistical Data Science Project 1]({{ '/modules/ms4037-statistical-data-science-project-1.html' | relative_url }})
+- [MS4217 — Stochastic Processes]({{ '/modules/ms4217-stochastic-processes.html' | relative_url }})
+
+**Options — choose three:**
+
+- [MA4617 — Introduction to Fluid Mechanics]({{ '/modules/ma4617-introduction-to-fluid-mechanics.html' | relative_url }})
+- [MS4008 — Mathematical Methods 2: Numerical Methods for Partial Differential Equations]({{ '/modules/ms4008-mathematical-methods-2-numerical-methods-for-partial-differential-equations.html' | relative_url }})
+- [MS4117 — Discrete Mathematics 2]({{ '/modules/ms4117-discrete-mathematics-2.html' | relative_url }})
+- [MS4407 — Perturbation Techniques and Asymptotics]({{ '/modules/ms4407-perturbation-techniques-and-asymptotics.html' | relative_url }})
+- [MS4315 — Operations Research 2]({{ '/modules/ms4315-operations-research-2.html' | relative_url }})
+- [MB4017 — Geometry]({{ '/modules/mb4017-geometry.html' | relative_url }})
+
+### Sem2
+
+- [MS4038 — Statistical Data Science Project 2]({{ '/modules/ms4038-statistical-data-science-project-2.html' | relative_url }})
+- [MS4028 — Stochastic Differential Equations for Finance]({{ '/modules/ms4028-stochastic-differential-equations-for-finance.html' | relative_url }})
+- [MS4528 — Mathematical and Statistical Models of Investments]({{ '/modules/ms4528-mathematical-and-statistical-models-of-investments.html' | relative_url }})
+- [MS4218 — Time Series Analysis]({{ '/modules/ms4218-time-series-analysis.html' | relative_url }})
+
+
+---
+
+# Course Overview
 
 ## Key Line
 
 The course has progressed from **core mathematics, computing and accounting**, through **probability, differential equations, data analysis and optimisation**, and is now moving into **financial mathematics, statistical modelling and professional application through co-op**.
 
-## First Year — 2024–25
+**Progression:** Foundations → mathematical modelling → probability/data/optimisation → financial mathematics → workplace application → advanced modelling and project work.
 
-First year built the foundations across mathematics, computing and finance.
+## Interview-level quantitative concepts
 
-**Semester 1**
+The module pages hold the detail. This overview keeps the cross-module ideas that can recur in interviews.
 
-- Financial Accounting
-- Computer Software 1
-- Calculus 1
-- Mathematical Laboratory
-- Linear Algebra 1
-
-**Semester 2**
-
-- Accounting for Financial Decision Making
-- Computer Software 2
-- Calculus 2
-- Further Linear Algebra
-- Introduction to Probability and Statistics
-
-The emphasis was on developing the basic mathematical toolkit while also introducing programming, probability and the financial context in which the mathematics can be applied.
-
-## Second Year — 2025–26
-
-Second year moved into considerably more advanced applied mathematics, statistics and quantitative analysis.
-
-**Semester 1**
-
-- Finance
-- Probability Models
-- Methods of Linear Analysis
-- Ordinary Differential Equations
-- Vector Analysis
-
-**Semester 2**
-
-- Introduction to Numerical Analysis
-- Applied Data Analysis
-- Operations Research 1
-- Partial Differential Equations
-- Theoretical Mechanics
-
-This year was particularly important because it connected mathematical theory with **data, modelling, numerical methods, optimisation and decision-making**.
-
-## Third Year — 2026–27
-
-Third year starts bringing the earlier mathematics and statistics much more directly into financial applications.
-
-**Semester 1**
-
-- Complex Analysis
-- Linear Algebra 2
-- Statistical Inference
-- Advanced Data Analysis
-- Fundamentals of Financial Mathematics
-
-Fundamentals of Financial Mathematics includes areas such as derivative securities, arbitrage, bonds, forward-rate agreements, binomial models, risk-neutral valuation and hedging. ([Book of Modules](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CMS4027%7C&utm_source=chatgpt.com "Book of Modules"))
-
-**Semester 2**
-
-- Cooperative Education
-
-So third year is an important transition from mainly academic work to applying quantitative skills in a professional environment.
-
-## Fourth Year — 2027–28
-
-Fourth year becomes more specialised and research-oriented.
-
-It includes areas such as:
-
-- Project 1 and Project 2
-- Stochastic Processes
-- Stochastic Differential Equations for Finance
-- Mathematical and Statistical Models of Investments
-- Time Series Analysis
-- A selection of advanced mathematical electives
-
-The final-year project runs across the year and is designed to integrate earlier learning into a substantial independent piece of work, culminating in a professional report and oral presentation. ([Book of Modules](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CMS4418%7C&utm_source=chatgpt.com "Book of Modules"))
-
-For the interview site, I think the important story is **not simply “here are 30 modules.”** It is the progression:
-
-**Foundations → mathematical modelling → probability/data/optimisation → financial mathematics → workplace application → advanced modelling and project work.**
-
-
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-## Expected value | How would you explain expected value?
+### Expected value | How would you explain expected value?
 
 Expected value is the long-run average outcome of a random process, calculated by weighting each possible outcome by its probability. It is useful for comparing uncertain choices, but it does not tell us how variable the outcomes are, so I would usually consider risk or dispersion as well.
 
-probability-weightedlong-run averageuncertaintydispersion
+### Correlation | What is the difference between correlation and causation?
 
-## Correlation | What is the difference between correlation and causation?
+Correlation measures association between variables; it does not by itself show that changing one causes the other to change. A relationship may be driven by confounding variables, reverse causality or coincidence.
 
-Correlation measures association between variables; it does not by itself show that changing one causes the other to change. A relationship may be driven by confounding variables, reverse causality or coincidence. I would need stronger design or evidence before making a causal claim.
+### Model quality | How would you assess whether a model is reasonable?
 
-associationconfoundingreverse causalityevidence
+Check assumptions, data quality and units; compare outputs with benchmarks; test sensitivity to important inputs; inspect unusual predictions; and ask whether the model is useful for the decision being made.
 
-## Model quality | How would you assess whether a financial or quantitative model is reasonable?
+### Credibility | How do you check whether a numerical answer is credible?
 
-- Check assumptions and whether they fit the context.
-- Check the data quality and units.
-- Compare outputs with benchmarks or simple estimates.
-- Test sensitivity to important inputs.
-- Look for outliers or implausible predictions.
-- Ask whether the model is useful for the decision being made.
-
-**Recall cue:** Assumptions → data → benchmark → sensitivity → decision.
-
-## Time value | Explain the time value of money.
-
-A euro today is worth more than a euro received later because money available now can be invested and because future payments involve uncertainty and opportunity cost. Discounting converts future cash flows into present values so they can be compared on a consistent basis.
-
-present valuediscountingopportunity costcash flow
-
-## Regression | What does regression do?
-
-Regression estimates how an outcome is related to one or more explanatory variables. It can be used for description, prediction and — with the right design — inference. I would not automatically interpret a fitted relationship as causal, and I would check diagnostics and model assumptions.
-
-explanatory variablepredictiondiagnosticsassumptions
-
-## Unusual data | How would you investigate an unusual observation in a dataset?
-
-I would first check whether it is a data-entry or measurement issue. If it is genuine, I would understand the context, quantify how influential it is, compare results with and without it where appropriate, and avoid deleting it simply because it is inconvenient.
-
-outlierdata qualityinfluencerobustness
-
-## Optimisation | What is optimisation and where might a business use it?
-
-Optimisation is choosing the best feasible decision according to an objective, subject to constraints. A business might use it for scheduling, allocation of resources, routing, portfolio decisions, production planning or inventory.
-
-objective functionconstraintsfeasibleallocation
-
-## Credibility | How do you check whether a numerical answer is credible?
-
-I check units, sign and order of magnitude, compare with a rough estimate or limiting case, verify assumptions, and if possible use an independent method or software check. A precise-looking number is not useful if it fails a basic reasonableness test.
-
-**Recall cue:** Units → magnitude → benchmark → independent check.
-
-## Academic evidence to draw on
-
-- A1 — Introduction to Probability and Statistics
-- A2 — Finance
-- A2 — Applied Data Analysis
-- A2 — Introduction to Numerical Analysis
-- A2 — Operations Research 1
-- A2 — Calculus 1
-- A2 — Ordinary Differential Equations
-- A2 — Vector Analysis
-
+Check units, sign and order of magnitude, compare with a rough estimate or limiting case, verify assumptions, and where possible use an independent method or software check.
