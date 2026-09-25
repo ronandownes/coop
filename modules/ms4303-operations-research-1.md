@@ -32,7 +32,23 @@ Write a short plain-English explanation of what this module is about and what pr
 
 ## Applications & connections
 
-Connect the module to finance, data, modelling, computing, business, engineering or Abelo where relevant.
+### Abelo asset-management connection
+
+Operations Research is useful when several feasible choices compete under commercial and operational constraints.
+
+A typical aircraft decision could be:
+
+**Current operator → lease extension → new operator → conversion → sale → retirement**
+
+Relevant ideas include:
+
+- Optimisation
+- Constraints
+- Resource allocation
+- Scenario comparison
+- Decision modelling
+
+**Aircraft decision:** Which available use of the aircraft creates the greatest value subject to cost, timing, maintenance and market constraints?
 
 ## Interview questions
 
