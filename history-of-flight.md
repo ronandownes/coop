@@ -60,10 +60,17 @@ Aircraft Leasing | Financial maths link
 
 - **ATR 42:** roughly **US$20–22m** new.
 - **ATR 72:** roughly **US$26–27m** new.
-- Actual purchase prices are usually **negotiated and confidential**.
-- Lease economics depend on **purchase price, term, interest/discount rate, airline credit risk, cash flow and residual value**.
+- Actual prices are usually negotiated.
+- Financial maths includes:
+  - **time value of money**
+  - **regular lease payments**
+  - **present and future value**
+  - **interest / discount rates**
+  - **credit risk**
+  - **residual value**
+  - **amortisation-style cash-flow curves**
 
-**Key idea:** aircraft value = **future lease income + residual value, discounted for time and risk**.
+**Key idea:** compare the aircraft’s **purchase cost** with the present value of future lease payments and its expected value at lease end.
 
 ## Building Abelo | Elix + ADARE
 
