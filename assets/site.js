@@ -1238,6 +1238,34 @@
     <p>Abelo's strategy is centred on larger regional turboprops, particularly the <strong>ATR 42-600</strong> and <strong>ATR 72-600</strong>. Modern turboprops are designed for shorter regional sectors where a jet may be unnecessarily expensive or inefficient.</p>
     <p>In January 2025, an earlier order for ten ATR 42 STOL aircraft was converted into <strong>five ATR 42-600 and five ATR 72-600 aircraft</strong>, with three further ATR 72-600s added.</p>
 
+    <h3>Fleet mix | Documented aircraft by model</h3>
+    <p>This chart counts the <strong>Abelo-linked aircraft individually documented in the research on this site</strong>. It is a verified subset of Abelo’s wider portfolio, which the company describes as more than 60 turboprop aircraft; it is not presented as a complete proprietary fleet register.</p>
+    <div class="abelo-fleet-chart" role="img" aria-label="Documented Abelo aircraft by model: ATR 42-600 3, ATR 72-500 2, ATR 72-600 20, Dash 8-400 2">
+      <div class="abelo-fleet-chart__plot">
+        <div class="abelo-fleet-bar" style="--value:3; --max:20">
+          <strong class="abelo-fleet-bar__value">3</strong>
+          <span class="abelo-fleet-bar__column"></span>
+          <span class="abelo-fleet-bar__label">ATR 42-600</span>
+        </div>
+        <div class="abelo-fleet-bar" style="--value:2; --max:20">
+          <strong class="abelo-fleet-bar__value">2</strong>
+          <span class="abelo-fleet-bar__column"></span>
+          <span class="abelo-fleet-bar__label">ATR 72-500</span>
+        </div>
+        <div class="abelo-fleet-bar" style="--value:20; --max:20">
+          <strong class="abelo-fleet-bar__value">20</strong>
+          <span class="abelo-fleet-bar__column"></span>
+          <span class="abelo-fleet-bar__label">ATR 72-600</span>
+        </div>
+        <div class="abelo-fleet-bar" style="--value:2; --max:20">
+          <strong class="abelo-fleet-bar__value">2</strong>
+          <span class="abelo-fleet-bar__column"></span>
+          <span class="abelo-fleet-bar__label">Dash 8-400</span>
+        </div>
+      </div>
+      <p class="abelo-fleet-chart__note"><strong>27 aircraft documented here.</strong> The bars show the researched subset, not Abelo’s complete 60+ aircraft portfolio.</p>
+    </div>
+
     <h3>ATR fleet map | Type, age and fleet history</h3>
     <p>The map below shows <strong>documented Abelo-linked ATR placements</strong>. It is a portfolio-learning map, <strong>not live aircraft tracking</strong>.</p>
     <p><strong>Click a marker for a deliberately simple fleet card</strong>: ATR 42 count, ATR 72 count, age or vintage, and a short fleet-history note. Counts refer to the Abelo-linked aircraft identified in the public material shown here, <strong>not the airline’s total fleet</strong>.</p>
