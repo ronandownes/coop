@@ -4,10 +4,11 @@ handle: History
 title: Aviation to Abelo | Background History
 nav_order: 400
 eyebrow: HOW THE INDUSTRY GOT HERE
-intro: Follow the story from the first powered flight to modern regional
-  aviation, the development of turboprop technology, the rise of aircraft
-  leasing and the creation of Abelo from Elix Aviation and ADARE Aviation
-  Capital.
+intro: Follow the story from the Wright brothers’ propeller-driven aircraft to
+  the emergence of two turbine-powered paths — jets for speed and longer-range
+  travel, and turboprops for efficient regional flying — then through the rise
+  of aircraft leasing and the creation of Abelo from Elix Aviation and ADARE
+  Aviation Capital.
 ---
 ## Flight | Propeller to Jet
 
