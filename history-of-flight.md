@@ -11,7 +11,7 @@ Follow the story from the Wright brothers’ propeller-driven aircraft to the em
 
 
 
-## Flight | Propeller to Jet
+## Flight | Propeller to Jet Flight
 
 - **1903:** piston engine + propeller enables powered flight.
 - **1940s:** gas turbines emerge.
@@ -21,7 +21,7 @@ Follow the story from the Wright brothers’ propeller-driven aircraft to the em
 
 **Key idea:** aviation did not simply move from propeller to jet. Propellers remained ideal for small aircraft and evolved into turboprops for short regional routes, while jets became dominant for faster, longer-distance travel.
 
-## ## Regional Aviation | Why Turboprops Matter
+##  Regional Aviation | Why Turboprops suit Low density  Regional Aviation
 
 - Regional routes are often **short and lower-density**.
 - The **route economics largely drive the aircraft choice**: distance, passenger demand, frequency, airport infrastructure and operating cost.
@@ -56,7 +56,7 @@ Aircraft Leasing | Financial maths link
 
 **Key idea:** aircraft value = **future lease income + residual value, discounted for time and risk**.
 
-## Aircraft Leasing | Financial maths link
+## Aircraft Leasing | Aircraft Leasing is Financial Maths
 
 - **ATR 42:** roughly **US$20–22m** new.
 - **ATR 72:** roughly **US$26–27m** new.
