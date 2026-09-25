@@ -58,6 +58,8 @@ Abelo and ATR have also adjusted the orderbook in response to market demand. In 
 
 The map below shows **documented airline placements and operators mentioned in Abelo announcements**. It is a portfolio map, **not live aircraft tracking**.
 
+**Click a marker for a much richer aircraft card**: operator, country/market, aircraft type, number of aircraft where publicly stated, transaction or lease structure where disclosed, what Abelo was doing with the asset, and a visual lease-life bar. Where the public announcements do **not** disclose the lease start date, end date, rent, maintenance reserves, utilisation limits or contractual maturity, the card says so rather than inventing a number.
+
 <div class="abelo-map" data-abelo-map>
   <div class="abelo-map-canvas" id="abeloWorldMap" role="img" aria-label="World map of documented Abelo aircraft placements"></div>
   <p class="abelo-map-note"><strong>Map key:</strong> select a marker to see the operator, market and aircraft context. Locations represent documented placements or operating markets, not the live position of an individual aircraft.</p>
