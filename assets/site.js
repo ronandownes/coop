@@ -1083,6 +1083,7 @@
     {
       lat: 53.35, lng: -6.26,
       title: 'Ireland — Emerald Airlines',
+      date: 'Aug 2026',
       atr42: 0,
       atr72: 1,
       age: 'Existing aircraft; exact vintage not stated in the public acquisition announcement',
@@ -1091,6 +1092,7 @@
     {
       lat: 59.33, lng: 18.07,
       title: 'Sweden — Braathens Regional Airways',
+      date: '2025',
       atr42: 0,
       atr72: 3,
       age: '2015/2016 vintage — about 10–11 years old in 2026',
@@ -1099,6 +1101,7 @@
     {
       lat: 37.98, lng: 23.72,
       title: 'Greece — SKY express / Olympic Air',
+      date: '2024',
       atr42: 0,
       atr72: 3,
       age: 'New 2024 deliveries',
@@ -1107,6 +1110,7 @@
     {
       lat: 28.29, lng: -16.63,
       title: 'Canary Islands — Binter Canarias',
+      date: 'Aug 2026',
       atr42: 0,
       atr72: 1,
       age: 'Existing aircraft; exact vintage not stated in the public acquisition announcement',
@@ -1115,6 +1119,7 @@
     {
       lat: 4.71, lng: -74.07,
       title: 'Colombia — SATENA',
+      date: 'May 2026',
       atr42: 1,
       atr72: 1,
       age: 'New deliveries — ATR 42 in Dec 2025; ATR 72 in May 2026',
@@ -1123,6 +1128,7 @@
     {
       lat: 4.18, lng: 73.51,
       title: 'Maldives — Maldivian',
+      date: 'May 2025',
       atr42: 2,
       atr72: 0,
       age: 'New deliveries — May 2024 and May 2025',
@@ -1131,6 +1137,7 @@
     {
       lat: 23.81, lng: 90.41,
       title: 'Bangladesh — Air Astra',
+      date: 'Sep 2026',
       atr42: 0,
       atr72: 3,
       age: 'Brand-new aircraft; all three delivered by Sep 2026',
@@ -1139,6 +1146,7 @@
     {
       lat: -4.33, lng: 15.31,
       title: 'DR Congo — Air Congo via Ethiopian Airlines Group',
+      date: '2026',
       atr42: 0,
       atr72: 2,
       age: 'Brand-new 2026 deliveries',
@@ -1147,6 +1155,7 @@
     {
       lat: -6.21, lng: 106.85,
       title: 'Indonesia — Citilink',
+      date: 'Aug 2026',
       atr42: 0,
       atr72: 2,
       age: 'Existing aircraft; exact vintages not stated in the public acquisition announcement',
@@ -1155,6 +1164,7 @@
     {
       lat: -31.95, lng: 115.86,
       title: 'Australia — Aerlink / Air Navigator Group',
+      date: '2026',
       atr42: 0,
       atr72: 1,
       age: '2007 build — about 19 years old in 2026',
@@ -1163,6 +1173,7 @@
     {
       lat: 19.08, lng: 72.88,
       title: 'India — IndiGo',
+      date: 'Mar 2024',
       atr42: 0,
       atr72: 4,
       age: 'Existing aircraft; exact vintages not stated in Abelo’s acquisition announcement',
@@ -1171,6 +1182,7 @@
     {
       lat: -1.29, lng: 36.82,
       title: 'Kenya — Renegade Air',
+      date: '2024',
       atr42: 0,
       atr72: 1,
       age: '2009 build — about 17 years old in 2026',
@@ -1210,15 +1222,18 @@
     '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
   }[ch]));
 
+  const customerName = p => p.title.includes('—')
+    ? p.title.split('—').slice(1).join('—').trim()
+    : p.title;
+
   const popupHtml = p => `
       <div class="abelo-popup-card">
-        <h3>${escapeHtml(p.title)}</h3>
-        <div class="abelo-popup-grid">
-          <div><span>ATR 42</span><strong>${escapeHtml(p.atr42)}</strong></div>
-          <div><span>ATR 72</span><strong>${escapeHtml(p.atr72)}</strong></div>
-          <div class="is-wide"><span>Age / vintage</span><strong>${escapeHtml(p.age)}</strong></div>
+        <div class="abelo-popup-line abelo-popup-date">${escapeHtml(p.date)}</div>
+        <div class="abelo-popup-line abelo-popup-customer">${escapeHtml(customerName(p))}</div>
+        <div class="abelo-popup-line abelo-popup-ratio" aria-label="ATR 42 count ${escapeHtml(p.atr42)}, ATR 72 count ${escapeHtml(p.atr72)}">
+          <strong>${escapeHtml(p.atr42)} / ${escapeHtml(p.atr72)}</strong>
+          <span>ATR 42 / ATR 72</span>
         </div>
-        <p class="abelo-popup-detail"><strong>Fleet history:</strong> ${escapeHtml(p.history)}</p>
       </div>`;
 
   loadLeaflet().then(L => {
@@ -1232,7 +1247,7 @@
     placements.forEach(p => {
       L.marker([p.lat, p.lng])
         .addTo(map)
-        .bindPopup(popupHtml(p), { maxWidth: 340, minWidth: 260 });
+        .bindPopup(popupHtml(p), { maxWidth: 460, minWidth: 360 });
     });
 
     const group = L.featureGroup(placements.map(p => L.marker([p.lat, p.lng])));
