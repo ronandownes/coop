@@ -2,7 +2,7 @@
 layout: doc
 handle: Erik
 title: About You
-nav_order: 15
+nav_order: 20
 eyebrow: INTERVIEW STRUCTURE
 intro: Build a confident academic and personal introduction without sounding scripted.
 ---
