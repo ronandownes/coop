@@ -34,7 +34,7 @@ intro: Follow the story from the Wright brothers’ propeller-driven aircraft to
 - **1981:** ATR formed by Aérospatiale and Aeritalia.
 - **1985:** ATR 42 enters service.
 - **1989:** larger ATR 72 follows.
-- Later **-500** and **-600** generations modernise the family.
+- Later **500** and **600** redesigned generations modernise the family.
 
 **Key idea:** ATR specialises in efficient regional turboprops.
 
