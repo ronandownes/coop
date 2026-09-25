@@ -2,7 +2,6 @@
 layout: doc
 handle: Glossary
 title: Glossary
-nav_order: 90
 eyebrow: RAPID RECALL
 intro: Select a word or phrase anywhere on the site and add it here. The glossary stays alphabetical automatically.
 ---
