@@ -41,6 +41,15 @@ Topics to develop:
 
 A useful dashboard should let a user change assumptions and see the financial consequences rather than stare at a fixed calculation.
 
+[Open the Aircraft Leasing Decision Lab]({{ '/lease-dashboard.html' | relative_url }})
+
+The lab includes:
+- a single-aircraft lease and residual-value curve
+- a start-at-any-age model, including a six-year-old aircraft entering a new lease
+- an extend-versus-re-lease comparison
+- conservative / base / upside sensitivity scenarios
+- ATR 42 and ATR 72 models with historical Dash 8 context
+
 ## Data & statistics
 
 This is where dashboards and quantitative storytelling belong.
