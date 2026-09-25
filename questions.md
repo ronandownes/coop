@@ -7,9 +7,13 @@ eyebrow: FINISH THE INTERVIEW WELL
 intro: Choose two or three. Ask questions that help you understand the work and
   show serious interest in the placement.
 ---
-## Geopolitical and Financial Risk
+## Risk | Geopolitical and Financial
 
 **Recent years have brought geopolitical disruption, sanctions and large movements in interest rates and inflation. How does Abelo think about protecting aircraft value and lease returns against those risks?**
+
+## Options | Delivery Slots
+
+**Abelo exercised three ATR options in late 2024 and another three in 2026, while retaining further options and strategic delivery slots. How do you decide when to exercise those options rather than preserve the flexibility for longer?**
 
 ## Key Line
 
