@@ -63,7 +63,7 @@ Together we are reaching new heights in the turboprop sector.
 
 &nbsp;
 
-![image.png](blob:https:/app.pagescms.org/875ad8a5-7b6f-4e12-b84b-d66466997689)
+![image.png](/assets/uploads/image-9.png)
 
 
 
