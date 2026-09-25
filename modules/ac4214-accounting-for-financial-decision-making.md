@@ -32,7 +32,18 @@ Write a short plain-English explanation of what this module is about and what pr
 
 ## Applications & connections
 
-Connect the module to finance, data, modelling, computing, business, engineering or Abelo where relevant.
+### Abelo asset-management connection
+
+Accounting helps answer a practical question: **what is the aircraft costing, earning and worth?**
+
+Relevant ideas include:
+
+- Asset valuation and depreciation
+- Revenue and operating costs
+- Capital expenditure
+- Comparing the financial consequences of different decisions
+
+**Aircraft decision:** Is continued investment in the aircraft justified, or would selling or redeploying it create more value?
 
 ## Interview questions
 
