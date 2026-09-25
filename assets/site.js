@@ -691,8 +691,10 @@
 
 // Abelo global footprint map
 (() => {
+  const initAbeloMap = () => {
   const mapHost = document.querySelector('[data-abelo-map] #abeloWorldMap');
-  if (!mapHost) return;
+  if (!mapHost || mapHost.dataset.mapReady === 'true') return;
+  mapHost.dataset.mapReady = 'true';
 
   const placements = [
     {
@@ -974,4 +976,96 @@
   }).catch(() => {
     mapHost.innerHTML = '<p style="padding:1rem">Interactive map unavailable. The placement list below remains available.</p>';
   });
+  };
+
+  initAbeloMap();
+  document.addEventListener('abeloResearchRendered', initAbeloMap);
+})();
+
+
+// Render the detailed Abelo research summary outside Pages CMS rich-text parsing.
+(() => {
+  const body = document.getElementById('docBody');
+  if (!body) return;
+
+  const marker = [...body.querySelectorAll('p')].find(p => p.textContent.trim() === 'ABEL0_RESEARCH_WIDGET');
+  if (!marker) return;
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'abelo-research-widget';
+  wrapper.innerHTML = `
+    <h3>Erik's 30-second summary</h3>
+    <p><strong>Abelo is a Dublin-based B2B aircraft lessor specialising in regional turboprop aircraft.</strong> It does not sell tickets to passengers. It owns or finances aircraft and places them with airlines, then manages the commercial, financial and technical life of those assets.</p>
+    <p>The business sits at the intersection of <strong>finance, aircraft, data, asset management, risk and sustainability</strong>. For Erik, that is the important connection: a Financial Mathematics degree can be applied to real assets with long lives, large capital values and uncertain future cash flows.</p>
+
+    <h3>What has changed since Abelo was founded?</h3>
+    <p>Abelo was created in <strong>2022</strong> and has moved quickly from a relatively new platform into a growing specialist lessor.</p>
+    <ul>
+      <li><strong>May 2025 — Cerberus acquired Abelo</strong> from funds managed by Oaktree Capital Management.</li>
+      <li><strong>2025 — Abelo secured a warehouse financing facility of up to $750 million</strong> to support fleet and customer growth.</li>
+      <li><strong>March 2026 — Abelo said it had 36 firm ATR aircraft ordered</strong>, with another nine options and purchase rights.</li>
+      <li>Its newer placements show an increasingly international customer base across <strong>Europe, Latin America, Africa, Asia and Australia</strong>.</li>
+    </ul>
+    <p>That growth matters because an aircraft lessor is not simply buying planes. It has to decide <strong>which aircraft to buy, how to finance them, which airlines and markets to place them with, what lease structure to use, how to manage technical transitions, and what the aircraft may be worth years later</strong>.</p>
+
+    <h3>The aircraft strategy | ATR 42 and ATR 72</h3>
+    <p>Abelo's strategy is centred on larger regional turboprops, particularly the <strong>ATR 42-600</strong> and <strong>ATR 72-600</strong>. Modern turboprops are designed for shorter regional sectors where a jet may be unnecessarily expensive or inefficient.</p>
+    <p>In January 2025, an earlier order for ten ATR 42 STOL aircraft was converted into <strong>five ATR 42-600 and five ATR 72-600 aircraft</strong>, with three further ATR 72-600s added.</p>
+
+    <h3>Global footprint | Where Abelo aircraft are placed</h3>
+    <p>The map below shows <strong>documented airline placements and operators mentioned in Abelo announcements</strong>. It is a portfolio map, <strong>not live aircraft tracking</strong>.</p>
+    <p><strong>Click a marker for a richer aircraft card</strong>: operator, country/market, aircraft type, how many aircraft where publicly stated, transaction or lease structure where disclosed, Abelo's role, and a visual asset/lease-life cue. Where contractual maturity is not public, the card says so rather than inventing a date.</p>
+    <div class="abelo-map" data-abelo-map>
+      <div class="abelo-map-canvas" id="abeloWorldMap" role="img" aria-label="World map of documented Abelo aircraft placements"></div>
+      <p class="abelo-map-note"><strong>Map key:</strong> select a marker to see the operator, market and aircraft context. Locations represent documented placements or operating markets, not live aircraft positions.</p>
+    </div>
+
+    <h3>What one transaction actually involves</h3>
+    <p>A useful example is the February 2026 transition of an <strong>ATR 72-500 to Air Navigator Group / Aerlink in Australia</strong>. Abelo said the work included <strong>repossession from Blue Islands, inspection, maintenance and reconfiguration to the new operator's specification in less than 100 days</strong>.</p>
+    <p>That is a good picture of aircraft asset management. The job does not stop when a lease is signed. A lessor has to coordinate technical condition, documentation, maintenance, transition timing, customer requirements and the economics of keeping an expensive asset earning revenue.</p>
+
+    <h3>How Abelo makes money | Think like an asset manager</h3>
+    <p><strong>Raise capital → acquire aircraft → lease aircraft → collect lease cash flows → manage risk and maintenance → transition or sell the aircraft → manage residual value.</strong></p>
+    <ul>
+      <li><strong>Cash-flow modelling:</strong> lease rentals, deposits, maintenance reserves and financing payments.</li>
+      <li><strong>Present value:</strong> comparing future lease income with the price paid for the asset.</li>
+      <li><strong>Interest-rate risk:</strong> aircraft are capital-intensive and financing costs matter.</li>
+      <li><strong>Credit risk:</strong> the airline must remain capable of meeting its lease obligations.</li>
+      <li><strong>Residual-value risk:</strong> what will the aircraft be worth at the end of a lease?</li>
+      <li><strong>Portfolio risk:</strong> diversification by airline, region, aircraft type and lease maturity.</li>
+      <li><strong>Scenario analysis:</strong> fuel prices, rates, inflation, airline demand and aircraft values can all change.</li>
+    </ul>
+
+    <h3>Growth and financing | Why the $750m facility matters</h3>
+    <p>A warehouse facility gives a lessor a pool of financing that can be drawn to acquire aircraft before those assets are refinanced, sold or moved into longer-term structures.</p>
+    <p>Abelo had also previously announced a <strong>$190 million financing facility for a 20-turboprop portfolio</strong>, involving MUFG, Deutsche Bank and Société Générale.</p>
+
+    <h3>Sustainability | More than a slogan</h3>
+    <p>Abelo repeatedly describes turboprops as part of the transition toward lower-emission regional aviation. ATR states that its aircraft emit <strong>about 45% less CO₂ than similar-size regional jets</strong>.</p>
+    <p><strong>Right-sized aircraft + lower fuel burn on suitable regional routes + access to smaller airports + replacement of older aircraft = a commercial as well as environmental proposition.</strong></p>
+
+    <h3>What Erik should be able to say</h3>
+    <p><strong>Specialist lessor → turboprops → global placements → finance → asset management → sustainable regional connectivity.</strong></p>
+    <blockquote><p>“Abelo is a Dublin-based specialist turboprop lessor rather than an airline. What interests me is that the business combines aircraft with finance and asset management. It has been growing quickly, including a major ATR orderbook and international placements across Europe, Latin America, Africa, Asia and Australia. From a Financial Mathematics perspective, I can see direct links to cash flows, valuation, credit risk, financing, portfolio decisions and residual values.”</p></blockquote>
+
+    <h3>News evidence | What the announcements tell us</h3>
+    <ul>
+      <li><strong>Cerberus acquisition:</strong> investor backing and a new growth phase.</li>
+      <li><strong>$750m warehouse facility:</strong> capital available to scale the fleet.</li>
+      <li><strong>ATR orderbook expansion:</strong> confidence in the underlying aircraft type and future demand.</li>
+      <li><strong>SATENA / Colombia:</strong> repeat placement from the orderbook.</li>
+      <li><strong>Air Astra / Bangladesh:</strong> three brand-new ATR 72-600s into a growing domestic market.</li>
+      <li><strong>Maldivian:</strong> sale-and-leaseback and finance-lease examples.</li>
+      <li><strong>Braathens / Sweden:</strong> acquisition of aircraft already on lease.</li>
+      <li><strong>Aergo portfolio:</strong> diversification across five new operators and several regions.</li>
+      <li><strong>Aerlink / Australia:</strong> hands-on aircraft transition and technical asset management.</li>
+      <li><strong>IndiGo / India:</strong> four ATR 72-600s acquired while already on lease.</li>
+      <li><strong>Renegade Air / Kenya:</strong> passenger-to-cargo conversion extending useful asset life.</li>
+    </ul>
+  `;
+
+  marker.replaceWith(wrapper);
+
+  // Fire a custom event so the map initializer can run after the map container exists.
+  document.dispatchEvent(new CustomEvent('abeloResearchRendered'));
 })();
