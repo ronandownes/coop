@@ -7,7 +7,7 @@ eyebrow: FINISH THE INTERVIEW WELL
 intro: Choose two or three. Ask questions that help you understand the work and
   show serious interest in the placement.
 ---
-## Risk | Geopolitical and Financial
+## Risk | Geopolitical Environment  and Financial  Risk
 
 **Recent years have brought geopolitical disruption, sanctions and large movements in interest rates and inflation. How does Abelo think about protecting aircraft value and lease returns against those risks?**
 
