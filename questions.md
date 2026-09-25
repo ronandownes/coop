@@ -11,9 +11,23 @@ intro: Choose two or three. Ask questions that help you understand the work and
 
 **Recent years have brought geopolitical disruption, sanctions and large movements in interest rates and inflation. How does Abelo think about protecting aircraft value and lease returns against those risks?**
 
-## Options | Delivery Slots
 
-**Abelo exercised three ATR options in late 2024 and another three in 2026, while retaining further options and strategic delivery slots. How do you decide when to exercise those options rather than preserve the flexibility for longer?**
+
+&nbsp;
+
+Understood. I’ll use standard aviation/leasing terminology rather than mirror your phrasing.
+
+## Options |  Options Capacity and Commitment
+
+At the 2023 Dubai Airshow, Abelo ordered 10 ATR 72-600s with options for another 10, then exercised three options in late 2024 and another three in 2026. How do you balance securing future delivery capacity against the cost and risk of committing to aircraft before the leasing demand is fully visible?
+
+
+
+&nbsp;
+
+&nbsp;
+
+
 
 ## Key Line
 
@@ -74,8 +88,6 @@ Possible follow-up:
 **Why this works:** It shifts Erik from **“What training will you give me?”** to **“Where could I contribute?”**
 
 ## David Cann | What distinguishes the students who succeed?
-
-
 
 ![image.png](blob:https:/app.pagescms.org/0e59ec31-be52-47a5-81bd-6538f5962852)
 
