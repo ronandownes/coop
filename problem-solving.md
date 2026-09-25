@@ -1,7 +1,7 @@
 ---
 layout: doc
-handle: Critical
-title: Problem Solving, Initiative & Working Independently
+handle: Think
+title: Critical Thinking, Problem Solving, Initiative & Working Independently
 nav_order: 40
 eyebrow: STAR QUESTIONS
 intro: Employers are looking for how you think when the answer is not obvious.
