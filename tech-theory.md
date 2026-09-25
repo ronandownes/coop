@@ -103,3 +103,117 @@ They should help a user move from:
 **data → pattern → comparison → implication → decision**
 
 That is where mathematics, statistics, software and commercial judgement meet.
+
+
+
+&nbsp;
+
+&nbsp;
+
+## Aircraft Leasing
+
+Abelo owns or finances aircraft and leases them to airlines. The airline operates the aircraft and makes lease payments to Abelo.
+
+**Simple model:**  
+Abelo → aircraft → airline → lease payments
+
+Leasing is therefore the **commercial use of the aircraft as an income-producing asset**.
+
+## Asset Management
+
+Asset management is the ongoing management of the aircraft **after it has been acquired and while it is producing income**.
+
+An aircraft is both a physical machine and a valuable financial asset. Its value depends on factors such as:
+
+- Age
+- Flight hours and cycles
+- Maintenance condition
+- Engine condition
+- Major component life
+- Aircraft records
+- Market demand
+- Remaining economic life
+
+Asset management therefore asks questions such as:
+
+- Is the aircraft being operated in accordance with the lease?
+- What maintenance events are approaching?
+- What is the aircraft currently worth?
+- Should the aircraft remain with its current airline?
+- Could it be re-leased to another operator?
+- Would selling or converting the aircraft create greater value?
+
+**Key idea:** Leasing gets the aircraft earning money. Asset management helps keep it earning money while protecting its value.
+
+## In-House Capabilities
+
+Abelo has specialist expertise within the company rather than treating aircraft leasing as a single financial transaction.
+
+Different functions contribute to each aircraft and lease.
+
+**Commercial / Marketing**  
+Finds customers, develops airline relationships and negotiates leasing opportunities.
+
+**Finance & Pricing**  
+Models acquisition cost, financing, lease rates, cash flows, returns and residual value.
+
+**Risk**  
+Assesses airline creditworthiness, market exposure and other financial or operational risks.
+
+**Technical & Engineering**  
+Understands the physical aircraft, engines, maintenance programme, components and technical records.
+
+**Legal**  
+Structures and negotiates the contractual framework of the transaction.
+
+**Contract Management**  
+Monitors whether the requirements of the lease agreement are being met.
+
+**Data & Digital**  
+Supports analysis, reporting, systems and decision-making across the business.
+
+## How the Functions Work Together
+
+A single aircraft decision can involve several parts of Abelo at the same time.
+
+For example, before acquiring an ATR 72 for an airline:
+
+**Commercial** identifies the opportunity.
+
+**Risk** assesses the airline and market.
+
+**Finance** models whether the transaction produces an appropriate return.
+
+**Technical** assesses the aircraft and its maintenance position.
+
+**Legal** prepares the lease structure.
+
+**Asset Management** considers how the aircraft should be managed throughout its ownership life.
+
+The functions are therefore interconnected rather than separate.
+
+## Aircraft Ownership Cycle
+
+Aircraft leasing can be viewed as an ownership cycle:
+
+**Identify opportunity → Acquire aircraft → Lease aircraft → Manage asset → Re-lease / sell / convert → End of economic life**
+
+Abelo's work extends across this cycle.
+
+The aircraft may therefore change airline, country, configuration or purpose several times during its life while remaining an asset that has to be technically, commercially and financially managed.
+
+## Why Asset Management Sits at the Centre
+
+Asset management connects many of the different perspectives within an aircraft lessor.
+
+The same ATR can simultaneously be viewed as:
+
+**A machine** — engines, maintenance, flight cycles and technical condition.
+
+**A financial asset** — purchase price, lease income, financing cost and residual value.
+
+**A contractual asset** — lease obligations, return conditions and maintenance requirements.
+
+**A commercial asset** — airline demand, regional markets and opportunities for re-leasing.
+
+That is why an Asset Management role can involve information coming from finance, engineering, contracts, commercial teams and data analysis rather than belonging to only one narrow discipline.
