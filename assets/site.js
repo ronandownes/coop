@@ -810,6 +810,18 @@
     editButton.textContent = 'Edit';
     editButton.title = 'Edit this answer here';
 
+    const saveButton = document.createElement('button');
+    saveButton.type = 'button';
+    saveButton.textContent = 'Save';
+    saveButton.title = 'Save the edited answer';
+    saveButton.disabled = true;
+
+    const cancelButton = document.createElement('button');
+    cancelButton.type = 'button';
+    cancelButton.textContent = 'Cancel';
+    cancelButton.title = 'Cancel editing';
+    cancelButton.disabled = true;
+
     let answerEditor = null;
 
     const plainTextToHtml = value => {
@@ -823,47 +835,65 @@
         .join('');
     };
 
+    const stopEditing = () => {
+      if (!answerEditor) return;
+      answerEditor.remove();
+      answerEditor = null;
+      copy.hidden = false;
+      editButton.disabled = false;
+      saveButton.disabled = true;
+      cancelButton.disabled = true;
+    };
+
     editButton.addEventListener('click', event => {
       event.preventDefault();
       event.stopPropagation();
+      if (answerEditor) return;
 
-      if (!answerEditor) {
-        resetAudio();
+      resetAudio();
 
-        answerEditor = document.createElement('textarea');
-        answerEditor.className = 'answer-focus-editor';
-        answerEditor.value = copy.innerText.trim();
-        answerEditor.setAttribute('aria-label', 'Edit this answer');
-        answerEditor.spellcheck = true;
+      answerEditor = document.createElement('textarea');
+      answerEditor.className = 'answer-focus-editor';
+      answerEditor.value = copy.innerText.trim();
+      answerEditor.setAttribute('aria-label', 'Edit this answer');
+      answerEditor.spellcheck = true;
 
-        copy.hidden = true;
-        copy.insertAdjacentElement('afterend', answerEditor);
+      copy.hidden = true;
+      copy.insertAdjacentElement('afterend', answerEditor);
 
-        editButton.textContent = 'Save';
-        editButton.title = 'Save this edited answer';
+      editButton.disabled = true;
+      saveButton.disabled = false;
+      cancelButton.disabled = false;
 
-        requestAnimationFrame(() => {
-          answerEditor.focus({ preventScroll: true });
-          const end = answerEditor.value.length;
-          answerEditor.setSelectionRange(end, end);
-        });
-        return;
-      }
+      requestAnimationFrame(() => {
+        answerEditor.focus({ preventScroll: true });
+        const end = answerEditor.value.length;
+        answerEditor.setSelectionRange(end, end);
+      });
+    });
+
+    saveButton.addEventListener('click', event => {
+      event.preventDefault();
+      event.stopPropagation();
+      if (!answerEditor) return;
 
       const html = plainTextToHtml(answerEditor.value.trim());
       copy.innerHTML = html;
-      copy.hidden = false;
-      answerEditor.remove();
-      answerEditor = null;
 
       localStorage.setItem(editKeyFor(heading), html);
       applySavedToSource(heading, html);
 
-      editButton.textContent = 'Saved ✓';
-      editButton.title = 'Edit this answer here';
+      stopEditing();
+      saveButton.textContent = 'Saved ✓';
       window.setTimeout(() => {
-        editButton.textContent = 'Edit';
-      }, 800);
+        saveButton.textContent = 'Save';
+      }, 900);
+    });
+
+    cancelButton.addEventListener('click', event => {
+      event.preventDefault();
+      event.stopPropagation();
+      stopEditing();
     });
 
     const glossaryButton = document.createElement('button');
@@ -876,7 +906,7 @@
       openGlossaryTerm(selection);
     });
 
-    controls.append(play, stop, copyButton, editButton, glossaryButton);
+    controls.append(play, stop, copyButton, editButton, saveButton, cancelButton, glossaryButton);
 
     if (pageEdit?.href) {
       const cms = document.createElement('a');
