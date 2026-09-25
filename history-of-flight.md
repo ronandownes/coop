@@ -111,49 +111,20 @@ Where Elix brought the operating platform, portfolio and existing customer relat
 
 That makes the 2022 transaction easier to understand as a **combination of complementary capabilities**, not simply one company changing its name.
 
+## Elix + ADARE | Two foundations
+
+- **Elix:** established turboprop leasing platform + **65-aircraft portfolio**.
+- **ADARE:** experienced regional-aviation management team.
+- **2022:** merged to create **Abelo**.
+
 ## Abelo | 2022 to now
 
-**21 June 2022 — Abelo is created**
+- **2022:** Abelo created; major new ATR commitments followed.
+- **2023–24:** continued ATR investment and portfolio growth.
+- **2025:** acquired by **Cerberus** from Oaktree.
+- **Today:** full-service turboprop leasing and asset management, supporting **60+ aircraft**.
 
-Oaktree initiated the merger of Elix Aviation and ADARE Aviation Capital. The new business began operating as **Abelo**.
+**Key idea:** Elix brought the **platform and fleet**; ADARE brought the **management expertise**.
 
-The combination brought together:
 
-**Elix:** platform + turboprop portfolio + leasing infrastructure  
-**ADARE:** leadership + management expertise + growth strategy
 
-**July 2022 — renewed ATR investment**
-
-Soon after launch, Abelo announced an agreement for 10 new ATR 72-600 aircraft and confirmed the earlier Elix commitment for 10 ATR 42-600S aircraft.
-
-**2023 — deeper ATR commitment**
-
-At the Dubai Airshow, Abelo agreed a further firm order for 10 ATR 72-600s with options for another 10.
-
-**2024–2025 — portfolio development**
-
-Abelo continued placing new-generation ATR aircraft with airlines and acquiring aircraft already on lease. In late 2024 it adjusted the earlier STOL order into a mix of ATR 42-600 and ATR 72-600 aircraft and added further ATR 72-600 orders.
-
-**May 2025 — new ownership**
-
-An affiliate of Cerberus Capital Management acquired Abelo from funds managed by Oaktree. The Abelo business and management platform continued, but with a new investment partner for its next stage of growth.
-
-**2026 — continued expansion**
-
-Abelo continues to lease, acquire, finance, transition and manage turboprop aircraft for operators in multiple regions. Its current activity shows the full asset-management cycle in practice: new-aircraft placements, used-aircraft transitions, financing, portfolio acquisitions and fleet renewal.
-
-## The Big Picture | Why these histories connect
-
-The story is not:
-
-**propeller → jet → propeller becomes obsolete.**
-
-It is:
-
-**early propeller aircraft → gas turbine → jet and turboprop specialise for different missions → regional aviation develops its own economics → ATR builds aircraft for that niche → leasing separates ownership from operation → specialist lessors manage those aircraft as financial and technical assets → Elix and ADARE combine to form Abelo.**
-
-That gives a useful mental model for the whole interview:
-
-**Flight technology → route economics → regional aircraft → ATR → asset value → leasing → asset management → Abelo.**
-
-Use **Tech + Theory** for the deeper mathematics, aircraft engineering, lease-finance curves, fleet data and dashboards behind this history.
