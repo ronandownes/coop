@@ -47,13 +47,13 @@ intro: Follow the story from the first powered flight to modern regional
 
 ## Elix + ADARE → Abelo
 
-- **Elix:** established turboprop leasing platform and **65-asset portfolio**.
-- **ADARE:** experienced regional-aviation leadership and asset-management capability.
+- **2013:** Elix founded — turboprop leasing platform and portfolio.
+- **2020:** ADARE founded — regional-aviation management expertise.
 - **2022:** combined to create **Abelo**.
 - **2022–24:** further ATR investment and portfolio growth.
-- **2025:** acquired by **Cerberus** from Oaktree.
+- **2025:** acquired by **Cerberus** from Oaktree — a global investment firm managing about **€63 billion** in assets.
 
-**Key idea:** Elix brought the **platform and fleet**; ADARE brought the **management expertise**.
+**Key idea:** Elix brought the **platform and fleet**; ADARE brought the **management expertise**; Cerberus provides the **large-scale investment backing**.
 
 ## The Story in One Line
 
