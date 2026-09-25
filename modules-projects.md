@@ -95,6 +95,60 @@ The course has progressed from **core mathematics, computing and accounting**, t
 
 **Progression:** Foundations → mathematical modelling → probability/data/optimisation → financial mathematics → workplace application → advanced modelling and project work.
 
+## Asset Management | How the Course Connects to Abelo
+
+**Key idea:** An aircraft is a long-life, income-producing asset. Managing it well requires financial, statistical, operational and computational thinking.
+
+A useful chain is:
+
+**Account for the asset → value the cash flows → analyse the data → choose between alternatives**
+
+### Accounting | AC4213 & AC4214
+
+Connects to **asset valuation, depreciation, revenue, costs and financial decision-making**.
+
+**Abelo application:** Understand what an aircraft is costing, earning and how further investment affects its value.
+
+### Finance & Financial Mathematics | FI4003 & MS4027
+
+Connects to **cash flows, discounting, interest rates, present value and investment appraisal**.
+
+**Abelo application:** Compare the economics of extending a lease, re-leasing an aircraft, investing in it or selling it.
+
+### Probability, Statistics & Data Analysis | MS4222, MS4035 & MS4034
+
+Connects to **uncertainty, expected values, variation, regression, trends and unusual observations**.
+
+Possible aircraft variables include:
+
+**Age → flight hours → cycles → maintenance history → lease rate → market value**
+
+**Abelo application:** Use evidence to judge how an aircraft is performing and how its maintenance requirements or value may evolve.
+
+### Operations Research | MS4303
+
+Connects to **optimisation, constraints, resource allocation and choosing between alternatives**.
+
+A typical asset decision could be:
+
+**Current operator → lease extension → new operator → conversion → sale → retirement**
+
+**Abelo application:** Compare competing uses of an aircraft subject to cost, timing, maintenance and market constraints.
+
+### Computing & Numerical Analysis | CE4701, CE4702 & MS4014
+
+Connects to **programming, data processing, numerical methods, model implementation and validation**.
+
+**Abelo application:** Build repeatable analysis or dashboards that turn aircraft and financial data into useful information for decision-makers.
+
+### Interview connection
+
+**“What interests me about asset management is that it seems to bring together several parts of Financial Mathematics. Accounting helps me understand the asset and its costs, finance deals with cash flows and value through time, statistics helps analyse uncertain data, and Operations Research helps when there are several possible decisions about what to do with the aircraft.”**
+
+A natural follow-up question is:
+
+**“In Abelo’s Asset Management team, where would someone on placement most often see that analysis turn into an actual decision about an aircraft?”**
+
 ## Interview-level quantitative concepts
 
 The module pages hold the detail. This overview keeps the cross-module ideas that can recur in interviews.
