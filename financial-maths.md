@@ -2,11 +2,110 @@
 layout: doc
 handle: MP
 title: Modules and Project Work
-nav_order: 50
+nav_order: 60
 eyebrow: Module
 intro: Use concise explanations. Show that you can calculate, interpret,
   challenge assumptions and communicate the result.
 ---
+
+
+# Financial Mathematics — Course Overview
+
+## Key Line
+
+The course has progressed from **core mathematics, computing and accounting**, through **probability, differential equations, data analysis and optimisation**, and is now moving into **financial mathematics, statistical modelling and professional application through co-op**.
+
+## First Year — 2024–25
+
+First year built the foundations across mathematics, computing and finance.
+
+**Semester 1**
+
+- Financial Accounting
+- Computer Software 1
+- Calculus 1
+- Mathematical Laboratory
+- Linear Algebra 1
+
+**Semester 2**
+
+- Accounting for Financial Decision Making
+- Computer Software 2
+- Calculus 2
+- Further Linear Algebra
+- Introduction to Probability and Statistics
+
+The emphasis was on developing the basic mathematical toolkit while also introducing programming, probability and the financial context in which the mathematics can be applied.
+
+## Second Year — 2025–26
+
+Second year moved into considerably more advanced applied mathematics, statistics and quantitative analysis.
+
+**Semester 1**
+
+- Finance
+- Probability Models
+- Methods of Linear Analysis
+- Ordinary Differential Equations
+- Vector Analysis
+
+**Semester 2**
+
+- Introduction to Numerical Analysis
+- Applied Data Analysis
+- Operations Research 1
+- Partial Differential Equations
+- Theoretical Mechanics
+
+This year was particularly important because it connected mathematical theory with **data, modelling, numerical methods, optimisation and decision-making**.
+
+## Third Year — 2026–27
+
+Third year starts bringing the earlier mathematics and statistics much more directly into financial applications.
+
+**Semester 1**
+
+- Complex Analysis
+- Linear Algebra 2
+- Statistical Inference
+- Advanced Data Analysis
+- Fundamentals of Financial Mathematics
+
+Fundamentals of Financial Mathematics includes areas such as derivative securities, arbitrage, bonds, forward-rate agreements, binomial models, risk-neutral valuation and hedging. ([Book of Modules](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CMS4027%7C&utm_source=chatgpt.com "Book of Modules"))
+
+**Semester 2**
+
+- Cooperative Education
+
+So third year is an important transition from mainly academic work to applying quantitative skills in a professional environment.
+
+## Fourth Year — 2027–28
+
+Fourth year becomes more specialised and research-oriented.
+
+It includes areas such as:
+
+- Project 1 and Project 2
+- Stochastic Processes
+- Stochastic Differential Equations for Finance
+- Mathematical and Statistical Models of Investments
+- Time Series Analysis
+- A selection of advanced mathematical electives
+
+The final-year project runs across the year and is designed to integrate earlier learning into a substantial independent piece of work, culminating in a professional report and oral presentation. ([Book of Modules](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CMS4418%7C&utm_source=chatgpt.com "Book of Modules"))
+
+For the interview site, I think the important story is **not simply “here are 30 modules.”** It is the progression:
+
+**Foundations → mathematical modelling → probability/data/optimisation → financial mathematics → workplace application → advanced modelling and project work.**
+
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ## Expected value | How would you explain expected value?
 
 Expected value is the long-run average outcome of a random process, calculated by weighting each possible outcome by its probability. It is useful for comparing uncertain choices, but it does not tell us how variable the outcomes are, so I would usually consider risk or dispersion as well.
