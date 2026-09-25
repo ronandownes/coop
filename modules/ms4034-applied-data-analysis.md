@@ -32,7 +32,22 @@ Write a short plain-English explanation of what this module is about and what pr
 
 ## Applications & connections
 
-Connect the module to finance, data, modelling, computing, business, engineering or Abelo where relevant.
+### Abelo asset-management connection
+
+Aircraft asset management relies on data rather than a single headline number.
+
+Possible variables include:
+
+**Age → flight hours → cycles → maintenance history → lease rate → market value**
+
+Relevant ideas include:
+
+- Relationships between variables
+- Trends and unusual observations
+- Regression and model checking
+- Communicating uncertainty
+
+**Aircraft decision:** Use evidence to assess how an aircraft is performing and how its value or maintenance requirements may evolve.
 
 ## Interview questions
 
