@@ -633,6 +633,54 @@
 
   setupFloatingTools();
 
+  /* -----------------------------------------------------------------------
+     Hash target alignment: give the last section enough temporary scroll
+     runway to sit below the sticky navigation, without dummy headings or
+     permanent blank space at the end of every page.
+     ----------------------------------------------------------------------- */
+  const alignHashTarget = () => {
+    if (!location.hash) {
+      body.style.removeProperty('padding-bottom');
+      return;
+    }
+
+    let id = '';
+    try {
+      id = decodeURIComponent(location.hash.slice(1));
+    } catch (_) {
+      id = location.hash.slice(1);
+    }
+
+    const target = document.getElementById(id);
+    if (!target || !body.contains(target)) {
+      body.style.removeProperty('padding-bottom');
+      return;
+    }
+
+    // Recalculate from the page's natural height first, then add only the
+    // extra space needed for this target to reach its normal anchored position.
+    body.style.removeProperty('padding-bottom');
+
+    requestAnimationFrame(() => {
+      const topOffset = (topbar?.getBoundingClientRect().height || 0) + 20;
+      const targetTop = Math.max(0, window.scrollY + target.getBoundingClientRect().top - topOffset);
+      const maxScrollTop = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+      const shortfall = Math.ceil(targetTop - maxScrollTop);
+
+      if (shortfall > 0) {
+        body.style.paddingBottom = `${shortfall + 24}px`;
+      }
+
+      requestAnimationFrame(() => {
+        window.scrollTo({ top: targetTop, behavior: 'auto' });
+      });
+    });
+  };
+
+  window.addEventListener('hashchange', alignHashTarget);
+  if (document.readyState === 'complete') alignHashTarget();
+  else window.addEventListener('load', alignHashTarget, { once: true });
+
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape' && !overlay.hidden) closeFocus();
   });
