@@ -1,9 +1,9 @@
 ---
 layout: doc
 handle: Abelo
-title: Abelo -About us
+title: Abelo -the entire official website
 nav_order: 20
-eyebrow: You researched our Company so what do you know about us?
+eyebrow: Research us to death
 intro: These answers should change for every interview. Keep the structure
   stable but replace the company evidence.
 ---
