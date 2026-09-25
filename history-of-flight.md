@@ -2,6 +2,7 @@
 layout: doc
 handle: History
 title: History | Flight, Turboprops & Abelo
+nav_order: 35
 eyebrow: HOW THE INDUSTRY GOT HERE
 intro: Follow the story from the first powered flight to modern regional aviation, the development of turboprop technology, the rise of aircraft leasing and the creation of Abelo from Elix Aviation and ADARE Aviation Capital.
 ---
