@@ -114,4 +114,7 @@ content:
 
   - { name: judgement, label: "Judgement", type: file, path: judgement.md, format: yaml-frontmatter, fields: *docfields }
   - { name: questions, label: "Questions", type: file, path: questions.md, format: yaml-frontmatter, fields: *docfields }
-  - { name: glossary, label: "Glossary", type: file, path: glossary.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: communication, label: "Communication", type: file, path: communication.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: glossary, label: "Glossary (A–Z)", type: file, path: glossary.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: tech_theory, label: "Tech & Theory", type: file, path: tech-theory.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: history_of_flight, label: "History of Flight", type: file, path: history-of-flight.md, format: yaml-frontmatter, fields: *docfields }
