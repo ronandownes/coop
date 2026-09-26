@@ -36,3 +36,49 @@ $('resetMortgage').addEventListener('click',()=>{el.price.value=400000;el.dep.va
 el.canvas.addEventListener('pointermove',inspect);el.canvas.addEventListener('pointerdown',inspect);el.canvas.addEventListener('pointerleave',()=>{if(selectedIndex===null)el.tip.hidden=true});
 window.addEventListener('resize',()=>{if(current)draw()});update();
 })();
+
+(()=>{
+const root=document.getElementById('aircraftFinanceLab');if(!root)return;
+const $=id=>document.getElementById(id);
+const euro=n=>new Intl.NumberFormat('en-IE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number.isFinite(n)?n:0);
+const clamp=(n,a,b)=>Math.min(b,Math.max(a,n));
+function pmt(P,annual,months){if(P<=0)return 0;const r=annual/1200;if(r===0)return P/months;return P*r/(1-Math.pow(1+r,-months));}
+function updateAircraft(){
+  const price=Math.max(0,(Number($('airPrice').value)||0)*1e6);
+  const eq=clamp(Number($('airEquity').value)||0,0,100);
+  const rate=clamp(Number($('airDebtRate').value)||0,0,12);
+  const debtYears=clamp(Number($('airDebtTerm').value)||1,1,20);
+  const rent=Math.max(0,(Number($('airRent').value)||0)*1000);
+  const leaseYears=clamp(Number($('airLeaseTerm').value)||1,1,15);
+  const annualCost=Math.max(0,(Number($('airAnnualCost').value)||0)*1000);
+  const residualPct=clamp(Number($('airResidual').value)||0,0,100);
+
+  $('airEquityOut').textContent=eq.toFixed(0)+'%';
+  $('airDebtRateOut').textContent=rate.toFixed(2).replace(/\.00$/,'')+'%';
+  $('airDebtTermOut').textContent=debtYears+(debtYears===1?' year':' years');
+  $('airLeaseTermOut').textContent=leaseYears+(leaseYears===1?' year':' years');
+  $('airResidualOut').textContent=residualPct.toFixed(0)+'%';
+
+  const equity=price*eq/100;
+  const debt=price-equity;
+  const monthlyDebt=pmt(debt,rate,debtYears*12);
+  const leaseMonths=leaseYears*12;
+  const debtMonthsPaid=Math.min(leaseMonths,debtYears*12);
+  const debtPaidDuringLease=monthlyDebt*debtMonthsPaid;
+  const rentals=rent*leaseMonths;
+  const costs=annualCost*leaseYears;
+  const residual=price*residualPct/100;
+  const net=rentals+residual-costs-debtPaidDuringLease-equity;
+
+  $('airEquityKpi').textContent=euro(equity);
+  $('airDebtKpi').textContent=euro(debt);
+  $('airDebtPayKpi').textContent=euro(monthlyDebt)+'/mo';
+  $('airRentKpi').textContent=euro(rentals);
+  $('airResidualKpi').textContent=euro(residual);
+  $('airNetKpi').textContent=euro(net);
+}
+['airPrice','airEquity','airDebtRate','airDebtTerm','airRent','airLeaseTerm','airAnnualCost','airResidual'].forEach(id=>{
+  const n=$(id); if(n){n.addEventListener('input',updateAircraft);n.addEventListener('change',updateAircraft);}
+});
+updateAircraft();
+})();
