@@ -1,10 +1,10 @@
 ---
 layout: doc
-handle: Mortgage Lab
-title: Mortgage Calculator — Open-Source Decision Lab
+handle: Finance & Lease Lab
+title: Residential & Aircraft Finance — Decision Lab
 nav_order: 65
 eyebrow: OPEN · ONLINE · INTERACTIVE
-intro: Model house price, deposit, interest rate, term and annual overpayments, then inspect the repayment curves month by month.
+intro: Start with a residential mortgage, then use the same cash-flow thinking to understand aircraft ownership, financing, leasing, options and residual value.
 ---
 
 ## Technology choices
@@ -101,6 +101,134 @@ A commercial organisation could still take the outputs from this model into **Po
     </section>
   </div>
 </div>
+
+
+## Residential rent and aircraft leasing | Same skeleton, different world
+
+At the simplest level, the relationship is recognisable:
+
+**Landlord → house → tenant → rent**
+
+**Aircraft lessor → aircraft → airline → lease rentals**
+
+In both cases, the owner supplies the use of an asset for a period in return for recurring payments. But an aircraft lease is a large, negotiated commercial contract with technical, maintenance, insurance, return-condition, jurisdiction, default and repossession provisions that have no close residential equivalent.
+
+For Irish residential property, rent is also constrained by tenancy law. From **1 March 2026**, national rent-control rules generally limit annual increases to **2% or CPI inflation, whichever is lower**, subject to stated exceptions. That means a landlord cannot simply say “my mortgage rate rose, so I will raise the rent by the same amount.” [RTB — current rent-setting rules](https://rtb.ie/renting/setting-and-reviewing-private-rents-from-1-march-2026/)
+
+### Who is financing the owner?
+
+A useful way to extend the analogy is:
+
+**Mortgage bank → homeowner/landlord → house → tenant**
+
+**Banks / investors → aircraft lessor → aircraft → airline**
+
+This is not hypothetical for Abelo. In 2024 Abelo announced a **$190 million financing facility covering 20 turboprop aircraft**, with MUFG, Deutsche Bank and Société Générale participating. In May 2025 it announced an **up-to-$750 million warehouse financing facility** arranged by Deutsche Bank and MUFG to support fleet growth.
+
+So an aircraft lessor does not have to fund every acquisition entirely with cash equity. The lessor can combine investor capital with secured or corporate debt, acquire aircraft, lease them to airlines, and manage the difference between financing cost, lease income, asset costs and residual value.
+
+### If both sides want out of an aircraft lease
+
+The lease is binding according to its negotiated terms. An airline normally cannot simply hand the aircraft back because it no longer wants it, and the lessor normally cannot simply take it back because another customer offers more money.
+
+If **both sides agree**, however, commercial contracts can generally be restructured by agreement. Depending on the actual lease this can involve an agreed early termination, lease amendment, buy-out, novation to another operator, sale of the aircraft subject to the lease, or an agreed return.
+
+If only one side wants out, the contract matters. Aircraft leases commonly contain detailed **events of default, cure periods, termination rights, return conditions and remedies**. Enforcement also depends on governing law, aircraft registration, international conventions and local insolvency/repossesssion rules. So the correct interview answer is not “the lease can never be broken”; it is **“it is binding, but the contract defines the routes out.”**
+
+## Aircraft version | Lessor economics
+
+The model below is deliberately illustrative. It is **not Abelo pricing**. It is a way to see the extra layer that does not exist in the residential mortgage calculator: a lessor may borrow to acquire the asset and then lease that asset to somebody else.
+
+<div id="aircraftFinanceLab" class="mortgage-lab">
+  <div class="mortgage-grid">
+    <section class="mortgage-controls" aria-label="Aircraft finance assumptions">
+      <h3>Illustrative lessor assumptions</h3>
+
+      <label>Aircraft acquisition price
+        <div class="money-input"><span>€m</span><input id="airPrice" type="number" min="0" step="0.5" value="20"></div>
+      </label>
+
+      <label>Equity contribution <output id="airEquityOut">30%</output>
+        <input id="airEquity" type="range" min="0" max="100" step="5" value="30">
+      </label>
+
+      <label>Debt interest rate <output id="airDebtRateOut">5.0%</output>
+        <input id="airDebtRate" type="range" min="0" max="12" step="0.25" value="5">
+      </label>
+
+      <label>Debt amortisation term <output id="airDebtTermOut">10 years</output>
+        <input id="airDebtTerm" type="range" min="1" max="20" step="1" value="10">
+      </label>
+
+      <label>Monthly airline lease rental
+        <div class="money-input"><span>€k</span><input id="airRent" type="number" min="0" step="5" value="180"></div>
+      </label>
+
+      <label>Airline lease term <output id="airLeaseTermOut">8 years</output>
+        <input id="airLeaseTerm" type="range" min="1" max="15" step="1" value="8">
+      </label>
+
+      <label>Annual owner / asset cost
+        <div class="money-input"><span>€k</span><input id="airAnnualCost" type="number" min="0" step="25" value="350"></div>
+      </label>
+
+      <label>Illustrative residual value <output id="airResidualOut">45%</output>
+        <input id="airResidual" type="range" min="0" max="100" step="5" value="45">
+      </label>
+    </section>
+
+    <section class="mortgage-output" aria-label="Aircraft finance results">
+      <div class="mortgage-kpis">
+        <div><span>Equity invested</span><strong id="airEquityKpi">—</strong></div>
+        <div><span>Acquisition debt</span><strong id="airDebtKpi">—</strong></div>
+        <div><span>Illustrative debt payment</span><strong id="airDebtPayKpi">—</strong></div>
+        <div><span>Lease rentals over term</span><strong id="airRentKpi">—</strong></div>
+        <div><span>Residual value</span><strong id="airResidualKpi">—</strong></div>
+        <div><span>Cash before tax / sale costs</span><strong id="airNetKpi">—</strong></div>
+      </div>
+
+      <div class="mortgage-chart-card">
+        <h3>The capital stack</h3>
+        <div class="capital-stack">
+          <div><strong>Banks / investors</strong><span>provide debt + equity capital</span></div>
+          <b>→</b>
+          <div><strong>Aircraft lessor</strong><span>buys & manages the aircraft</span></div>
+          <b>→</b>
+          <div><strong>Airline</strong><span>pays lease rentals</span></div>
+        </div>
+        <p class="mortgage-help">The debt-payment output assumes a conventional amortising loan purely for illustration. Real aviation facilities may use different advance rates, repayment profiles, covenants, security packages and refinancing structures.</p>
+      </div>
+    </section>
+  </div>
+</div>
+
+## Options | Not the same as a stock-market option
+
+An aircraft purchase option is a **contractual right to firm additional aircraft under agreed commercial terms**, rather than a freely traded financial derivative.
+
+At the **Dubai Airshow on 14 November 2023**, Abelo and ATR announced a Heads of Agreement for **10 firm ATR 72-600s plus options for 10 more**. In late 2024, Abelo converted three of those options into firm ATR 72-600 orders. On **31 March 2026**, ATR announced that Abelo had exercised three additional ATR 72-600 options; ATR said Abelo then had **36 firm aircraft ordered** and still held **nine options and purchase rights**. [Abelo/ATR 2023 agreement](https://abelo.aero/abelo-signs-deal-for-up-to-20-atr-72-600/) · [ATR option exercise, March 2026](https://www.atr-aircraft.com/presspost/abelo-confirms-three-additional-atr-72-600-options/)
+
+The useful interview question is therefore:
+
+**Why keep an option rather than firm the aircraft immediately?**
+
+Because an option can preserve **fleet flexibility and access to production positions** while the lessor waits for customer demand, financing, market conditions and delivery timing to become clearer. The exact option price, aircraft price and escalation formula are commercial terms and should not be assumed to be public.
+
+## Why airshows matter | The deal usually starts before the show
+
+Airshows are not five days during which everybody suddenly negotiates billion-dollar contracts from scratch.
+
+They are a **concentration point** for the industry: manufacturers, airlines, lessors, banks, investors, suppliers, governments and media are in the same place. Negotiations may have been running for weeks or months beforehand; an airshow creates a deadline and a high-visibility place to sign or announce a Heads of Agreement, order, financing, partnership or aircraft placement.
+
+Abelo itself gives two excellent examples:
+
+- **Farnborough 2022:** Abelo announced its agreement to acquire 20 ATR aircraft.
+- **Dubai 2023:** Abelo and ATR announced 10 firm ATR 72-600s plus 10 options.
+
+The latest of the major alternating European shows was **Farnborough, 20–24 July 2026**, which has already happened. The **next Paris Air Show is 14–20 June 2027**, followed later that year by the **Dubai Airshow, 15–19 November 2027**. Farnborough returns **17–21 July 2028**.
+
+So, no: **Dubai was not the last big airshow.** Dubai 2025 was followed by Farnborough 2026. As of September 2026, Paris 2027 is the next major Paris/Farnborough commercial-airshow date.
+
 
 ## What the model is doing
 
