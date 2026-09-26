@@ -25,6 +25,21 @@ At the 2023 Dubai Airshow, Abelo ordered 10 ATR 72-600s with options for another
 
 &nbsp;
 
+## Strategy | Why stay specialist in turboprops?
+
+Abelo has deliberately built a specialist position around regional turboprops, particularly the ATR 42 and ATR 72, rather than moving into the much larger mainstream narrow-body leasing market dominated by aircraft such as the Boeing 737 MAX and Airbus A320neo families. Abelo has publicly described larger turboprops as a distinct asset class and has said its ambition is to be a go-to lessor in that niche. citeturn160671search13turn160671search14
+
+**Have you ever considered expanding beyond the ATR and regional-turboprop market into mainstream jets such as the Boeing 737 family, or is remaining a specialist part of the competitive advantage? What is the strategic rationale for staying focused?**
+
+Possible follow-up:
+
+**Does specialisation give Abelo advantages in areas such as technical expertise, airline relationships, asset management and understanding residual values that would be harder to preserve if the fleet became much broader?**
+
+**Why this works:** It shows Erik has noticed that Abelo is making a deliberate strategic choice about **where to compete**, rather than assuming that growth must mean moving into larger aircraft. It also gives the interviewer room to explain the economics of niche expertise, competition and capital allocation.
+
+
+&nbsp;
+
 &nbsp;
 
 
