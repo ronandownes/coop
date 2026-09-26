@@ -50,6 +50,46 @@ The lab includes:
 - conservative / base / upside sensitivity scenarios
 - ATR 42 and ATR 72 models with historical Dash 8 context
 
+## Mortgage Calculator | How We Built It
+
+This project is useful because the **technology choice is part of the evidence**.
+
+[Open the Mortgage Calculator Decision Lab]({{ '/mortgage-calculator.html' | relative_url }})
+
+### Technology stack
+
+The calculator is built with:
+
+- **HTML** for the inputs, outputs and page structure
+- **CSS** for the responsive dashboard layout
+- **Vanilla JavaScript** for the financial calculations and interaction
+- **Canvas** for the interactive repayment curves
+- **GitHub Pages / Jekyll** for open, static deployment
+
+The mortgage model runs entirely in the browser. There is no paid backend and no proprietary calculation engine.
+
+### Why not Power BI?
+
+Power BI is very useful for **enterprise reporting, governed dashboards, scheduled refreshes and management information**.
+
+It was not used here because this project is an **interactive calculator**, not primarily a reporting dashboard. The user needs to alter deposit, interest rate, term and annual overpayments and have the full amortisation model recalculate instantly.
+
+Using JavaScript gives direct control over:
+
+- the mortgage formula
+- month-by-month amortisation
+- annual lump-sum overpayments
+- edge cases such as 0% interest and 100% deposit
+- exact chart interaction by mouse, touch or stylus
+
+The important judgement is not “Power BI versus JavaScript” as if one were universally better. They solve different problems.
+
+**JavaScript/browser app:** best for a public, highly interactive financial calculator.
+
+**Power BI:** stronger for portfolio-level reporting, shared organisational dashboards and data connected to business systems.
+
+A commercial version could calculate scenarios in the browser and then feed aggregated results into Power BI for management reporting.
+
 ## Data & statistics
 
 This is where dashboards and quantitative storytelling belong.
