@@ -34,3 +34,10 @@
 .mortgage-note{border-left:4px solid #2563eb;background:#eff6ff;padding:.85rem 1rem;border-radius:0 10px 10px 0;margin:1rem 0}
 @media(max-width:800px){.mortgage-grid{grid-template-columns:1fr}.mortgage-controls{position:static}.mortgage-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.mortgage-summary-grid{grid-template-columns:1fr}.mortgage-canvas-wrap{min-height:240px}}
 @media(max-width:480px){.mortgage-kpis{grid-template-columns:1fr}.mortgage-chart-card{padding:.7rem}}
+
+.capital-stack{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr);gap:.6rem;align-items:center;margin:1rem 0}
+.capital-stack>div{border:1px solid #d8dde6;border-radius:12px;padding:.8rem;background:#f8fafc;text-align:center}
+.capital-stack strong,.capital-stack span{display:block}
+.capital-stack span{font-size:.8rem;color:#64748b;margin-top:.2rem}
+.capital-stack>b{font-size:1.35rem;color:#64748b}
+@media(max-width:700px){.capital-stack{grid-template-columns:1fr}.capital-stack>b{transform:rotate(90deg);justify-self:center}}
