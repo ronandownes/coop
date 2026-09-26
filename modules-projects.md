@@ -164,6 +164,22 @@ This project turns the course connection into a working model. It lets Erik:
 
 **Technical evidence:** browser-based HTML, CSS and JavaScript; interactive modelling; no proprietary BI platform required.
 
+### Project | Mortgage Calculator Decision Lab
+
+[Open the interactive Mortgage Calculator]({{ '/mortgage-calculator.html' | relative_url }})
+
+This project applies financial mathematics to a familiar retail-finance decision. It lets Erik:
+
+- vary house price and the initial deposit from **10% to 100%**
+- vary the mortgage rate from **0.0% to 9.9%**
+- vary the term from **0 to 35 years**
+- calculate the monthly repayment and full month-by-month amortisation
+- add a recurring annual lump-sum overpayment
+- inspect outstanding balance, cumulative principal and cumulative interest directly on the repayment curves
+- compare the effect of term, rate, deposit and overpayment assumptions
+
+**Technical evidence:** open-source HTML, CSS, JavaScript and Canvas on GitHub Pages. The page also explains why a bespoke browser model was chosen instead of Power BI for this particular interactive calculation, while recognising Power BI's role in enterprise reporting and portfolio dashboards.
+
 ## Interview-level quantitative concepts
 
 The module pages hold the detail. This overview keeps the cross-module ideas that can recur in interviews.
