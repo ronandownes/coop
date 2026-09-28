@@ -63,6 +63,13 @@
     ,{ term: 'Lessor', definition: 'The owner or financing party that leases an aircraft to an airline.', cue: 'Lessor owns; lessee operates.' }
     ,{ term: 'Lessee', definition: 'The airline or operator that uses an aircraft under a lease agreement.', cue: 'Lessee operates; lessor owns.' }
     ,{ term: 'Lease agreement', definition: 'The contract setting out rent, term, maintenance, reporting, insurance, return conditions and other obligations.', cue: 'The rules governing the lease.' }
+    ,{ term: 'Average remaining lease term', definition: 'The average time left on the current leases in a lessor’s portfolio, measured at a stated date.', cue: 'How long is contracted rent visible?' }
+    ,{ term: 'Debt tenor', definition: 'The length of time before borrowing matures and must be repaid or refinanced.', cue: 'When is the loan due?' }
+    ,{ term: 'Average remaining debt tenor', definition: 'The average time until a lessor’s outstanding debt matures, measured at a stated date.', cue: 'How long is current funding in place?' }
+    ,{ term: 'Refinancing risk', definition: 'The risk that debt maturing during an aircraft lease can only be replaced at a higher cost or on less favourable terms.', cue: 'Fixed rent, new borrowing terms.' }
+    ,{ term: 'Funding spread', definition: 'The gap between income from leasing an aircraft and the cost of funding it, before other costs and risks.', cue: 'Rent received versus borrowing cost.' }
+    ,{ term: 'Interest-rate hedge', definition: 'An arrangement such as a swap or cap used to reduce exposure to changes in borrowing rates.', cue: 'Manage changing interest costs.' }
+    ,{ term: 'Asset–liability management', definition: 'Managing the timing and interest-rate exposure of assets such as leases alongside liabilities such as debt.', cue: 'Match lease cash flows and funding.' }
     ,{ term: 'Residual value', definition: 'The estimated value of an aircraft at the end of a lease or investment period.', cue: 'What is the aircraft worth at the end?' }
     ,{ term: 'Maintenance reserve', definition: 'Payments linked to aircraft or engine usage that help fund major future maintenance events.', cue: 'Usage today → maintenance funding later.' }
     ,{ term: 'Utilisation', definition: 'How intensively an aircraft is used, commonly measured by flight hours and flight cycles.', cue: 'Hours + cycles.' }
