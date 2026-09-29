@@ -57,6 +57,21 @@ components:
           extensions: [jpg, jpeg, png, webp, gif]
           rename: safe
 
+  skills_profile_fields:
+    type: object
+    label: Skills Profile fields
+    fields: &skillsprofilefields
+      - { name: layout, type: string, hidden: true }
+      - { name: handle, type: string, label: "Page handle" }
+      - { name: title, type: string, label: "Page title" }
+      - { name: eyebrow, type: string, label: "Eyebrow", required: false }
+      - name: body
+        type: code
+        label: "Page content (Markdown)"
+        description: "Edit the Markdown directly. This avoids the rich-text block reordering controls."
+        options:
+          format: markdown
+
   career_fields:
     type: object
     label: Career page fields
@@ -101,7 +116,7 @@ content:
   - { name: about_asset_management, label: "About Me · Why This Role", type: file, path: about-asset-management.md, format: yaml-frontmatter, fields: *aboutsubfields }
   - { name: questions_for_abelo, label: "About Me · Questions for Abelo", type: file, path: questions-for-abelo.md, format: yaml-frontmatter, fields: *aboutsubfields }
   - { name: academic_record, label: "About Me · Academic Record", type: file, path: academic-record.md, format: yaml-frontmatter, fields: *aboutsubfields }
-  - { name: skills_profile, label: "About Me · Skills Profile", type: file, path: skills-profile.md, format: yaml-frontmatter, fields: *aboutsubfields }
+  - { name: skills_profile, label: "About Me · Skills Profile", type: file, path: skills-profile.md, format: yaml-frontmatter, fields: *skillsprofilefields }
   - { name: aviation, label: "Aviation", type: file, path: aviation.md, format: yaml-frontmatter, fields: *docfields }
   - { name: aviation_aircraft, label: "Aviation · Aircraft", type: file, path: aviation/aircraft.md, format: yaml-frontmatter, fields: *aviationfields }
   - { name: aviation_aircraft_leasing, label: "Aviation · Aircraft Leasing", type: file, path: aviation/aircraft-leasing.md, format: yaml-frontmatter, fields: *aviationfields }
