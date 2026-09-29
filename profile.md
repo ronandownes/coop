@@ -16,19 +16,28 @@ eyebrow: FINANCIAL MATHEMATICS · DATA ANALYSIS · UNIVERSITY OF LIMERICK
 
     <p>I'm from Limerick and studying <strong>Financial Mathematics at the University of Limerick</strong>. I have always enjoyed mathematics, particularly when I can connect something learned in the classroom to a practical problem and see how it works in the real world.</p>
 
-    <p>At school, I particularly enjoyed project work, Physics and Applied Mathematics. I liked investigations where there was something to design, measure, test or explain rather than simply arriving at an answer on paper. One aerodynamics project involved data logging and comparing measurements with what I expected mathematically. That combination of mathematics, experimentation and data suited the way I like to learn.</p>
+    <details class="profile-read-more">
+      <summary>Read more</summary>
 
-    <p>That has continued in college. Statistics and data analysis have shown me that real problems are usually less tidy than textbook problems. There may be uncertainty, variation, incomplete information or several possible approaches. Instead of simply finding the answer, you often have to investigate the data, test assumptions, compare results and decide whether your conclusions are reasonable.</p>
+      <p>At school, I particularly enjoyed project work, Physics and Applied Mathematics. I liked investigations where there was something to design, measure, test or explain rather than simply arriving at an answer on paper. One aerodynamics project involved data logging and comparing measurements with what I expected mathematically. That combination of mathematics, experimentation and data suited the way I like to learn.</p>
 
-    <p>Technology has become a natural part of that process for me. I enjoy using tools such as Python, R and Google Colab because they allow me to explore problems that would be difficult or impractical to work through manually. When there are large datasets or many variables interacting, the computer is not separate from the mathematics. It becomes one of the main tools for understanding the problem.</p>
+      <p>That has continued in college. Statistics and data analysis have shown me that real problems are usually less tidy than textbook problems. There may be uncertainty, variation, incomplete information or several possible approaches. Instead of simply finding the answer, you often have to investigate the data, test assumptions, compare results and decide whether your conclusions are reasonable.</p>
 
-    <p>I also enjoy the process of building things with technology. Once I understand an idea, I often want to see whether I can model it, code it, visualise it or make it interactive. I find that this makes learning much more enjoyable because I am not just reading about an idea — I am actually doing something with it.</p>
+      <p>Technology has become a natural part of that process for me. I enjoy using tools such as Python, R and Google Colab because they allow me to explore problems that would be difficult or impractical to work through manually. When there are large datasets or many variables interacting, the computer is not separate from the mathematics. It becomes one of the main tools for understanding the problem.</p>
 
-    <p>ICT has probably made that side of learning even more enjoyable for me. Being able to move from an idea to a spreadsheet, a notebook, a graph, a model or a small application makes the work feel much more immediate. It also means I can test different approaches quickly, see what changes and learn from mistakes rather than treating them as dead ends.</p>
+      <details class="profile-read-more">
+        <summary>Read even more</summary>
 
-    <p>Project work has also taught me that the technical part is only one side of doing good work. You still have to organise what you have done, explain your thinking clearly and make the results understandable to somebody else. I enjoy working with other people, comparing approaches and learning from the way somebody else sees the same problem.</p>
+        <p>I also enjoy the process of building things with technology. Once I understand an idea, I often want to see whether I can model it, code it, visualise it or make it interactive. I find that this makes learning much more enjoyable because I am not just reading about an idea — I am actually doing something with it.</p>
 
-    <p>Overall, I think I learn best by combining theory with application. I enjoy understanding the mathematics, but I get the most from it when I can use it to investigate something, analyse data, build a model or create something that makes the idea easier to understand.</p>
+        <p>ICT has probably made that side of learning even more enjoyable for me. Being able to move from an idea to a spreadsheet, a notebook, a graph, a model or a small application makes the work feel much more immediate. It also means I can test different approaches quickly, see what changes and learn from mistakes rather than treating them as dead ends.</p>
+
+        <p>Project work has also taught me that the technical part is only one side of doing good work. You still have to organise what you have done, explain your thinking clearly and make the results understandable to somebody else. I enjoy working with other people, comparing approaches and learning from the way somebody else sees the same problem.</p>
+
+        <p>Overall, I think I learn best by combining theory with application. I enjoy understanding the mathematics, but I get the most from it when I can use it to investigate something, analyse data, build a model or create something that makes the idea easier to understand.</p>
+
+      </details>
+    </details>
 
   </div>
 
