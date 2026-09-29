@@ -16,6 +16,8 @@ Strong commercial and customer-facing experience through employment in Mr Price 
 
 ## Problem Solving & Analytics
 
+silly test
+
 Enjoy getting stuck into a problem and working it through, whether it is a short task completed in a few hours or a larger project developed over days or weeks.
 
 University work has involved statistical analysis, regression, financial modelling, numerical methods, data cleaning and visualisation, often requiring several stages from understanding the problem through to checking and presenting the result.
