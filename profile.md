@@ -13,7 +13,7 @@ eyebrow: FINANCIAL MATHEMATICS · DATA ANALYSIS · UNIVERSITY OF LIMERICK
   <div class="profile-hero-copy">
     <p class="profile-tagline">I like seeing mathematics at work in the real world.</p>
 
-    <h2>About Me</h2>
+    <h2>More about Me22</h2>
 
     <p>I'm from Limerick and studying <strong>Financial Mathematics at the University of Limerick</strong>. I have always enjoyed mathematics, especially when I can connect what I learn in the classroom to something practical.</p>
 
