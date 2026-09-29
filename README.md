@@ -1,14 +1,16 @@
-# UL Co-op Interview Preparation
+# Erik Downes | Financial Mathematics Portfolio
 
-Interview preparation site for Erik Downes, Financial Mathematics, University of Limerick.
+Personal portfolio for **Erik Downes**, a Financial Mathematics student at the University of Limerick.
 
-The site is designed for repeated rehearsal of settled answers. Sections open in focused modal panels. Content is editable through Pages CMS using `.pages.yml`.
+**Website:** https://erikdownes.github.io/
 
-After the files are committed, enable GitHub Pages from the `main` branch and repository root in **Settings → Pages**.
+The site showcases quantitative work, data analysis, aviation research, coursework and interactive portfolio projects.
 
+## Focus
 
-## Section heading convention
+- Financial Mathematics and quantitative analysis
+- Data analysis using Python, R, Pandas and statistical tools
+- Aviation and aircraft asset-management research
+- Interactive data visualisation and portfolio projects
 
-Every top-level `##` heading is a rehearsal-capable section. Double-clicking a section heading opens the focused practice view with breadcrumbs/recall controls and recording.
-
-Use `## Handle | Visible title` only when the navigation menu should use a shorter handle. With no pipe, the heading text is used for both the menu and the visible title. Legacy `||` headings are still accepted but no longer have special interview-only behaviour.
+This repository is the master source for the portfolio published at **https://erikdownes.github.io/**.
