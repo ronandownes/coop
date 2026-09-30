@@ -16,10 +16,12 @@ eyebrow: FINANCIAL MATHEMATICS · DATA ANALYSIS · UNIVERSITY OF LIMERICK
 
     <p>I'm from Limerick and studying <strong>Financial Mathematics at the University of Limerick</strong>. I have always enjoyed mathematics, particularly when I can connect something learned in the classroom to a practical problem and see how it works in the real world.</p>
 
-    <details class="profile-read-more">
-      <summary>Read more</summary>
+
 
       <p>At school, I particularly enjoyed project work, Physics and Applied Mathematics. I liked investigations where there was something to design, measure, test or explain rather than simply arriving at an answer on paper. One aerodynamics project involved data logging and comparing measurements with what I expected mathematically. That combination of mathematics, experimentation and data suited the way I like to learn.</p>
+
+          <details class="profile-read-more">
+      <summary>Read more</summary>
 
       <p>That has continued in college. Statistics and data analysis have shown me that real problems are usually less tidy than textbook problems. There may be uncertainty, variation, incomplete information or several possible approaches. Instead of simply finding the answer, you often have to investigate the data, test assumptions, compare results and decide whether your conclusions are reasonable.</p>
 
