@@ -28,7 +28,7 @@ eyebrow: FINANCIAL MATHEMATICS · DATA ANALYSIS · UNIVERSITY OF LIMERICK
       <p>Technology has become a natural part of that process for me. I enjoy using tools such as Python, R and Google Colab because they allow me to explore problems that would be difficult or impractical to work through manually. When there are large datasets or many variables interacting, the computer is not separate from the mathematics. It becomes one of the main tools for understanding the problem.</p>
 
       <details class="profile-read-more">
-        <summary>Read even more</summary>
+        <summary>and more and more</summary>
 
         <p>I also enjoy the process of building things with technology. Once I understand an idea, I often want to see whether I can model it, code it, visualise it or make it interactive. I find that this makes learning much more enjoyable because I am not just reading about an idea — I am actually doing something with it.</p>
 
