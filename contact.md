@@ -3,6 +3,7 @@ layout: doc
 permalink: /contact.html
 handle: Contact
 title: Contact
+nav_order: 70
 eyebrow: CONTACT · LINKS
 public_mode: true
 ---
