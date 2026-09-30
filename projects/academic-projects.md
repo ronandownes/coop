@@ -1,11 +1,11 @@
 ---
 layout: doc
-title: "Portfolio | Academic Projects"
+title: "Projects | Academic Projects"
 handle: "Academic Projects"
 eyebrow: "ASSIGNMENTS · PROJECTS · EVIDENCE"
 study_mode: true
 ---
-[← Portfolio]({{ '/portfolio.html' | relative_url }})
+[← Projects]({{ '/projects.html' | relative_url }})
 
 ## Java challenge series | CE4701 Computer Software 1
 The Java material provides concrete evidence of algorithm design, implementation, testing, debugging and object-oriented programming.

@@ -1,11 +1,11 @@
 ---
 layout: doc
-title: "Portfolio | Sector Projects"
+title: "Projects | Sector Projects"
 handle: "Sector Projects"
 eyebrow: "APPLY QUANTITATIVE SKILLS TO REAL INDUSTRIES"
 study_mode: true
 ---
-[← Portfolio]({{ '/portfolio.html' | relative_url }})
+[← Projects]({{ '/projects.html' | relative_url }})
 
 ## Aviation & aircraft leasing | Fleet, finance and asset management
 The current flagship sector project combines aircraft research, leasing economics, asset-management concepts, finance and interactive reporting.
@@ -15,7 +15,7 @@ The current flagship sector project combines aircraft research, leasing economic
 ## Banking & credit | Loans, secured borrowing and affordability
 Mortgage, vehicle-finance and loan models provide a natural applied-finance strand around credit and cash-flow decisions.
 
-[Open Financial Modelling →]({{ '/portfolio/financial-modelling.html' | relative_url }})
+[Open Financial Modelling →]({{ '/projects/financial-modelling.html' | relative_url }})
 
 ## Investments & markets | Pricing, risk and uncertainty
 Investment modelling connects financial mathematics, probability and statistical methods with valuation and risk.

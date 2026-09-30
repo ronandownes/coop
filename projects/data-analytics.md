@@ -1,11 +1,11 @@
 ---
 layout: doc
-title: "Portfolio | Data & Analytics"
+title: "Projects | Data & Analytics"
 handle: "Data & Analytics"
 eyebrow: "DATA · STATISTICS · MODELLING"
 study_mode: true
 ---
-[← Portfolio]({{ '/portfolio.html' | relative_url }})
+[← Projects]({{ '/projects.html' | relative_url }})
 
 ## MS4215 · R + Python (pandas · NumPy · SciPy · statsmodels) | Regression, GLMs and model diagnostics
 **Advanced Data Analysis** develops regression, ANOVA, generalised linear models, diagnostics and model selection.

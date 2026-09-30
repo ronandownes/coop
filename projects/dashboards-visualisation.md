@@ -1,11 +1,11 @@
 ---
 layout: doc
-title: "Portfolio | Dashboards & Visualisation"
+title: "Projects | Dashboards & Visualisation"
 handle: "Dashboards & Visualisation"
 eyebrow: "MAPS · REPORTING · INTERACTIVE ANALYSIS"
 study_mode: true
 ---
-[← Portfolio]({{ '/portfolio.html' | relative_url }})
+[← Projects]({{ '/projects.html' | relative_url }})
 
 ## Turboprop Asset Reporting | Public records into an asset-reporting workflow
 A public-data reporting dashboard turns aircraft-history and transaction evidence into a traceable fleet view with geography, asset status and source confidence.
@@ -26,7 +26,7 @@ An interactive decision-support exercise explores how financing and aircraft ass
 ## Finance learning lab | Visualise cash-flow structure
 Small interactive finance examples make changes in principal, rate, term and payment structure visible rather than leaving them as formulas.
 
-[Open the Finance Learning Lab →]({{ '/portfolio.html#finance-learning-lab' | relative_url }})
+[Open the Finance Learning Lab →]({{ '/projects.html#finance-learning-lab' | relative_url }})
 
 ## Global fleet context | ATR and Dash 8 reference data
 The aircraft project is being extended from lessee-level mapping to airframe-level records using production-list and OpenSky reference data.

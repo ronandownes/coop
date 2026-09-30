@@ -1,13 +1,14 @@
 ---
 layout: doc
-handle: Portfolio
-title: Portfolio
+permalink: /projects.html
+handle: Projects
+title: Projects
 nav_order: 40
 eyebrow: DASHBOARDS · CALCULATORS · APPLIED WORK
 public_mode: true
 ---
 
-This portfolio is deliberately small. It contains a short set of working dashboards and calculators that can be developed further without burying the useful work under layers of categories.
+This projects section is deliberately small. It contains a short set of working dashboards and calculators that can be developed further without burying the useful work under layers of categories.
 
 ## Turboprop Asset Reporting
 
