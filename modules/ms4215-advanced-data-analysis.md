@@ -9,17 +9,17 @@ eyebrow: "3RD YEAR · SEM1"
 study_mode: true
 ---
 
-[← Modules & Projects]({{ '/coursework.html' | relative_url }})
+[← Education]({{ '/education.html' | relative_url }})
 
 ## Start here
 
-**[Read Week 1 as a web page →]({{ '/course/ms4215/week-01.html' | relative_url }})**  
+**[Read Week 1 as a web page →]({{ '/education/ms4215/week-01.html' | relative_url }})**  
 Introduction, the R environment, variable types, descriptive statistics, plots, sampling, confidence intervals and hypothesis tests.
 
-**[Read Week 2 as a web page →]({{ '/course/ms4215/week-02.html' | relative_url }})**  
+**[Read Week 2 as a web page →]({{ '/education/ms4215/week-02.html' | relative_url }})**  
 Correlation, simple linear regression and the move to multiple linear regression.
 
-**[Work through Lab 2: Espresso Extraction →]({{ '/course/ms4215/lab-02.html' | relative_url }})**  
+**[Work through Lab 2: Espresso Extraction →]({{ '/education/ms4215/lab-02.html' | relative_url }})**  
 Design matrices, the OLS matrix formula, R's `lm()`, the equivalent Python analysis, significance tests and VIF. [Open the full Python notebook in Colab](https://colab.research.google.com/github/ronandownes/coop/blob/main/resources/ms4215/notebooks/MS4215_Lab2_Espresso_R_to_Python.ipynb).
 
 This module develops practical and theoretical skill in **building, interpreting and critically evaluating statistical models**. It connects multiple regression, analysis of variance (ANOVA) and generalised linear models (GLMs). The emphasis is on interpreting results and checking whether a model answers the question reliably.

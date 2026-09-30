@@ -5,7 +5,7 @@ eyebrow: "ADVANCED DATA ANALYSIS · WEEK 2"
 study_mode: true
 ---
 
-[← MS4215 resources]({{ '/modules/ms4215-advanced-data-analysis.html' | relative_url }}) · [Week 02A slides]({{ '/resources/ms4215/lectures/Week_02A.pdf' | relative_url }}) · [Week 02B slides]({{ '/resources/ms4215/lectures/Week_02B.pdf' | relative_url }}) · [Lab 2 teaching page]({{ '/course/ms4215/lab-02.html' | relative_url }})
+[← MS4215 resources]({{ '/modules/ms4215-advanced-data-analysis.html' | relative_url }}) · [Week 02A slides]({{ '/resources/ms4215/lectures/Week_02A.pdf' | relative_url }}) · [Week 02B slides]({{ '/resources/ms4215/lectures/Week_02B.pdf' | relative_url }}) · [Lab 2 teaching page]({{ '/education/ms4215/lab-02.html' | relative_url }})
 
 Week 2 moves from **correlation and simple linear regression** to **multiple linear regression**. The important progression is not more software commands; it is learning what changes when several predictors are considered at the same time.
 
@@ -64,4 +64,4 @@ Before doing Lab 2, Erik should be comfortable explaining:
 5. why several predictors may belong in one model;
 6. what “holding the other predictors constant” means.
 
-The [Lab 2 teaching page]({{ '/course/ms4215/lab-02.html' | relative_url }}) then connects these ideas to the design matrix, the OLS matrix formula, significance tests and VIF.
+The [Lab 2 teaching page]({{ '/education/ms4215/lab-02.html' | relative_url }}) then connects these ideas to the design matrix, the OLS matrix formula, significance tests and VIF.
