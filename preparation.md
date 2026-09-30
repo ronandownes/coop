@@ -17,6 +17,9 @@ public_mode: true
 <h2 data-nav-href="{{ '/preparation/interview-preparation.html' | relative_url }}">Interview Preparation</h2>
 <div class="career-door-card"><strong>Role · company · sector · evidence</strong><p>Application-specific preparation for Abelo and the Asset Management internship.</p><a href="{{ '/preparation/interview-preparation.html' | relative_url }}">Open Interview Preparation →</a></div>
 
+<h2 data-nav-href="{{ '/aviation.html' | relative_url }}">Aviation</h2>
+<div class="career-door-card"><strong>Aircraft · leasing · asset management · Abelo</strong><p>The complete aviation preparation section, with its existing aircraft, leasing, asset management, risk, valuation and maintenance subpages.</p><a href="{{ '/aviation.html' | relative_url }}">Open Aviation →</a></div>
+
 <h2 data-nav-href="{{ '/preparation/asset-aviation-awareness.html' | relative_url }}">Asset & Aviation Awareness</h2>
 <div class="career-door-card"><strong>Aircraft · leases · maintenance · value</strong><p>Understanding the physical asset, the lease and the regional aviation context.</p><a href="{{ '/preparation/asset-aviation-awareness.html' | relative_url }}">Open Asset & Aviation Awareness →</a></div>
 
