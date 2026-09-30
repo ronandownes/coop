@@ -2,10 +2,10 @@
 layout: doc
 handle: Organisation & Delivery
 title: Organisation & Delivery
-eyebrow: CAREER · DEADLINES · PRIORITIES · ADMINISTRATION
+eyebrow: PREPARATION · DEADLINES · PRIORITIES · ADMINISTRATION
 ---
 
-[← Career]({{ '/career.html' | relative_url }})
+[← Preparation]({{ '/preparation.html' | relative_url }})
 
 ## Priorities | What would you do if you were given several tasks at the same time?
 

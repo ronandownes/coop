@@ -2,10 +2,10 @@
 layout: doc
 handle: Initiative & Process Improvement
 title: Initiative & Process Improvement
-eyebrow: CAREER · INITIATIVE · LEARNING · AUTOMATION · IMPROVEMENT
+eyebrow: PREPARATION · INITIATIVE · LEARNING · AUTOMATION · IMPROVEMENT
 ---
 
-[← Career]({{ '/career.html' | relative_url }})
+[← Preparation]({{ '/preparation.html' | relative_url }})
 
 ## Initiative | Give an example of how you would show initiative.
 

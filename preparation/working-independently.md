@@ -2,7 +2,7 @@
 layout: doc
 handle: Learning & Development
 title: Learning & Development
-eyebrow: CAREER · LEARNING · INDEPENDENCE · ADAPTABILITY
+eyebrow: PREPARATION · LEARNING · INDEPENDENCE · ADAPTABILITY
 ---
 I’d keep this page to **five distinct questions** and make the R → Python example the concrete evidence that stops the page sounding generic.
 

@@ -2,10 +2,10 @@
 layout: doc
 handle: Reporting & Analysis
 title: Reporting & Analysis
-eyebrow: CAREER · LEASE REPORTING · EXCEL · POWER BI · ANALYSIS
+eyebrow: PREPARATION · LEASE REPORTING · EXCEL · POWER BI · ANALYSIS
 ---
 
-[← Career]({{ '/career.html' | relative_url }})
+[← Preparation]({{ '/preparation.html' | relative_url }})
 
 ## Lease reporting | How would you prepare a report required by a Lease Agreement?
 

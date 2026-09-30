@@ -2,10 +2,10 @@
 layout: doc
 handle: Professional Practice
 title: Professional Practice
-eyebrow: CAREER · PROFESSIONALISM · PRIORITIES · RESPONSIBILITY
+eyebrow: PREPARATION · PROFESSIONALISM · PRIORITIES · RESPONSIBILITY
 ---
 
-[← Career]({{ '/career.html' | relative_url }})
+[← Preparation]({{ '/preparation.html' | relative_url }})
 
 ## Error | What would you do if you realised you had made an error?
 

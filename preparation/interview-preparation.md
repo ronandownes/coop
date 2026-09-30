@@ -1,12 +1,12 @@
 ---
 layout: doc
 handle: Preparation
-title: Career Preparation
+title: Interview Preparation
 eyebrow: CURRENT FOCUS · ABELO · ASSET MANAGEMENT INTERN
 public_mode: true
 ---
 
-<p><a href="{{ '/career.html' | relative_url }}">← Career</a></p>
+<p><a href="{{ '/preparation.html' | relative_url }}">← Preparation</a></p>
 
 <div class="prep-context-grid">
   <a class="prep-context-card" href="{{ '/aviation.html' | relative_url }}">
@@ -19,8 +19,8 @@ public_mode: true
     <strong>Aircraft leasing</strong>
     <p>Long-lived physical assets, contractual cash flows, airline customers, maintenance, transitions, financing, risk and residual value all meet in one business.</p>
   </a>
-  <a class="prep-context-card" href="{{ '/coursework.html' | relative_url }}">
-    <span>COURSEWORK</span>
+  <a class="prep-context-card" href="{{ '/education.html' | relative_url }}">
+    <span>EDUCATION</span>
     <strong>Financial Mathematics</strong>
     <p>Finance, probability, data analysis, numerical methods, operations research and software provide different ways to analyse the same commercial decision.</p>
   </a>
@@ -48,8 +48,8 @@ Strong academic evidence already shown on this portfolio includes **A1 in Probab
 
 <div class="prep-links">
   <a href="{{ '/aviation.html' | relative_url }}">See Aviation research →</a>
-  <a href="{{ '/coursework.html' | relative_url }}">See Coursework →</a>
-  <a href="{{ '/portfolio.html' | relative_url }}">See Portfolio →</a>
+  <a href="{{ '/education.html' | relative_url }}">See Education →</a>
+  <a href="{{ '/projects.html' | relative_url }}">See Projects →</a>
 </div>
 
 ## Teamwork
@@ -92,7 +92,7 @@ That includes a **filterable fleet map**, an **aircraft-leasing decision lab**, 
 
 This is the kind of initiative I want to bring into a placement: make a reasonable first attempt, learn the system, check the work, ask focused questions where necessary, and improve the process when there is a clear opportunity.
 
-## Projects / Portfolio / Volunteering
+## Projects / Volunteering
 
 My strongest current evidence outside formal module descriptions is project and portfolio work. The portfolio is deliberately practical: each project should show a question, the data or assumptions used, the method, and what the result means.
 
@@ -104,7 +104,7 @@ Current examples include:
 - **Programming work** — preserving and improving Java coursework as evidence of structured problem solving and software development.
 
 <div class="prep-links">
-  <a href="{{ '/portfolio.html' | relative_url }}">Open Portfolio →</a>
+  <a href="{{ '/projects.html' | relative_url }}">Open Projects →</a>
   <a href="{{ '/aviation.html' | relative_url }}">Open Aviation →</a>
 </div>
 

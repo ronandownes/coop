@@ -2,10 +2,10 @@
 layout: doc
 handle: Teamwork & Stakeholders
 title: Teamwork & Stakeholders
-eyebrow: CAREER · ASSET MANAGEMENT · COMMERCIAL · FINANCE · LEGAL
+eyebrow: PREPARATION · ASSET MANAGEMENT · COMMERCIAL · FINANCE · LEGAL
 ---
 
-[← Career]({{ '/career.html' | relative_url }})
+[← Preparation]({{ '/preparation.html' | relative_url }})
 
 ## Teamwork | Tell me about a time you worked successfully in a team.
 

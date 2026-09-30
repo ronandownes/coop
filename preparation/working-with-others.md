@@ -2,10 +2,10 @@
 layout: doc
 handle: Working With People
 title: Working With People
-eyebrow: CAREER · TEAMWORK · COLLABORATION · FEEDBACK
+eyebrow: PREPARATION · TEAMWORK · COLLABORATION · FEEDBACK
 ---
 
-[← Career]({{ '/career.html' | relative_url }})
+[← Preparation]({{ '/preparation.html' | relative_url }})
 
 ## Successful team | Tell me about a time you worked successfully in a team.
 

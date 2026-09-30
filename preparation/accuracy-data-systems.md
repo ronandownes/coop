@@ -2,10 +2,10 @@
 layout: doc
 handle: Accuracy, Data & Systems
 title: Accuracy, Data & Systems
-eyebrow: CAREER · DATA QUALITY · INTERNAL SYSTEMS · BILLING
+eyebrow: PREPARATION · DATA QUALITY · INTERNAL SYSTEMS · BILLING
 ---
 
-[← Career]({{ '/career.html' | relative_url }})
+[← Preparation]({{ '/preparation.html' | relative_url }})
 
 ## Accuracy | How would you make sure data and records were accurate?
 

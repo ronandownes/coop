@@ -2,10 +2,10 @@
 layout: doc
 handle: Competencies
 title: Competencies
-eyebrow: CAREER · COMMUNICATION · PROBLEM SOLVING · INITIATIVE · ACCURACY
+eyebrow: PREPARATION · COMMUNICATION · PROBLEM SOLVING · INITIATIVE · ACCURACY
 ---
 
-[← Career]({{ '/career.html' | relative_url }})
+[← Preparation]({{ '/preparation.html' | relative_url }})
 
 ## Explain clearly | How would you explain something technical to a non-technical person?
 

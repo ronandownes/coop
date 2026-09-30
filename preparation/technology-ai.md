@@ -2,10 +2,10 @@
 layout: doc
 handle: Digital & Technology
 title: Digital & Technology
-eyebrow: CAREER · AI · DATA · AUTOMATION · HUMAN JUDGEMENT
+eyebrow: PREPARATION · AI · DATA · AUTOMATION · HUMAN JUDGEMENT
 ---
 
-[← Career]({{ '/career.html' | relative_url }})
+[← Preparation]({{ '/preparation.html' | relative_url }})
 
 ## AI work era | How is work changing in the age of AI?
 

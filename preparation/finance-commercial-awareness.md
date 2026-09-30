@@ -2,10 +2,10 @@
 layout: doc
 handle: Finance & Commercial Awareness
 title: Finance & Commercial Awareness
-eyebrow: CAREER · BILLING · CASH FLOWS · COMMERCIAL CONTEXT
+eyebrow: PREPARATION · BILLING · CASH FLOWS · COMMERCIAL CONTEXT
 ---
 
-[← Career]({{ '/career.html' | relative_url }})
+[← Preparation]({{ '/preparation.html' | relative_url }})
 
 ## Financial Mathematics | How does Financial Mathematics connect to aircraft leasing?
 
