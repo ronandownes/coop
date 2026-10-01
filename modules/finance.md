@@ -324,7 +324,7 @@ window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},svg
 <div class="fc-resource" data-youtube="JIdcips9vPU"><h4>Interest-rate swap explained</h4><p>Animated source-pack explanation of exchanging fixed and floating interest-payment exposures.</p><div class="fc-resource-actions"><button data-fc-preview>Watch here</button><a href="https://www.youtube.com/watch?v=JIdcips9vPU" target="_blank" rel="noopener">Open on YouTube ↗</a></div><div class="fc-resource-frame" hidden></div></div>
 <div class="fc-resource" data-youtube="gw-1WebSOJI"><h4>Derivatives source-pack video</h4><p>Retained from the original resource collection. Use as extension rather than relying on it for core definitions.</p><div class="fc-resource-actions"><button data-fc-preview>Watch here</button><a href="https://www.youtube.com/watch?v=gw-1WebSOJI" target="_blank" rel="noopener">Open on YouTube ↗</a></div><div class="fc-resource-frame" hidden></div></div>
 <div class="fc-resource"><h4>CME Group · options on futures guide</h4><p>A maintained market-operator guide to vocabulary, pricing fundamentals and option strategies.</p><div class="fc-resource-actions"><a href="https://www.cmegroup.com/education/brochures-and-handbooks/options-on-futures-brochure" target="_blank" rel="noopener">Open CME ↗</a></div></div>
-<div class="fc-resource"><h4>Corporate Finance Institute · real options</h4><p>Extension: connects the language of options to management flexibility in real investment projects.</p><div class="fc-resource-actions"><a href="https://corporatefinanceinstitute.com/resources/valuation/real-options/" target="_blank" rel="noopener">Open CFI ↗</a></div></div>
+<div class="fc-resource"><h4>Corporate Finance Institute · real options</h4><p>Extension: connects the language of options to management flexibility in real investment projects.</p><div class="fc-resource-actions"><a href="https://corporatefinanceinstitute.com/resources/derivatives/real-options/" target="_blank" rel="noopener">Open CFI ↗</a></div></div>
 </div>
 <div class="fc-complete"><button data-fc-complete>Mark lesson complete</button></div>
 </section>
@@ -417,8 +417,56 @@ window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},svg
 - [U.S. Bank — How changing interest rates affect bonds](https://www.usbank.com/investing/financial-perspectives/market-news/interest-rates-affect-bonds.html)
 - [Fidelity — What is technical analysis?](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis)
 - [CME Group — Options on futures guide](https://www.cmegroup.com/education/brochures-and-handbooks/options-on-futures-brochure)
-- [Corporate Finance Institute — Real options](https://corporatefinanceinstitute.com/resources/valuation/real-options/)
+- [Corporate Finance Institute — Real options](https://corporatefinanceinstitute.com/resources/derivatives/real-options/)
 - [Yahoo Finance — market data](https://finance.yahoo.com/)
+- [CalculateStuff · compound-interest calculator](https://www.calculatestuff.com/financial/compound-interest-calculator)
+
+
+<details class="fc-worked">
+<summary>Original external-link archive · every non-YouTube link retained from the supplied source material</summary>
+<div markdown="1">
+
+These links are kept for **resource continuity and provenance**, not because every page is still the best place to learn the topic. Some are legacy URLs that may redirect, have moved, or eventually disappear. For core learning, prefer the maintained reference shelf above.
+
+### Time value of money and financial tables
+- [Compound-interest calculator](https://www.calculatestuff.com/financial/compound-interest-calculator)
+- [Legacy McGraw-Hill future value of 1 table](http://highered.mcgraw-hill.com/sites/dl/free/0072994029/291202/4eFutureValueof1_table1.pdf)
+- [Legacy McGraw-Hill present value of 1 table](http://highered.mcgraw-hill.com/sites/dl/free/0072994029/291202/4ePresentValueof1_table2.pdf)
+- [Legacy McGraw-Hill future value of an ordinary annuity table](http://highered.mcgraw-hill.com/sites/dl/free/0072994029/291202/4eFutureValueOrdinaryAnnuityof1_table3.pdf)
+- [Legacy McGraw-Hill present value of an ordinary annuity table](http://highered.mcgraw-hill.com/sites/dl/free/0072994029/291202/4ePresentValueOrdinaryAnnuityof1_table4.pdf)
+- [Legacy present-value tables PDF](http://jcooney.ba.ttu.edu/fin3322/Brealey%20Files/Appendix%20A%20-%20Present%20Value%20Tables.pdf)
+
+### Bonds, rates and yield curves
+- [Investopedia · advanced bond material](http://www.investopedia.com/university/advancedbond/advancedbond5.asp)
+- [Investopedia · yield curve](https://www.investopedia.com/terms/y/yieldcurve.asp)
+- [TheStreet · duration](https://www.thestreet.com/dictionary/d/duration)
+- [U.S. Bank · how interest rates affect bonds](https://www.usbank.com/investing/financial-perspectives/market-news/interest-rates-affect-bonds.html)
+- [ECB · euro area yield curves](https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_area_yield_curves/html/index.en.html)
+- [Legacy InvestingInBonds learning page](http://www.investinginbonds.com/learnmore.asp?catid=46&id=7)
+- [Investopedia · bonds traded over the counter](http://www.investopedia.com/ask/answers/09/bond-over-the-counter.asp)
+- [Investopedia · bond duration video page](http://www.investopedia.com/video/play/basics-bond-duration/)
+- [Investopedia · uses for bonds video page](http://www.investopedia.com/video/play/top-uses-for-bonds/)
+- [Investopedia · yield curve video page](http://www.investopedia.com/video/play/yield-curve/)
+- [Investopedia · zero-coupon bond video page](http://www.investopedia.com/video/play/zerocoupon-bond/)
+
+### Equities, markets and market efficiency
+- [Yahoo Finance](http://finance.yahoo.com/)
+- [InvestorHome · efficient-market material](http://www.investorhome.com/emh.htm)
+- [DailyFX legacy market-sentiment page](https://www.dailyfx.com/education/understanding-the-stock-market/stock-market-sentiment-analysis.html)
+- [Fidelity · technical analysis video/introduction](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/introduction-technical-analysis-video)
+- [Legacy About.com NYSE page](http://stocks.about.com/od/tradingbasics/a/NYSE011705.htm)
+- [Investopedia · efficient-market-hypothesis video page](http://www.investopedia.com/video/play/efficient-market-hypothesis/)
+- [New York Times · efficient markets article](http://www.nytimes.com/2009/06/06/business/06nocera.html?pagewanted=1&_r=2&sq=efficient%20market&st=cse&scp=1)
+
+### Derivatives and options
+- [Wikimedia · short call payoff diagram](http://upload.wikimedia.org/wikipedia/commons/5/5e/Short_call_option.svg)
+- [Wikimedia · long call payoff diagram](http://upload.wikimedia.org/wikipedia/commons/e/ec/Long_call_option.svg)
+- [Corporate Finance Institute · original real-options source URL](https://corporatefinanceinstitute.com/resources/knowledge/valuation/real-options/)
+- [Management Study Guide · derivative-market terminology](https://www.managementstudyguide.com/commonly-used-terms-in-derivative-market.htm)
+
+</div>
+</details>
+
 
 ## Formula map | Know the meaning before the symbol
 
