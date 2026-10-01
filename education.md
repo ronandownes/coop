@@ -39,7 +39,7 @@ For an aircraft-leasing Asset Management internship, these modules provide the c
 - **MS4027 — Fundamentals of Financial Mathematics:** cash flows, interest, discounting and the time value of money.
 - **MS4034 — Applied Data Analysis:** regression, diagnostics, data cleaning, interpretation and model improvement.
 - **MS4222 — Introduction to Probability and Statistics:** uncertainty, distributions and evidence-based interpretation.
-- **FI4003 — Finance:** financial decision-making and the language of capital, return and risk.
+- **Finance:** financial decision-making and the language of capital, return and risk.
 - **AC4214 / AC4213 — Accounting:** understanding financial information, reporting and the structure behind business transactions.
 - **MS4303 — Operations Research 1:** modelling constrained decisions and comparing alternatives.
 - **MS4014 — Introduction to Numerical Analysis:** numerical methods, approximation, checking and computational thinking.
@@ -61,7 +61,7 @@ Each module has its own page. The library is kept in one **alphabetical list** s
 - [CE4702 — Computer Software 2]({{ '/modules/ce4702-computer-software-2.html' | relative_url }})
 - [COOP_1 — Cooperative Education]({{ '/modules/coop-1-cooperative-education.html' | relative_url }})
 - [MS4117 — Discrete Mathematics 2]({{ '/modules/ms4117-discrete-mathematics-2.html' | relative_url }})
-- [FI4003 — Finance]({{ '/modules/fi4003-finance.html' | relative_url }})
+- [Finance]({{ '/modules/finance.html' | relative_url }})
 - [AC4213 — Financial Accounting]({{ '/modules/ac4213-financial-accounting.html' | relative_url }})
 - [MS4027 — Fundamentals of Financial Mathematics]({{ '/modules/ms4027-fundamentals-of-financial-mathematics.html' | relative_url }})
 - [MS4122 — Further Linear Algebra]({{ '/modules/ms4122-further-linear-algebra.html' | relative_url }})
