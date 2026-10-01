@@ -3,16 +3,19 @@ layout: doc
 permalink: /preparation.html
 handle: Preparation
 title: Preparation
-nav_order: 50
-eyebrow: ASSET MANAGEMENT · ROLE PREPARATION · COMPETENCIES
+eyebrow: APPLICATIONS · INTERVIEWS · TAILORED CV · ROLE PREPARATION
 public_mode: true
 ---
 
 <div class="career-door-hero">
   <span class="career-door-kicker">PREPARATION</span>
-  <strong>Prepare for the role. Understand the work. Build the evidence.</strong>
-  <p>The competency structure now follows the actual Asset Management Intern work: lease reporting, asset data, billing, Power BI, cross-functional support, administration and process improvement.</p>
+  <strong>Tailor the application. Understand the employer. Keep the evidence genuine.</strong>
+  <p>This is the working area for live applications. Permanent industry knowledge now belongs under Sectors; this section is for tailoring the CV, interview answers and evidence to the specific role.</p>
 </div>
+
+
+<h2 data-nav-href="{{ '/preparation/cv-tailoring.html' | relative_url }}">Tailoring the CV</h2>
+<div class="career-door-card"><strong>Same evidence · different emphasis · employer vocabulary</strong><p>Every serious application gets a tailored CV. Use the job description's language where it truthfully matches Erik's experience, and make sure every line can be defended in interview.</p><a href="{{ '/preparation/cv-tailoring.html' | relative_url }}">Open CV Tailoring →</a></div>
 
 <h2 data-nav-href="{{ '/preparation/interview-preparation.html' | relative_url }}">Interview Preparation</h2>
 <div class="career-door-card"><strong>Role · company · sector · evidence</strong><p>Application-specific preparation for Abelo and the Asset Management internship.</p><a href="{{ '/preparation/interview-preparation.html' | relative_url }}">Open Interview Preparation →</a></div>
