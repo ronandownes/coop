@@ -117,6 +117,15 @@ content:
   - { name: questions_for_abelo, label: "About Me · Questions for Abelo", type: file, path: questions-for-abelo.md, format: yaml-frontmatter, fields: *aboutsubfields }
   - { name: academic_record, label: "About Me · Academic Record", type: file, path: academic-record.md, format: yaml-frontmatter, fields: *aboutsubfields }
   - { name: skills_profile, label: "About Me · Skills Profile", type: file, path: skills-profile.md, format: yaml-frontmatter, fields: *skillsprofilefields }
+  - { name: sectors, label: "Sectors", type: file, path: sectors.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: sectors_corporate_services, label: "Sectors · Corporate Services & Financial Operations", type: file, path: sectors/corporate-services-financial-operations.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: sectors_pivotal, label: "Sectors · Pivotal Corporate", type: file, path: sectors/pivotal-corporate.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: sectors_aviation_finance, label: "Sectors · Aviation Finance & Asset Management", type: file, path: sectors/aviation-finance-asset-management.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: sectors_banking, label: "Sectors · Banking, Markets & Investment", type: file, path: sectors/banking-markets-investment.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: sectors_risk, label: "Sectors · Risk & Insurance", type: file, path: sectors/risk-insurance.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: sectors_data, label: "Sectors · Data, Analytics & FinTech", type: file, path: sectors/data-analytics-fintech.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: sectors_healthcare, label: "Sectors · Healthcare & Public Sector Finance", type: file, path: sectors/healthcare-public-sector.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: cv_tailoring, label: "Preparation · Tailored CV", type: file, path: preparation/cv-tailoring.md, format: yaml-frontmatter, fields: *docfields }
   - { name: aviation, label: "Aviation", type: file, path: aviation.md, format: yaml-frontmatter, fields: *docfields }
   - { name: aviation_aircraft, label: "Aviation · Aircraft", type: file, path: aviation/aircraft.md, format: yaml-frontmatter, fields: *aviationfields }
   - { name: aviation_aircraft_leasing, label: "Aviation · Aircraft Leasing", type: file, path: aviation/aircraft-leasing.md, format: yaml-frontmatter, fields: *aviationfields }
