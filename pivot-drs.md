@@ -1,77 +1,125 @@
 ---
 layout: doc
 permalink: /pivot-drs.html
-handle: Pivot DRs
-title: Pivotal Duties & Responsibilities
-nav_order: 20
-eyebrow: PIVOTAL CORPORATE · CLIENT SERVICES · INTERVIEW STUDY
+handle: Pivotal Corporate Interview
+title: Pivotal Corporate Interview
+nav_order: 21
+eyebrow: PIVOTAL CORPORATE · INTERVIEW · RECALL PRACTICE
 study_mode: true
 ---
 
-> **Read fast. Understand the job rather than memorising wording.** For each duty, know what it means, why it matters, and one piece of evidence you can connect to it.
+> **Use the Study page first.** This page is for recall: answer before opening the solution.
 
-## DR1 — Mechanics of Company Administration
+[Open Pivotal Corporate Study →]({{ '/pivotal-corporate-study.html' | relative_url }})
 
-**Memory line: Understand how the company works — and how the people around it work together.**
+## JSR count | How many main Job Specific Requirements are listed?
 
-Company administration is the machinery that keeps a company operating properly: ownership and directors, finance and accounting, company secretarial work, legal matters, tax, banking, governance, compliance, records and approvals.
+Choose one:
 
-You will work with:
+- 3
+- 4
+- **5**
+- 6
 
-- **End clients** — the companies Pivotal is serving.
-- **Internal clients** — Pivotal colleagues and teams who depend on your work.
-- **Intermediaries** — lawyers, accountants, auditors, tax advisers, banks, regulators and other professional advisers.
+<details>
+<summary>Show answer</summary>
 
-**College connection:** Financial Accounting, Accounting for Financial Decision Making and Finance.
+**Five.**
 
-## DR2 — High Standards of Client Care
+**Recall cue:** Organised → Communicate → Microsoft → Attitude → Financial Interest.
 
-**Memory line: Client care is how people experience the quality of your work.**
+</details>
 
-Client care means being **responsive, reliable, accurate, professional and accessible**. If somebody needs something from you, understand what is required, complete it properly, communicate clearly and keep the work moving.
+## NOT in the spec | Which THREE are NOT stated Job Specific Requirements?
 
-**O'Mahony's:** communication across departments and helping work move between people.
+Select the three that are **not** stated in the job specification:
 
-**Mr Price:** teamwork, customer focus, taking responsibility and showing initiative when the shop floor was being rearranged.
+<label><input type="checkbox"> Organised and detail-oriented</label><br>
+<label><input type="checkbox"> Strong written and verbal communication</label><br>
+<label><input type="checkbox"> Working knowledge of Word, Excel and Outlook</label><br>
+<label><input type="checkbox"> Positive attitude and willingness to take responsibility</label><br>
+<label><input type="checkbox"> Interest in financial services and adding value to clients</label><br>
+<label><input type="checkbox"> Advanced Python programming</label><br>
+<label><input type="checkbox"> Fluent in a second European language</label><br>
+<label><input type="checkbox"> Five years' previous accounting experience</label>
 
-## DR3 — Duties Set Out by Senior Members of Staff
+<details>
+<summary>Show answer</summary>
 
-**Memory line: Do accurate work, support the team and keep things moving.**
+The three **not** stated are:
 
-The main accounting and operational duties include:
+- **Advanced Python programming**
+- **Fluent in a second European language**
+- **Five years' previous accounting experience**
 
-- **Journal entries & reconciliations** — record transactions and check that records agree.
-- **Accounts Payable (AP)** — money the company owes suppliers.
-- **Accounts Receivable (AR)** — money customers owe the company.
-- **VAT, tax & regulatory reporting** — help prepare accurate information for required filings.
-- **Financial records & supporting documentation** — make sure figures have proper evidence behind them.
-- **Policies & accounting standards** — follow the agreed rules, controls and procedures.
-- **Projects & process improvement** — help make repeated work clearer, faster or more reliable.
-- **Research & meetings** — investigate financial, accounting or market topics and contribute useful ideas.
+</details>
 
-Do not try to become an accountant overnight. Understand what each activity is trying to achieve.
+## Name the five | Outline the five Job Specific Requirements quickly.
 
-**College connection:** Financial Accounting, Accounting for Financial Decision Making and Finance.
+Try to answer in one short sentence before opening this.
 
-**Work connection:** O'Mahony's and Mr Price show accuracy, teamwork, communication, organisation and initiative.
+<details>
+<summary>Strong short answer</summary>
 
-## DR4 — Company Secretarial Administration
+**Organised and detail-oriented with critical-thinking skills; strong communication; working knowledge of Word, Excel and Outlook; a positive attitude and willingness to take responsibility; and a genuine interest in financial services and adding value to clients.**
 
-**Memory line: Keep the company's records, checks and signatures in order.**
+</details>
 
-The **Company Secretarial Group is a Pivotal team/function**. It performs company-secretarial, governance and compliance work mainly for Pivotal's client companies.
+## Tick the requirements | Which of these belong to the five JSRs?
 
-This is corporate administration — not somebody's personal secretary.
+<label><input type="checkbox"> Strong communication</label><br>
+<label><input type="checkbox"> Interest in financial services</label><br>
+<label><input type="checkbox"> Microsoft workplace skills</label><br>
+<label><input type="checkbox"> Positive attitude</label><br>
+<label><input type="checkbox"> Organisation and attention to detail</label><br>
+<label><input type="checkbox"> Aircraft engineering knowledge</label><br>
+<label><input type="checkbox"> Advanced machine learning</label><br>
+<label><input type="checkbox"> Professional legal qualification</label>
 
-- **Schedules & registers** — keep controlled company records accurate and up to date.
-- **KYC — Know Your Customer** — identify and verify who the client is.
-- **CDD — Customer Due Diligence** — understand the client, ownership, activity and risk and make sure the relationship is legitimate and compliant.
-- **Legal/regulatory signing** — help make sure the right document reaches the right authorised person, is signed correctly and on time, comes back, and is properly recorded.
+<details>
+<summary>Show answer</summary>
 
-You are normally **facilitating the process**, not deciding what the legal document should say.
+The **first five** belong to the Job Specific Requirements.
 
-## Fast Study Rule
+</details>
 
-For every duty, be able to answer three things:
+## Positive attitude | What does “positive attitude” mean in this role?
 
-**What is it? → Why does it matter? → What have I already done that shows I can handle it?**
+Which answer fits best?
+
+**A.** Wait until a manager gives detailed instructions.  
+**B.** Complete only the tasks specifically assigned to you.  
+**C.** Show enthusiasm, take responsibility and willingly get involved in team issues and events.  
+**D.** Concentrate only on your own work and avoid other teams.
+
+<details>
+<summary>Show answer</summary>
+
+**C.** Show enthusiasm, take responsibility and willingly get involved in team issues and events.
+
+</details>
+
+## Client relationships | Who should experience professional, responsible service from you?
+
+- Internal clients
+- Intermediaries
+- End clients
+- **All of the above**
+
+<details>
+<summary>Show answer</summary>
+
+**All of the above** is the best working principle.
+
+The specification explicitly stresses professional dealings with **internal clients and intermediaries**; the wider purpose of the role is high-quality service to Pivotal's **end clients**.
+
+</details>
+
+## 30-second answer | Give me the overall flavour of what Pivotal is looking for.
+
+<details>
+<summary>Model answer</summary>
+
+Pivotal is looking for someone who is organised and accurate, communicates professionally, is comfortable with everyday Microsoft workplace tools, brings a positive and responsible attitude, and is genuinely interested in financial services and how good work can add value to the client.
+
+</details>
