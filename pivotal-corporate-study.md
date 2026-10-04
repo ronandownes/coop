@@ -10,6 +10,8 @@ study_mode: true
 
 > **Study first. Interview second.** Learn what the job is asking for, then connect each requirement to genuine evidence from college and work.
 
+[Open Job Spec Slides →]({{ '/job-spec-slides.html' | relative_url }}) &nbsp; · &nbsp; [Open Interview Practice →]({{ '/pivot-drs.html' | relative_url }})
+
 ## Five JSRs | What are the five Job Specific Requirements?
 
 **Memory line: Organised → Communicate → Microsoft → Attitude → Financial Interest**
