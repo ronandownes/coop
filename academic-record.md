@@ -1,7 +1,8 @@
 ---
 layout: doc
-handle: Academic Record
-title: Academic Record
+handle: Academic Results
+title: Academic Results
+nav_order: 12
 eyebrow: FINANCIAL MATHEMATICS · UNIVERSITY OF LIMERICK
 ---
 This page keeps a **module-by-module academic record** in one place. The main About Me page stays deliberately concise; this page can be updated as new results are released.
