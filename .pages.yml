@@ -112,7 +112,8 @@ components:
           rename: safe
 
 content:
-  - { name: about_me, label: "About Me", type: file, path: profile.md, format: code }\n  - { name: pivot_drs, label: "Pivot DRs", type: file, path: pivot-drs.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: about_me, label: "About Me", type: file, path: profile.md, format: code }\n  - { name: pivotal_corporate_study, label: "Pivotal Corporate Study", type: file, path: pivotal-corporate-study.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: pivot_drs, label: "Pivotal Corporate Interview", type: file, path: pivot-drs.md, format: yaml-frontmatter, fields: *docfields }
   - { name: about_asset_management, label: "About Me · Why This Role", type: file, path: about-asset-management.md, format: yaml-frontmatter, fields: *aboutsubfields }
   - { name: academic_record, label: "About Me · Academic Record", type: file, path: academic-record.md, format: yaml-frontmatter, fields: *aboutsubfields }
   - { name: skills_profile, label: "About Me · Skills Profile", type: file, path: skills-profile.md, format: yaml-frontmatter, fields: *skillsprofilefields }
