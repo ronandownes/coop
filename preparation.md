@@ -17,11 +17,14 @@ public_mode: true
 <h2 data-nav-href="{{ '/preparation/cv-tailoring.html' | relative_url }}">Tailoring the CV</h2>
 <div class="career-door-card"><strong>Same evidence · different emphasis · employer vocabulary</strong><p>Every serious application gets a tailored CV. Use the job description's language where it truthfully matches Erik's experience, and make sure every line can be defended in interview.</p><a href="{{ '/preparation/cv-tailoring.html' | relative_url }}">Open CV Tailoring →</a></div>
 
-<h2 data-nav-href="{{ '/preparation/interview-preparation.html' | relative_url }}">Interview Preparation</h2>
-<div class="career-door-card"><strong>Role · company · sector · evidence</strong><p>Application-specific preparation for Abelo and the Asset Management internship.</p><a href="{{ '/preparation/interview-preparation.html' | relative_url }}">Open Interview Preparation →</a></div>
+<h2 data-nav-href="{{ '/pivotal-corporate-study.html' | relative_url }}">Pivotal Corporate Study</h2>
+<div class="career-door-card"><strong>Learn the role before rehearsing it</strong><p>Job Specific Requirements, Duties & Responsibilities, client relationships, company administration and the evidence Erik can connect to each requirement.</p><a href="{{ '/pivotal-corporate-study.html' | relative_url }}">Open Pivotal Corporate Study →</a></div>
+
+<h2 data-nav-href="{{ '/pivot-drs.html' | relative_url }}">Pivotal Corporate Interview</h2>
+<div class="career-door-card"><strong>Recall · questions · evidence · delivery</strong><p>Interview and self-test questions for the Pivotal Corporate Client Services role.</p><a href="{{ '/pivot-drs.html' | relative_url }}">Open Pivotal Corporate Interview →</a></div>
 
 <h2 data-nav-href="{{ '/aviation.html' | relative_url }}">Aviation</h2>
-<div class="career-door-card"><strong>Aircraft · leasing · asset management · Abelo</strong><p>The complete aviation preparation section, with its existing aircraft, leasing, asset management, risk, valuation and maintenance subpages.</p><a href="{{ '/aviation.html' | relative_url }}">Open Aviation →</a></div>
+<div class="career-door-card"><strong>Aircraft · leasing · asset management</strong><p>Permanent aviation knowledge, including aircraft, leasing, asset management, risk, valuation and maintenance.</p><a href="{{ '/aviation.html' | relative_url }}">Open Aviation →</a></div>
 
 <h2 data-nav-href="{{ '/preparation/asset-aviation-awareness.html' | relative_url }}">Asset & Aviation Awareness</h2>
 <div class="career-door-card"><strong>Aircraft · leases · maintenance · value</strong><p>Understanding the physical asset, the lease and the regional aviation context.</p><a href="{{ '/preparation/asset-aviation-awareness.html' | relative_url }}">Open Asset & Aviation Awareness →</a></div>
