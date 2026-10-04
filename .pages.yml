@@ -112,9 +112,8 @@ components:
           rename: safe
 
 content:
-  - { name: about_me, label: "About Me", type: file, path: profile.md, format: code }
+  - { name: about_me, label: "About Me", type: file, path: profile.md, format: code }\n  - { name: pivot_drs, label: "Pivot DRs", type: file, path: pivot-drs.md, format: yaml-frontmatter, fields: *docfields }
   - { name: about_asset_management, label: "About Me · Why This Role", type: file, path: about-asset-management.md, format: yaml-frontmatter, fields: *aboutsubfields }
-  - { name: questions_for_abelo, label: "About Me · Questions for Abelo", type: file, path: questions-for-abelo.md, format: yaml-frontmatter, fields: *aboutsubfields }
   - { name: academic_record, label: "About Me · Academic Record", type: file, path: academic-record.md, format: yaml-frontmatter, fields: *aboutsubfields }
   - { name: skills_profile, label: "About Me · Skills Profile", type: file, path: skills-profile.md, format: yaml-frontmatter, fields: *skillsprofilefields }
   - { name: sectors, label: "Sectors", type: file, path: sectors.md, format: yaml-frontmatter, fields: *docfields }
@@ -130,7 +129,6 @@ content:
   - { name: aviation_aircraft, label: "Aviation · Aircraft", type: file, path: aviation/aircraft.md, format: yaml-frontmatter, fields: *aviationfields }
   - { name: aviation_aircraft_leasing, label: "Aviation · Aircraft Leasing", type: file, path: aviation/aircraft-leasing.md, format: yaml-frontmatter, fields: *aviationfields }
   - { name: aviation_asset_management, label: "Aviation · Asset Management", type: file, path: aviation/asset-management.md, format: yaml-frontmatter, fields: *aviationfields }
-  - { name: aviation_abelo, label: "Aviation · Abelo", type: file, path: aviation/abelo.md, format: yaml-frontmatter, fields: *aviationfields }
   - { name: aviation_credit_risk, label: "Aviation · Credit Risk", type: file, path: aviation/credit-risk.md, format: yaml-frontmatter, fields: *aviationfields }
   - { name: aviation_stress_testing, label: "Aviation · Stress Testing", type: file, path: aviation/stress-testing.md, format: yaml-frontmatter, fields: *aviationfields }
   - { name: aviation_valuation_practices, label: "Aviation · Valuation Practices", type: file, path: aviation/valuation-practices.md, format: yaml-frontmatter, fields: *aviationfields }
