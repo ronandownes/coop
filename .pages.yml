@@ -112,7 +112,9 @@ components:
           rename: safe
 
 content:
-  - { name: about_me, label: "About Me", type: file, path: profile.md, format: code }\n  - { name: ulcv, label: "ULCV", type: file, path: ulcv.md, format: yaml-frontmatter, fields: *docfields }\n  - { name: pivotal_corporate_study, label: "Pivotal Corporate Study", type: file, path: pivotal-corporate-study.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: about_me, label: "About Me", type: file, path: profile.md, format: code }
+  - { name: ulcv, label: "ULCV", type: file, path: ulcv.md, format: yaml-frontmatter, fields: *docfields }
+  - { name: pivotal_corporate_study, label: "Pivotal Corporate Study", type: file, path: pivotal-corporate-study.md, format: yaml-frontmatter, fields: *docfields }
   - { name: pivot_drs, label: "Pivotal Corporate Interview", type: file, path: pivot-drs.md, format: yaml-frontmatter, fields: *docfields }
   - { name: about_asset_management, label: "About Me · Why This Role", type: file, path: about-asset-management.md, format: yaml-frontmatter, fields: *aboutsubfields }
   - { name: academic_record, label: "Academic Results", type: file, path: academic-record.md, format: yaml-frontmatter, fields: *aboutsubfields }
