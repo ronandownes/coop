@@ -234,6 +234,32 @@ DR3 covers supporting **journal entries and reconciliations**, **accounts payabl
 
 </details>
 
+## DR3C — Easy access | At O'Mahony's, did working with Booksolve and Excel give you experience of a real proprietary business system where orders, stock, invoices and dispatch have to stay accurate?
+
+<details>
+<summary>Show answer</summary>
+
+**Yes.** My own work was practical: checking book quantities against invoices, confirming the correct library destination, recording boxes and invoices for dispatch, and using records to trace discrepancies.
+
+**Booksolve** is specialist book-trade software. Its wider modules can support **stock control, purchase ordering, customer orders, invoicing, EDI and warehouse/distribution workflows**. I would not claim to have used every module, but I understand how my task sat inside a larger operational system.
+
+</details>
+
+## DR3D — Retrieval | Tell me about a proprietary system you have worked with. What did it teach you that would transfer to Pivotal?
+
+<details>
+<summary>Strong answer</summary>
+
+At O'Mahony's I worked in a book-order and dispatch process using **Booksolve alongside Excel**. I checked that the books and quantities matched the invoice, confirmed where orders were going, recorded the boxes and invoices being dispatched, and could trace who had serviced books when something needed to be checked.
+
+What I learned is that even a simple-looking administrative task sits inside a much bigger system. An error can affect the **order, stock record, invoice, customer and dispatch**, so accuracy and traceability matter.
+
+I also appreciate that Booksolve itself can handle much more than the part I used, including stock control, ordering, invoicing, EDI and distribution. That gives me confidence about learning Pivotal's own internal systems: I would learn the workflow, understand why the controls are there, check my work and then look for sensible process improvements once I understand the process properly.
+
+**Recall cue:** Booksolve → invoice → quantity → library → boxes → trace discrepancy → system → control → improve
+
+</details>
+
 ## DR4A — Easy access | Does DR4 include maintaining schedules and registers, processing KYC/CDD requirements, and facilitating signatures on regulatory and legal documents?
 
 <details>
@@ -296,7 +322,7 @@ The fourth duty is **day-to-day company secretarial administration**:
 <details>
 <summary>Strong answer</summary>
 
-JSR1 is **organisation, attention to detail, critical thinking and multitasking**. I would connect it to Financial Mathematics and data work for structured problem solving, and to O'Mahony's for accuracy, priorities, logistics and keeping several tasks moving correctly.
+JSR1 is **organisation, attention to detail, critical thinking and multitasking**. I would connect it to Financial Mathematics and data work for structured problem solving, and to O'Mahony's for accuracy, priorities, logistics and keeping several tasks moving correctly. A concrete example is working with **Booksolve and Excel** to check invoices, quantities, destinations and dispatch information and to trace discrepancies when something did not match.
 
 </details>
 
