@@ -92,6 +92,18 @@ That includes a **filterable fleet map**, an **aircraft-leasing decision lab**, 
 
 This is the kind of initiative I want to bring into a placement: make a reasonable first attempt, learn the system, check the work, ask focused questions where necessary, and improve the process when there is a clear opportunity.
 
+### Proprietary systems | What did O'Mahony's teach you about learning business software?
+
+At **O'Mahony's**, I worked inside a real book-order and dispatch workflow supported by **Booksolve** and Excel. My own responsibilities were practical and accuracy-focused: checking that invoices matched the books, checking quantities, identifying who had serviced books when a discrepancy arose, confirming which library an order was going to, and recording how boxes and invoices were grouped for dispatch.
+
+What interests me more now is understanding the system behind those tasks. **Booksolve is not just a stock list.** It can support stock control, purchase-order processing, customer orders and reservations, invoices and credit notes, sales orders, supplier ordering, EDI links, stock availability, returns tracking, reporting, warehouse/distribution workflows and integration with e-commerce and other book-trade services.
+
+I would not claim that I personally operated every Booksolve module. The useful lesson is that a specialist internal system connects several business processes. A data error at one point can affect **stock, fulfilment, billing, reporting and dispatch**, so accuracy in even a simple task matters.
+
+That also changes how I think about **process improvement**. If staff are repeatedly checking information in Excel alongside a core system, I would first understand why that control exists, then ask whether the existing system, a report, a reconciliation check or a small automation could make the process clearer or more reliable without removing an important control.
+
+**Interview cue:** proprietary system · Booksolve · orders · invoices · reconciliation · dispatch · learn the workflow · understand the control · improve carefully
+
 ## Projects / Volunteering
 
 My strongest current evidence outside formal module descriptions is project and portfolio work. The portfolio is deliberately practical: each project should show a question, the data or assumptions used, the method, and what the result means.
